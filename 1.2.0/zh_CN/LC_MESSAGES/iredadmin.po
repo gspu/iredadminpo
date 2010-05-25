@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: iRedAdmin-Pro-1.2.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2009-10-22 17:33+0800\n"
-"PO-Revision-Date: 2010-05-21 20:19+0800\n"
+"PO-Revision-Date: 2010-05-21 23:11+0800\n"
 "Last-Translator: Zhang Huangbin <michaelbibby@gmail.com>\n"
 "Language-Team: zh_CN <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -63,7 +63,6 @@ msgstr "域名"
 
 #: ../templates/default/layout.html:61
 #: ../templates/default/ldap/alias_list.html:61
-#: ../templates/default/ldap/dashboard.html:51
 #: ../templates/default/ldap/domain_profile.html:71
 #: ../templates/default/ldap/maillist_list.html:64
 #: ../templates/default/mysql/dashboard.html:50
@@ -99,13 +98,13 @@ msgstr "系统"
 
 #: ../templates/default/layout.html:73
 msgid "Search name or email"
-msgstr ""
+msgstr "查找姓名或邮件地址"
 
 #: ../templates/default/layout.html:73
-#: ../templates/default/ldap/dashboard.html:57
+#: ../templates/default/ldap/dashboard.html:59
 #: ../templates/default/ldap/search.html:48
 msgid "Account display name or email"
-msgstr ""
+msgstr "帐号名称或邮件地址"
 
 #: ../templates/default/layout.html:95
 msgid "Feature request & get support"
@@ -322,29 +321,29 @@ msgstr "新建邮件别名"
 #: ../templates/default/ldap/alias_create.html:58
 #, python-format
 msgid "You can't create more mail aliases under domain %s."
-msgstr "查看域内的邮件列表："
+msgstr "您无法在域 %s 内创建更多的邮件别名。"
 
 #: ../templates/default/ldap/alias_create.html:58
 #: ../templates/default/ldap/maillist_create.html:58
 #: ../templates/default/ldap/user_create.html:66
 msgid "Already exceed max number of account limit."
-msgstr ""
+msgstr "已经超过了最大帐号数量限制。"
 
 #: ../templates/default/ldap/alias_create.html:63
 #: ../templates/default/ldap/maillist_create.html:63
 #, python-format
 msgid "You can create <strong>%d</strong> more mail list(s) under domain %s."
-msgstr ""
+msgstr "您还能在域 %s 内建立 <strong>%d</strong> 个邮件列表。"
 
 #: ../templates/default/ldap/alias_create.html:74
 msgid "TIP"
-msgstr ""
+msgstr "技巧提示"
 
 #: ../templates/default/ldap/alias_create.html:74
 msgid ""
 "It's better to use mail list instead of alias, since we have mail deliver"
 " restriction for mail list."
-msgstr ""
+msgstr "建议您使用邮件列表来代替别名，可以进行邮件投递权限控制。"
 
 #: ../templates/default/ldap/alias_list.html:37
 #: ../templates/default/ldap/domain_list.html:94
@@ -421,61 +420,56 @@ msgstr "您确定要将选中的帐号添加到别名中吗？"
 msgid "Available operations"
 msgstr "允许的操作"
 
-#: ../templates/default/ldap/dashboard.html:50
-#: ../templates/default/mysql/dashboard.html:48
-msgid "Import"
-msgstr ""
-
-#: ../templates/default/ldap/dashboard.html:55
+#: ../templates/default/ldap/dashboard.html:57
 #: ../templates/default/ldap/search.html:35
 #: ../templates/default/ldap/search.html:46
 msgid "Search"
 msgstr "用户"
 
-#: ../templates/default/ldap/dashboard.html:68
+#: ../templates/default/ldap/dashboard.html:70
 #: ../templates/default/mysql/dashboard.html:60
 msgid "System info"
 msgstr "系统信息"
 
-#: ../templates/default/ldap/dashboard.html:74
+#: ../templates/default/ldap/dashboard.html:76
 #: ../templates/default/mysql/dashboard.html:66
 msgid "iRedAdmin version"
 msgstr "iRedAdmin 版本"
 
-#: ../templates/default/ldap/dashboard.html:79
+#: ../templates/default/ldap/dashboard.html:81
 #: ../templates/default/mysql/dashboard.html:71
 #, python-format
 msgid "Update available: v%s, <a href=\"%s\">release note</a>."
 msgstr "有新版本可更新：v%s, <a href=\"\"%s\">发布声明</a>。"
 
-#: ../templates/default/ldap/dashboard.html:82
+#: ../templates/default/ldap/dashboard.html:84
 #: ../templates/default/mysql/dashboard.html:74
 #, python-format
 msgid "Error while check new version: %s"
 msgstr "检查新版本时发生错误"
 
-#: ../templates/default/ldap/dashboard.html:88
+#: ../templates/default/ldap/dashboard.html:90
 #: ../templates/default/mysql/dashboard.html:80
 msgid "Hostname"
 msgstr "主机名"
 
-#: ../templates/default/ldap/dashboard.html:94
+#: ../templates/default/ldap/dashboard.html:96
 #: ../templates/default/mysql/dashboard.html:86
 msgid "Uptime"
 msgstr "运行时间"
 
-#: ../templates/default/ldap/dashboard.html:95
+#: ../templates/default/ldap/dashboard.html:97
 #: ../templates/default/mysql/dashboard.html:87
 #, python-format
 msgid "%s days, %s hours, %s minutes."
 msgstr "%s 天，%s 小时，%s 分钟。"
 
-#: ../templates/default/ldap/dashboard.html:100
+#: ../templates/default/ldap/dashboard.html:102
 #: ../templates/default/mysql/dashboard.html:92
 msgid "Server load"
 msgstr "服务器负载"
 
-#: ../templates/default/ldap/dashboard.html:110
+#: ../templates/default/ldap/dashboard.html:112
 #: ../templates/default/mysql/dashboard.html:102
 msgid "Network interfaces"
 msgstr "网络接口"
@@ -553,7 +547,7 @@ msgstr "密送"
 
 #: ../templates/default/ldap/domain_profile.html:59
 msgid "Catch-all"
-msgstr ""
+msgstr "Catch-all 地址"
 
 #: ../templates/default/ldap/domain_profile.html:61
 #: ../templates/default/ldap/domain_profile.html:267
@@ -562,7 +556,7 @@ msgstr "免责声明"
 
 #: ../templates/default/ldap/domain_profile.html:62
 msgid "Advanced"
-msgstr ""
+msgstr "高级设置"
 
 #: ../templates/default/ldap/domain_profile.html:69
 #: ../templates/default/ldap/user_create.html:40
@@ -589,7 +583,7 @@ msgstr "警告！"
 #: ../templates/default/ldap/domain_profile.html:203
 #: ../templates/default/ldap/user_profile.html:266
 msgid "Samples"
-msgstr ""
+msgstr "示例"
 
 #: ../templates/default/ldap/domain_profile.html:218
 msgid "Domain BCC setting will override per-user bcc settings."
@@ -599,23 +593,23 @@ msgstr "域级别的 BCC 设置将会覆盖针对单个用户的 BCC 设置。"
 msgid ""
 "Received emails does not match any existing address will be delivered to "
 "catch-all address(es)."
-msgstr ""
+msgstr "接收到发给不存在的帐号的邮件将会被投递到 catch-all 地址里去。"
 
 #: ../templates/default/ldap/domain_profile.html:231
 msgid "Be careful: This account may receive many spam emails."
-msgstr ""
+msgstr "小心：这个帐号可能会收到很多垃圾邮件。"
 
 #: ../templates/default/ldap/domain_profile.html:239
 msgid "Enable catch-all address"
-msgstr ""
+msgstr "启用 catch-all 地址"
 
 #: ../templates/default/ldap/domain_profile.html:243
 msgid "Catch-all address"
-msgstr "邮件地址"
+msgstr "Catch-all 地址"
 
 #: ../templates/default/ldap/domain_profile.html:243
 msgid "Multiple addresses MUST be seperated by comma (,)."
-msgstr ""
+msgstr "多个地址必须用英文逗号(,)分隔"
 
 #: ../templates/default/ldap/domain_profile.html:255
 msgid "NOTE:"
@@ -651,7 +645,7 @@ msgstr "存储路径"
 
 #: ../templates/default/ldap/domain_profile.html:284
 msgid "Sample:"
-msgstr ""
+msgstr "示例："
 
 #: ../templates/default/ldap/domain_profile.html:285
 msgid "Leave it empty to use default setting."
@@ -666,7 +660,7 @@ msgstr "邮件用户的最大数量"
 #: ../templates/default/ldap/domain_profile.html:310
 #, python-format
 msgid "%s account(s) exist."
-msgstr "没有选定帐号。"
+msgstr "已有 %s 个帐号。"
 
 #: ../templates/default/ldap/domain_profile.html:296
 #: ../templates/default/ldap/domain_profile.html:303
@@ -676,7 +670,7 @@ msgstr "没有选定帐号。"
 #: ../templates/default/ldap/domain_profile.html:334
 #: ../templates/default/ldap/user_import.html:79
 msgid "Set to 0 for unlimited."
-msgstr "提示：0 表示无限制。"
+msgstr "设置为 0 表示无限制。"
 
 #: ../templates/default/ldap/domain_profile.html:302
 msgid "Number of max mail lists"
@@ -688,11 +682,11 @@ msgstr "邮件别名的最大数量"
 
 #: ../templates/default/ldap/domain_profile.html:319
 msgid "Minimal password length"
-msgstr ""
+msgstr "最短密码长度"
 
 #: ../templates/default/ldap/domain_profile.html:324
 msgid "Maximal password length"
-msgstr ""
+msgstr "最长密码长度"
 
 #: ../templates/default/ldap/domain_profile.html:333
 msgid "Default quota of new user"
@@ -700,7 +694,7 @@ msgstr "新建邮件用户"
 
 #: ../templates/default/ldap/domain_profile.html:342
 msgid "Default mail group(s) of new user"
-msgstr ""
+msgstr "将新建立的帐号指派到邮件组"
 
 #: ../templates/default/ldap/domain_profile.html:362
 #: ../templates/default/ldap/user_profile.html:211
@@ -758,7 +752,7 @@ msgstr "查看域内的邮件列表："
 #: ../templates/default/ldap/maillist_profile.html:109
 #: ../templates/default/ldap/search.html:137
 msgid "Mail Deliver Restriction"
-msgstr ""
+msgstr "邮件投递限制"
 
 #: ../templates/default/ldap/maillist_profile.html:55
 msgid "Moderators"
@@ -774,7 +768,7 @@ msgstr "所有人都可以发送邮件到这个地址。"
 
 #: ../templates/default/ldap/maillist_profile.html:120
 msgid "Domain users only"
-msgstr "没有受您管理的域。"
+msgstr "没有受您管理的域"
 
 #: ../templates/default/ldap/maillist_profile.html:120
 #, python-format
@@ -785,7 +779,7 @@ msgstr "只有域 <strong>%s</strong> 内部的用户才可以发送邮件到这
 
 #: ../templates/default/ldap/maillist_profile.html:126
 msgid "Domain and sub-domain users only"
-msgstr ""
+msgstr "只允许本域和它的子域"
 
 #: ../templates/default/ldap/maillist_profile.html:126
 #, python-format
@@ -796,7 +790,7 @@ msgstr "只有域 <strong>%s</strong> 内部的用户才可以发送邮件到这
 
 #: ../templates/default/ldap/maillist_profile.html:131
 msgid "Members only"
-msgstr "成员"
+msgstr "只允许成员"
 
 #: ../templates/default/ldap/maillist_profile.html:131
 #, python-format
@@ -871,7 +865,7 @@ msgstr "每行只能填一个邮件地址。"
 #: ../templates/default/ldap/search.html:49
 #: ../templates/default/panel/log.html:71
 msgid "Submit"
-msgstr ""
+msgstr "提交"
 
 #: ../templates/default/ldap/maillist_profile.html:259
 msgid "Internal moderators"
@@ -893,22 +887,22 @@ msgstr "您管理的所有邮件域。"
 #: ../templates/default/ldap/search.html:58
 #: ../templates/default/ldap/search.html:222
 msgid "Search results."
-msgstr ""
+msgstr "查询结果。"
 
 #: ../templates/default/ldap/search.html:66
 #, python-format
 msgid "%d user(s) found."
-msgstr ""
+msgstr "找到 %d 个用户"
 
 #: ../templates/default/ldap/search.html:77
 #: ../templates/default/mysql/domain_list.html:74
 msgid "Created"
-msgstr "新建"
+msgstr "建立于"
 
 #: ../templates/default/ldap/search.html:128
 #, python-format
 msgid "%d mail list(s) found."
-msgstr ""
+msgstr "找到 %d 个邮件列表"
 
 #: ../templates/default/ldap/search.html:177
 #, python-format
@@ -917,7 +911,7 @@ msgstr "列出所有邮件别名。"
 
 #: ../templates/default/ldap/search.html:226
 msgid "Your search returned no hits."
-msgstr ""
+msgstr "没有匹配您的查找条件的结果"
 
 #: ../templates/default/ldap/user_create.html:66
 #, python-format
@@ -927,7 +921,7 @@ msgstr "只有域 <strong>%s</strong> 内部的用户才可以发送邮件到这
 #: ../templates/default/ldap/user_create.html:71
 #, python-format
 msgid "You can create <strong>%d</strong> more mail user(s) under domain %s."
-msgstr ""
+msgstr "您可以在域 %s 下建立 <strong>%d</strong> 个邮件用户。"
 
 #: ../templates/default/ldap/user_import.html:37
 msgid "Import users"
@@ -943,7 +937,7 @@ msgstr "为所有帐号指定一个密码"
 
 #: ../templates/default/ldap/user_import.html:78
 msgid "Mailbox quota for new user"
-msgstr ""
+msgstr "新用户的默认邮箱容量"
 
 #: ../templates/default/ldap/user_import.html:86
 msgid "Account names"
@@ -959,11 +953,11 @@ msgstr "不允许使用空地址。"
 
 #: ../templates/default/ldap/user_import.html:90
 msgid "Username, Display name, Password"
-msgstr ""
+msgstr "邮件地址, 姓名, 密码"
 
 #: ../templates/default/ldap/user_import.html:101
 msgid "Submit to preview"
-msgstr "预览"
+msgstr "提交并预览"
 
 #: ../templates/default/ldap/user_import.html:102
 msgid "Confirm to import"
@@ -975,15 +969,15 @@ msgstr "查看域内的用户："
 
 #: ../templates/default/ldap/user_list.html:61
 msgid "Crrent:"
-msgstr ""
+msgstr "当前："
 
 #: ../templates/default/ldap/user_list.html:115
 msgid "Job Title"
-msgstr ""
+msgstr "职位"
 
 #: ../templates/default/ldap/user_profile.html:114
 msgid "Member of Groups"
-msgstr ""
+msgstr "组成员"
 
 #: ../templates/default/ldap/user_profile.html:115
 msgid "Forwarding"
@@ -1027,58 +1021,60 @@ msgstr "新建邮件列表"
 
 #: ../templates/default/ldap/user_profile.html:266
 msgid ","
-msgstr ""
+msgstr "，"
 
 #: ../templates/default/ldap/user_profile.html:266
 #, python-format
 msgid "or leave it empty to use <a href=\"%s\">domain setting</a>."
-msgstr ""
+msgstr "或留空以使用 <a href=\"%s\">域设置</a>。"
 
 #: ../templates/default/ldap/user_profile.html:277
 msgid ""
 "To bypass or block a <strong>single user</strong>, use full email "
 "address. e.g. <strong>user@domain.ltd</strong>"
-msgstr ""
+msgstr "放行或拦截 <strong>单个用户</strong>，使用完整的邮件地址。例如：<strong>user@domain.ltd</strong>"
 
 #: ../templates/default/ldap/user_profile.html:278
 msgid ""
 "To bypass or block <strong>whole domain</strong>, use @domain.ltd. e.g. "
 "<strong>@domain.ltd</strong>"
-msgstr ""
+msgstr "放行或拦截 <strong>整个域</strong>，使用 @domain.ltd。例如：<strong>@domain.ltd</strong>"
 
 #: ../templates/default/ldap/user_profile.html:279
 msgid ""
 "To bypass or block a <strong>domain and its sub-domains</strong>, use "
 "@.domain.ltd. e.g. <strong>@.domain.ltd</strong>"
 msgstr ""
+"放行或拦截 <strong>邮件域和它的子域</strong>，使用 "
+"@.domain.ltd。例如：<strong>@.domain.ltd</strong>"
 
 #: ../templates/default/ldap/user_profile.html:280
 msgid "Use <strong>@.</strong> to bypass or block <strong>all accounts</strong>."
-msgstr ""
+msgstr "使用 <strong>@.</strong> 放行或拦截 <strong>所有帐号</strong>。"
 
 #: ../templates/default/ldap/user_profile.html:281
 msgid "Whitelist has higher priority than blacklist."
-msgstr ""
+msgstr "白名单比黑名单具有更高的优先级。"
 
 #: ../templates/default/ldap/user_profile.html:286
 msgid "Sender Restrictions"
-msgstr ""
+msgstr "发件人限制"
 
 #: ../templates/default/ldap/user_profile.html:293
 msgid "Whitelisted Senders"
-msgstr ""
+msgstr "放行的发件人"
 
 #: ../templates/default/ldap/user_profile.html:294
 msgid "Email comes from whitelisted senders will be bypassed."
-msgstr ""
+msgstr "来自以下发件人的邮件将会被直接放行"
 
 #: ../templates/default/ldap/user_profile.html:299
 msgid "Blacklisted Senders"
-msgstr ""
+msgstr "拦截的发件人"
 
 #: ../templates/default/ldap/user_profile.html:300
 msgid "Email comes from blacklisted senders will be rejected immediately."
-msgstr ""
+msgstr "来自以下发件人的邮件将会被立刻拦截"
 
 #: ../templates/default/ldap/user_profile.html:305
 msgid "Recipient Restrictions"
@@ -1086,7 +1082,7 @@ msgstr "将收下的邮件密送到以下地址"
 
 #: ../templates/default/ldap/user_profile.html:312
 msgid "Whitelisted Recipients"
-msgstr ""
+msgstr "放行的收件人"
 
 #: ../templates/default/ldap/user_profile.html:313
 #, python-format
@@ -1817,6 +1813,10 @@ msgstr "没有选定帐号。"
 #: ../templates/default/mysql/msgHandlers.html:264
 msgid "Empty address is not allowed."
 msgstr "不允许使用空地址。"
+
+#: ../templates/default/mysql/dashboard.html:48
+msgid "Import"
+msgstr ""
 
 #: ../templates/default/mysql/msgHandlers.html:66
 msgid "Domain was created."
