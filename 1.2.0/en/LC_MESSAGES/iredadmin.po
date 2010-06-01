@@ -6,11 +6,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: iRedAdmin-Pro-1.2.0\n"
-"Report-Msgid-Bugs-To: suds77@gmail.com\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2009-10-22 21:56+0800\n"
 "PO-Revision-Date: 2010-06-02 01:43+0800\n"
-"Last-Translator: Dmitry Sukharev <suds77@gmail.com>\n"
-"Language-Team: ru_RU <suds77@gmail.com>\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: en_US <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../templates/default/error404.html:22 ../templates/default/error404.html:28
 msgid "Page not found."
-msgstr "Страница не найдена"
+msgstr ""
 
 #: ../templates/default/error404.html:22 ../templates/default/error404.html:28
 #: ../templates/default/msgHandlers.html:27
@@ -27,44 +27,44 @@ msgstr "Страница не найдена"
 #: ../templates/default/ldap/maillist_create.html:58
 #: ../templates/default/ldap/user_create.html:66
 msgid "Error:"
-msgstr "Ошибка:"
+msgstr ""
 
 #: ../templates/default/error404.html:28
 msgid "Go back."
-msgstr "Вернуться."
+msgstr ""
 
 #: ../templates/default/layout.html:46
 #, python-format
 msgid "Logged in as %s."
-msgstr "Вошли в систему как %s."
+msgstr ""
 
 #: ../templates/default/layout.html:47
 msgid "Preferences"
-msgstr "Настройки"
+msgstr ""
 
 #: ../templates/default/layout.html:48
 msgid "Logout"
-msgstr "Выйти"
+msgstr ""
 
 #: ../templates/default/layout.html:53
 msgid "iRedMail Management"
-msgstr "iRedMail управление"
+msgstr ""
 
 #: ../templates/default/layout.html:59
 #: ../templates/default/ldap/dashboard.html:22
 msgid "Dashboard"
-msgstr "Панель управления"
+msgstr ""
 
 #: ../templates/default/layout.html:60 ../templates/default/panel/log.html:50
 msgid "Domains"
-msgstr "Домены"
+msgstr ""
 
 #: ../templates/default/layout.html:61
 #: ../templates/default/ldap/alias_list.html:61
 #: ../templates/default/ldap/domain_profile.html:71
 #: ../templates/default/ldap/maillist_list.html:64
 msgid "Users"
-msgstr "Пользователи"
+msgstr ""
 
 #: ../templates/default/layout.html:62
 #: ../templates/default/ldap/alias_list.html:62
@@ -73,25 +73,25 @@ msgstr "Пользователи"
 #: ../templates/default/ldap/maillist_list.html:39
 #: ../templates/default/ldap/user_list.html:68
 msgid "Mail Lists"
-msgstr "Списки"
+msgstr ""
 
 #: ../templates/default/layout.html:63
 #: ../templates/default/ldap/domain_profile.html:73
 #: ../templates/default/ldap/maillist_list.html:65
 #: ../templates/default/ldap/user_list.html:69
 msgid "Aliases"
-msgstr "Алиасы"
+msgstr ""
 
 #: ../templates/default/layout.html:66
 #: ../templates/default/ldap/domain_list.html:95
 #: ../templates/default/ldap/domain_profile.html:55
 #: ../templates/default/panel/log.html:58
 msgid "Admins"
-msgstr "Администраторы"
+msgstr ""
 
 #: ../templates/default/layout.html:69
 msgid "System"
-msgstr "Система"
+msgstr ""
 
 #: ../templates/default/layout.html:73
 msgid "Search name or email"
@@ -105,11 +105,11 @@ msgstr ""
 
 #: ../templates/default/layout.html:95
 msgid "Feature request & get support"
-msgstr "Запросить техподдержку"
+msgstr ""
 
 #: ../templates/default/layout.html:97
 msgid "Contact webmaster"
-msgstr "Контакт вебмастера"
+msgstr ""
 
 #: ../templates/default/ldap/admin_create.html:61
 #: ../templates/default/ldap/admin_list.html:83
@@ -130,7 +130,7 @@ msgstr "Контакт вебмастера"
 #: ../templates/default/ldap/user_list.html:113
 #: ../templates/default/ldap/user_profile.html:148
 msgid "Mail Address"
-msgstr "Почтовый адрес"
+msgstr ""
 
 #: ../templates/default/ldap/admin_create.html:88
 #: ../templates/default/ldap/alias_create.html:97
@@ -139,15 +139,15 @@ msgstr "Почтовый адрес"
 #: ../templates/default/ldap/maillist_create.html:92
 #: ../templates/default/ldap/user_create.html:116
 msgid "Create"
-msgstr "Создать"
+msgstr ""
 
 #: ../templates/default/ldap/admin_list.html:37
 msgid "Domain Admins"
-msgstr "Администраторы домена"
+msgstr ""
 
 #: ../templates/default/ldap/admin_list.html:41
 msgid "All mail administrators."
-msgstr "Все администраторы"
+msgstr ""
 
 #: ../templates/default/ldap/admin_list.html:43
 #: ../templates/default/ldap/alias_list.html:53
@@ -156,7 +156,7 @@ msgstr "Все администраторы"
 #: ../templates/default/ldap/user_list.html:60
 #, python-format
 msgid "Total: %s."
-msgstr "Всего: %s."
+msgstr ""
 
 #: ../templates/default/ldap/admin_list.html:44
 #: ../templates/default/ldap/alias_list.html:54
@@ -164,11 +164,11 @@ msgstr "Всего: %s."
 #: ../templates/default/ldap/maillist_list.html:56
 #: ../templates/default/ldap/user_list.html:61
 msgid "Current:"
-msgstr "Текущая квота:"
+msgstr ""
 
 #: ../templates/default/ldap/admin_list.html:84
 msgid "Global Admin"
-msgstr "Глобальный админ"
+msgstr ""
 
 #: ../templates/default/ldap/admin_list.html:85
 #: ../templates/default/ldap/admin_profile.html:74
@@ -183,7 +183,7 @@ msgstr "Глобальный админ"
 #: ../templates/default/ldap/user_list.html:83
 #: ../templates/default/ldap/user_profile.html:150
 msgid "Created Date"
-msgstr "Дата создания"
+msgstr ""
 
 #: ../templates/default/ldap/admin_list.html:108
 #: ../templates/default/ldap/admin_profile.html:40
@@ -200,7 +200,7 @@ msgstr "Дата создания"
 #: ../templates/default/ldap/user_list.html:143
 #: ../templates/default/ldap/user_profile.html:58
 msgid "Edit account profile"
-msgstr "Редактировать профиль"
+msgstr ""
 
 #: ../templates/default/ldap/admin_list.html:126
 #: ../templates/default/ldap/alias_list.html:140
@@ -213,7 +213,7 @@ msgstr "Редактировать профиль"
 #: ../templates/default/panel/log.html:133
 #: ../templates/default/policyd/wblist.html:137
 msgid "Select/Unselect all"
-msgstr "Выбрать/Снять все"
+msgstr ""
 
 #: ../templates/default/ldap/admin_list.html:127
 #: ../templates/default/ldap/alias_list.html:141
@@ -223,14 +223,14 @@ msgstr "Выбрать/Снять все"
 #: ../templates/default/panel/log.html:134
 #: ../templates/default/policyd/wblist.html:138
 msgid "Delete"
-msgstr "Удалить"
+msgstr ""
 
 #: ../templates/default/ldap/admin_list.html:127
 #: ../templates/default/ldap/alias_list.html:141
 #: ../templates/default/ldap/maillist_list.html:146
 #: ../templates/default/ldap/user_list.html:170
 msgid "Are you sure want to delete selected account(s)?"
-msgstr "Удалить выбранные аккаунты ?"
+msgstr ""
 
 #: ../templates/default/ldap/admin_list.html:128
 #: ../templates/default/ldap/alias_list.html:142
@@ -238,14 +238,14 @@ msgstr "Удалить выбранные аккаунты ?"
 #: ../templates/default/ldap/maillist_list.html:147
 #: ../templates/default/ldap/user_list.html:171
 msgid "Disable"
-msgstr "Отключить"
+msgstr ""
 
 #: ../templates/default/ldap/admin_list.html:128
 #: ../templates/default/ldap/alias_list.html:142
 #: ../templates/default/ldap/maillist_list.html:147
 #: ../templates/default/ldap/user_list.html:171
 msgid "Are you sure want to disable selected account(s)?"
-msgstr "Отключить выбранные аккаунты ?"
+msgstr ""
 
 #: ../templates/default/ldap/admin_list.html:129
 #: ../templates/default/ldap/alias_list.html:143
@@ -253,14 +253,14 @@ msgstr "Отключить выбранные аккаунты ?"
 #: ../templates/default/ldap/maillist_list.html:148
 #: ../templates/default/ldap/user_list.html:172
 msgid "Enable"
-msgstr "Включить"
+msgstr ""
 
 #: ../templates/default/ldap/admin_list.html:129
 #: ../templates/default/ldap/alias_list.html:143
 #: ../templates/default/ldap/maillist_list.html:148
 #: ../templates/default/ldap/user_list.html:172
 msgid "Are you sure want to enable selected account(s)?"
-msgstr "Включить выбранные аккаунты ?"
+msgstr ""
 
 #: ../templates/default/ldap/admin_profile.html:44
 #: ../templates/default/ldap/alias_profile.html:39
@@ -268,17 +268,17 @@ msgstr "Включить выбранные аккаунты ?"
 #: ../templates/default/ldap/maillist_profile.html:53
 #: ../templates/default/ldap/user_profile.html:111
 msgid "General"
-msgstr "Общее"
+msgstr ""
 
 #: ../templates/default/ldap/admin_profile.html:48
 #: ../templates/default/ldap/login.html:76
 #: ../templates/default/ldap/user_profile.html:126
 msgid "Password"
-msgstr "Пароль"
+msgstr ""
 
 #: ../templates/default/ldap/admin_profile.html:53
 msgid "Back to admin list"
-msgstr "Назад к списку"
+msgstr ""
 
 #: ../templates/default/ldap/admin_profile.html:72
 #: ../templates/default/ldap/admin_profile.html:73
@@ -294,7 +294,7 @@ msgstr "Назад к списку"
 #: ../templates/default/ldap/user_profile.html:149
 #: ../templates/default/ldap/user_profile.html:150
 msgid ":"
-msgstr ":"
+msgstr ""
 
 #: ../templates/default/ldap/admin_profile.html:132
 #: ../templates/default/ldap/alias_profile.html:142
@@ -302,17 +302,17 @@ msgstr ":"
 #: ../templates/default/ldap/maillist_profile.html:368
 #: ../templates/default/ldap/user_profile.html:359
 msgid "Save changes"
-msgstr "Записать изменения"
+msgstr ""
 
 #: ../templates/default/ldap/alias_create.html:36
 #: ../templates/default/ldap/alias_list.html:87
 msgid "Create new alias"
-msgstr "Создать новый алиас"
+msgstr ""
 
 #: ../templates/default/ldap/alias_create.html:58
 #, python-format
 msgid "You can't create more mail aliases under domain %s."
-msgstr "Просмотр списков текущего домена:"
+msgstr ""
 
 #: ../templates/default/ldap/alias_create.html:58
 #: ../templates/default/ldap/maillist_create.html:58
@@ -340,42 +340,42 @@ msgstr ""
 #: ../templates/default/ldap/alias_list.html:37
 #: ../templates/default/ldap/domain_list.html:94
 msgid "Mail Aliases"
-msgstr "Почтовые алиасы"
+msgstr ""
 
 #: ../templates/default/ldap/alias_list.html:42
 msgid "View aliases under domain:"
-msgstr "Просмотр по домену:"
+msgstr ""
 
 #: ../templates/default/ldap/alias_list.html:45
 #: ../templates/default/ldap/maillist_list.html:47
 #: ../templates/default/ldap/user_list.html:52
 msgid "Select a domain"
-msgstr "Выбрать домен"
+msgstr ""
 
 #: ../templates/default/ldap/alias_list.html:60
 #: ../templates/default/ldap/domain_profile.html:70
 #: ../templates/default/ldap/maillist_list.html:63
 #: ../templates/default/ldap/user_list.html:67
 msgid "View:"
-msgstr "Просмотр:"
+msgstr ""
 
 #: ../templates/default/ldap/alias_list.html:124
 #: ../templates/default/ldap/maillist_list.html:129
 msgid "View members"
-msgstr "Добавить участников"
+msgstr ""
 
 #: ../templates/default/ldap/alias_profile.html:40
 #: ../templates/default/ldap/maillist_profile.html:54
 msgid "Members"
-msgstr "Участники"
+msgstr ""
 
 #: ../templates/default/ldap/alias_profile.html:44
 msgid "Back to mail alias list"
-msgstr "Назад к списку"
+msgstr ""
 
 #: ../templates/default/ldap/alias_profile.html:91
 msgid "Current members"
-msgstr "Текущие участники"
+msgstr ""
 
 #: ../templates/default/ldap/alias_profile.html:91
 #: ../templates/default/ldap/domain_profile.html:356
@@ -389,140 +389,140 @@ msgstr "Текущие участники"
 #: ../templates/default/ldap/user_profile.html:238
 #, python-format
 msgid "(%s)"
-msgstr "(%s)"
+msgstr ""
 
 #: ../templates/default/ldap/alias_profile.html:92
 msgid "Add members"
-msgstr "Добавить участников"
+msgstr ""
 
 #: ../templates/default/ldap/alias_profile.html:128
 msgid "Remove from alias"
-msgstr "Удалить из алиаса"
+msgstr ""
 
 #: ../templates/default/ldap/alias_profile.html:128
 msgid "Are you sure want to remove selected account(s) from alias?"
-msgstr "Удалить выбранные аккаунты из алиаса ?"
+msgstr ""
 
 #: ../templates/default/ldap/alias_profile.html:132
 msgid "Assign to alias"
-msgstr "Назначить к алиасу"
+msgstr ""
 
 #: ../templates/default/ldap/alias_profile.html:132
 msgid "Are you sure want to assign selected account(s) to alias?"
-msgstr "Назначить выбранные аккаунты к алиасу ?"
+msgstr ""
 
 #: ../templates/default/ldap/dashboard.html:31
 msgid "Available operations"
-msgstr "Доступные операции"
+msgstr ""
 
 #: ../templates/default/ldap/dashboard.html:57
 #: ../templates/default/ldap/search.html:35
 #: ../templates/default/ldap/search.html:46
 msgid "Search"
-msgstr "Пользователь"
+msgstr ""
 
 #: ../templates/default/ldap/dashboard.html:70
 msgid "System info"
-msgstr "Системная информация"
+msgstr ""
 
 #: ../templates/default/ldap/dashboard.html:76
 msgid "iRedAdmin version"
-msgstr "Версия iRedAdmin"
+msgstr ""
 
 #: ../templates/default/ldap/dashboard.html:81
 #, python-format
 msgid "Update available: v%s, <a href=\"%s\">release note</a>."
-msgstr "Доступно обновление: v%s, <a href=\"%s\"> релиз</a>."
+msgstr ""
 
 #: ../templates/default/ldap/dashboard.html:84
 #, python-format
 msgid "Error while check new version: %s"
-msgstr "Ошибка проверки новой версии"
+msgstr ""
 
 #: ../templates/default/ldap/dashboard.html:90
 msgid "Hostname"
-msgstr "Хост"
+msgstr ""
 
 #: ../templates/default/ldap/dashboard.html:96
 msgid "Uptime"
-msgstr "В работе"
+msgstr ""
 
 #: ../templates/default/ldap/dashboard.html:97
 #, python-format
 msgid "%s days, %s hours, %s minutes."
-msgstr "%s дней, %s часов, %s минут."
+msgstr ""
 
 #: ../templates/default/ldap/dashboard.html:102
 msgid "Server load"
-msgstr "Загрузка сервера"
+msgstr ""
 
 #: ../templates/default/ldap/dashboard.html:112
 msgid "Network interfaces"
-msgstr "Сеть"
+msgstr ""
 
 #: ../templates/default/ldap/domain_create.html:48
 #: ../templates/default/ldap/domain_create.html:51
 #: ../templates/default/ldap/domain_list.html:88
 #: ../templates/default/ldap/domain_profile.html:148
 msgid "Domain Name"
-msgstr "Имя домена"
+msgstr ""
 
 #: ../templates/default/ldap/domain_list.html:45
 msgid "Mail Domains"
-msgstr "Почтовые домены"
+msgstr ""
 
 #: ../templates/default/ldap/domain_list.html:49
 msgid "All domains under your control."
-msgstr "Все домены, доступные для управления"
+msgstr ""
 
 #: ../templates/default/ldap/domain_list.html:92
 #: ../templates/default/ldap/user_list.html:44
 msgid "Mail Users"
-msgstr "Почтовые пользователи"
+msgstr ""
 
 #: ../templates/default/ldap/domain_list.html:124
 msgid "List all mail users."
-msgstr "Список всех пользователей почты"
+msgstr ""
 
 #: ../templates/default/ldap/domain_list.html:127
 msgid "List all mail lists."
-msgstr "Список всех почтовых рассылок"
+msgstr ""
 
 #: ../templates/default/ldap/domain_list.html:130
 msgid "List all mail aliases."
-msgstr "Список всех почтовых алиасов"
+msgstr ""
 
 #: ../templates/default/ldap/domain_list.html:146
 #: ../templates/default/policyd/wblist.html:138
 msgid "Are you sure want to delete selected domain(s) and accounts under it?"
-msgstr "Удалить выбранные домены и аккаунты ?"
+msgstr ""
 
 #: ../templates/default/ldap/domain_list.html:147
 msgid "Are you sure want to disable selected domain(s)?"
-msgstr "Отключить выбранные домены ?"
+msgstr ""
 
 #: ../templates/default/ldap/domain_list.html:148
 msgid "Are you sure want to enable selected domain(s)?"
-msgstr "Включить выбранные домены"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:49
 msgid "Edit account profile."
-msgstr "Редактировать профиль"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:56
 #: ../templates/default/ldap/user_profile.html:118
 msgid "Services"
-msgstr "Службы"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:57
 #: ../templates/default/ldap/user_profile.html:116
 msgid "Relay"
-msgstr "Релей"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:58
 #: ../templates/default/ldap/user_profile.html:117
 msgid "BCC"
-msgstr "Скрытая копия"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:59
 msgid "Catch-all"
@@ -531,7 +531,7 @@ msgstr ""
 #: ../templates/default/ldap/domain_profile.html:61
 #: ../templates/default/ldap/domain_profile.html:267
 msgid "Disclaimer"
-msgstr "Правовая оговорка"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:62
 msgid "Advanced"
@@ -542,24 +542,22 @@ msgstr ""
 #: ../templates/default/ldap/user_list.html:102
 #: ../templates/default/ldap/user_profile.html:130
 msgid "Create new user"
-msgstr "Создать нового пользователя"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:178
 msgid "If no admin assigned for domain, you can also manage it with global admin."
 msgstr ""
-"Если для домена не назначен администратор, доменом может управлять "
-"Глобальный администратор"
 
 #: ../templates/default/ldap/domain_profile.html:194
 msgid ""
 "Per-user relay setting will override per-domain relay setting you set in "
 "this page."
-msgstr "Пользовательские настройки будут перекрыты настройками для домена"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:194
 #: ../templates/default/ldap/domain_profile.html:218
 msgid "WARNING!"
-msgstr "ВНИМАНИЕ!"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:203
 #: ../templates/default/ldap/user_profile.html:266
@@ -568,7 +566,7 @@ msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:218
 msgid "Domain BCC setting will override per-user bcc settings."
-msgstr "Пользовательские настройки будут перекрыты настройками для домена"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:230
 msgid ""
@@ -586,7 +584,7 @@ msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:243
 msgid "Catch-all address"
-msgstr "Почтовый адрес"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:243
 msgid "Multiple addresses MUST be seperated by comma (,)."
@@ -594,35 +592,33 @@ msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:255
 msgid "NOTE:"
-msgstr "Замечание:"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:255
 msgid ""
 "Please make sure you have enable signing disclaimer on outgoing mails and"
 " have crontab job to dump disclaimer text automaticly."
 msgstr ""
-"Пожалуйста убедитесь что включена подпись для исходящей почты и "
-"планировщик заданий успешно обновляет текст подписи автоматически."
 
 #: ../templates/default/ldap/domain_profile.html:255
 msgid "Reference:"
-msgstr "Ссылка:"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:257
 msgid "How to enable signing disclaimer on outgoing mails."
-msgstr "Как включить disclaimer подпись для исходящей почты"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:258
 msgid "How to dump disclaimer text from LDAP/MySQL automaticly."
-msgstr "Как импортировать disclaimer текс из LDAP/MySQL автоматически"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:269
 msgid "Plain text only."
-msgstr "Только обычный текст"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:284
 msgid "Default mail storage base directory"
-msgstr "Путь до главной директории"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:284
 msgid "Sample:"
@@ -630,18 +626,18 @@ msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:285
 msgid "Leave it empty to use default setting."
-msgstr "Оставьте пустым для транспорта по умолчанию"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:295
 msgid "Number of max mail users"
-msgstr "Максимальное кол-во пользователей"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:296
 #: ../templates/default/ldap/domain_profile.html:303
 #: ../templates/default/ldap/domain_profile.html:310
 #, python-format
 msgid "%s account(s) exist."
-msgstr "Не выбран аккаунт"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:296
 #: ../templates/default/ldap/domain_profile.html:303
@@ -651,15 +647,15 @@ msgstr "Не выбран аккаунт"
 #: ../templates/default/ldap/domain_profile.html:334
 #: ../templates/default/ldap/user_import.html:79
 msgid "Set to 0 for unlimited."
-msgstr "0 означает Неограничено"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:302
 msgid "Number of max mail lists"
-msgstr "Максимальное кол-во почтовых списков"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:309
 msgid "Number of max mail aliases"
-msgstr "Максимальное кол-во алиасов"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:319
 msgid "Minimal password length"
@@ -671,7 +667,7 @@ msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:333
 msgid "Default quota of new user"
-msgstr "Создать нового пользователя"
+msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:342
 msgid "Default mail group(s) of new user"
@@ -680,47 +676,47 @@ msgstr ""
 #: ../templates/default/ldap/domain_profile.html:362
 #: ../templates/default/ldap/user_profile.html:211
 msgid "Create new mail list"
-msgstr "Создать новый список"
+msgstr ""
 
 #: ../templates/default/ldap/login.html:27
 #: ../templates/default/ldap/login.html:49
 msgid "Login to manage your mail domains & users"
-msgstr "Войти для управления "
+msgstr ""
 
 #: ../templates/default/ldap/login.html:69
 msgid "Username"
-msgstr "Имя пользователя"
+msgstr ""
 
 #: ../templates/default/ldap/login.html:69
 msgid "Must be a valid domain admin email address."
-msgstr "Введите верный почтовый адрес администратора"
+msgstr ""
 
 #: ../templates/default/ldap/login.html:84
 msgid "Remember me"
-msgstr "Помнить меня"
+msgstr ""
 
 #: ../templates/default/ldap/login.html:84
 msgid "Log me in automatically each time I visit."
-msgstr "Заходить автоматически каждый раз"
+msgstr ""
 
 #: ../templates/default/ldap/login.html:90
 msgid "Login"
-msgstr "Логин"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_create.html:36
 #: ../templates/default/ldap/maillist_list.html:91
 #: ../templates/default/ldap/maillist_profile.html:59
 msgid "Create new list"
-msgstr "Создать новый список"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_create.html:58
 #, python-format
 msgid "You can't create more mail lists under domain %s."
-msgstr "Просмотр списков текущего домена:"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_list.html:44
 msgid "View mail lists under domain:"
-msgstr "Просмотр списков текущего домена:"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_list.html:103
 #: ../templates/default/ldap/maillist_profile.html:109
@@ -730,19 +726,19 @@ msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:55
 msgid "Moderators"
-msgstr "Модераторы"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:60
 msgid "Back to maillist list"
-msgstr "Назад к списку"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:114
 msgid "Everyone can send mail to this address."
-msgstr "Все могут отсылать почту на этот адрес"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:120
 msgid "Domain users only"
-msgstr "Не указан домен для управления"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:120
 #, python-format
@@ -750,8 +746,6 @@ msgid ""
 "Only <a href=\"%s\">users under domain <strong>%s</strong></a> can send "
 "mail to this address."
 msgstr ""
-"Только пользователи домена <strong>%s</strong> могут отсылать почту на "
-"этот адрес"
 
 #: ../templates/default/ldap/maillist_profile.html:126
 msgid "Domain and sub-domain users only"
@@ -763,12 +757,10 @@ msgid ""
 "Only <a href=\"%s\">users under domain <strong>%s</strong></a> or sub "
 "domains can send mail to this address."
 msgstr ""
-"Только пользователи домена <strong>%s</strong> могут отсылать почту на "
-"этот адрес"
 
 #: ../templates/default/ldap/maillist_profile.html:131
 msgid "Members only"
-msgstr "Только участники"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:131
 #, python-format
@@ -776,69 +768,67 @@ msgid ""
 "Only <a href=\"%s\">members</a> of this mail list can send mail to this "
 "address."
 msgstr ""
-"Только <a href=\"%s\">участники</a> этого списка могут отсылать почту на "
-"этот адрес."
 
 #: ../templates/default/ldap/maillist_profile.html:136
 msgid "Moderators only"
-msgstr "Только модераторы"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:136
 #, python-format
 msgid "Only <a href=\"%s\">moderators</a> can send mail to this address."
-msgstr "Только <a href=\"%s\"> модераторы </a> могут слать почту на этот адрес."
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:141
 msgid "Members and moderators only"
-msgstr "Только модераторы"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:141
 #, python-format
 msgid ""
 "Only <a href=\"%s\">members</a> and <a href=\"%s\">moderators</a> can "
 "send mail to this address."
-msgstr "Только <a href=\"%s\"> модераторы </a> могут слать почту на этот адрес."
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:149
 msgid "Internal members"
-msgstr "Добавить внутренних участников"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:150
 msgid "Add internal members"
-msgstr "Добавить внутренних участников"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:151
 #: ../templates/default/ldap/maillist_profile.html:232
 msgid "External members"
-msgstr "Добавить внутренних участников"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:158
 #: ../templates/default/ldap/maillist_profile.html:268
 #: ../templates/default/ldap/user_list.html:80
 msgid "Last Login Date"
-msgstr "Последний вход"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:174
 #: ../templates/default/ldap/maillist_profile.html:284
 #: ../templates/default/ldap/search.html:76
 #: ../templates/default/ldap/user_list.html:116
 msgid "Quota"
-msgstr "Квота"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:220
 #: ../templates/default/ldap/maillist_profile.html:330
 msgid "Remove from list"
-msgstr "Удалить из списка"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:222
 #: ../templates/default/ldap/maillist_profile.html:332
 msgid "Assign to list"
-msgstr "Назначение к списку"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:234
 #: ../templates/default/ldap/maillist_profile.html:343
 msgid "One mail address one line."
-msgstr "Один адрес на строку"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:250
 #: ../templates/default/ldap/maillist_profile.html:359
@@ -849,20 +839,20 @@ msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:259
 msgid "Internal moderators"
-msgstr "Добавить внутренних модераторов"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:260
 msgid "Add internal moderators"
-msgstr "Добавить внутренних модераторов"
+msgstr ""
 
 #: ../templates/default/ldap/maillist_profile.html:261
 #: ../templates/default/ldap/maillist_profile.html:341
 msgid "External moderators"
-msgstr "Добавить внутренних модераторов"
+msgstr ""
 
 #: ../templates/default/ldap/search.html:38
 msgid "Search accounts in all domains under your control:"
-msgstr "Все домены, доступные для управления"
+msgstr ""
 
 #: ../templates/default/ldap/search.html:58
 #: ../templates/default/ldap/search.html:222
@@ -876,7 +866,7 @@ msgstr ""
 
 #: ../templates/default/ldap/search.html:77
 msgid "Created"
-msgstr "Создать"
+msgstr ""
 
 #: ../templates/default/ldap/search.html:128
 #, python-format
@@ -886,7 +876,7 @@ msgstr ""
 #: ../templates/default/ldap/search.html:177
 #, python-format
 msgid "%d mail alias(es) found."
-msgstr "Список всех почтовых алиасов"
+msgstr ""
 
 #: ../templates/default/ldap/search.html:226
 msgid "Your search returned no hits."
@@ -896,8 +886,6 @@ msgstr ""
 #, python-format
 msgid "You can't create more users under domain <strong>%s</strong>."
 msgstr ""
-"Только пользователи домена <strong>%s</strong> могут отсылать почту на "
-"этот адрес"
 
 #: ../templates/default/ldap/user_create.html:71
 #, python-format
@@ -906,15 +894,15 @@ msgstr ""
 
 #: ../templates/default/ldap/user_import.html:37
 msgid "Import users"
-msgstr "Импорт пользователей"
+msgstr ""
 
 #: ../templates/default/ldap/user_import.html:62
 msgid "Import users under domain"
-msgstr "Импортировать пользователей в домен"
+msgstr ""
 
 #: ../templates/default/ldap/user_import.html:73
 msgid "Password for all accounts"
-msgstr "Назначить пароль для всех аккаунтов"
+msgstr ""
 
 #: ../templates/default/ldap/user_import.html:78
 msgid "Mailbox quota for new user"
@@ -922,15 +910,15 @@ msgstr ""
 
 #: ../templates/default/ldap/user_import.html:86
 msgid "Account names"
-msgstr "Имя аккаунта"
+msgstr ""
 
 #: ../templates/default/ldap/user_import.html:88
 msgid "One account one line."
-msgstr "Не выбран аккаунт"
+msgstr ""
 
 #: ../templates/default/ldap/user_import.html:88
 msgid "Multi-byte characters in username is not allowed."
-msgstr "Адрес не может быть пустым"
+msgstr ""
 
 #: ../templates/default/ldap/user_import.html:90
 msgid "Username, Display name, Password"
@@ -938,15 +926,15 @@ msgstr ""
 
 #: ../templates/default/ldap/user_import.html:101
 msgid "Submit to preview"
-msgstr "Подтвердить просмотр"
+msgstr ""
 
 #: ../templates/default/ldap/user_import.html:102
 msgid "Confirm to import"
-msgstr "Подтвердить импорт"
+msgstr ""
 
 #: ../templates/default/ldap/user_list.html:49
 msgid "View users under domain:"
-msgstr "Просмотр пользователей домена:"
+msgstr ""
 
 #: ../templates/default/ldap/user_list.html:115
 msgid "Job Title"
@@ -958,43 +946,43 @@ msgstr ""
 
 #: ../templates/default/ldap/user_profile.html:115
 msgid "Forwarding"
-msgstr "Пересылка"
+msgstr ""
 
 #: ../templates/default/ldap/user_profile.html:120
 msgid "Restrictions"
-msgstr "Описание"
+msgstr ""
 
 #: ../templates/default/ldap/user_profile.html:121
 msgid "Maildir"
-msgstr "Почтовые директории"
+msgstr ""
 
 #: ../templates/default/ldap/user_profile.html:131
 msgid "Back to user list"
-msgstr "Назад к пользователям"
+msgstr ""
 
 #: ../templates/default/ldap/user_profile.html:144
 msgid "No avatar available."
-msgstr "Картинка отсутствует"
+msgstr ""
 
 #: ../templates/default/ldap/user_profile.html:183
 msgid "Member of Mail Lists"
-msgstr "Участники списка"
+msgstr ""
 
 #: ../templates/default/ldap/user_profile.html:205
 msgid "Warning:"
-msgstr "Пересылка"
+msgstr ""
 
 #: ../templates/default/ldap/user_profile.html:205
 msgid "Account NOT exists."
-msgstr "Имя аккаунта"
+msgstr ""
 
 #: ../templates/default/ldap/user_profile.html:217
 msgid "Member of Mail Aliases"
-msgstr "Максимальное кол-во алиасов"
+msgstr ""
 
 #: ../templates/default/ldap/user_profile.html:244
 msgid "Create new mail alias"
-msgstr "Создать новый список"
+msgstr ""
 
 #: ../templates/default/ldap/user_profile.html:266
 msgid ","
@@ -1061,7 +1049,7 @@ msgstr ""
 
 #: ../templates/default/ldap/user_profile.html:311
 msgid "Recipient Restrictions"
-msgstr "Адрес BCC получателя"
+msgstr ""
 
 #: ../templates/default/ldap/user_profile.html:318
 msgid "Whitelisted Recipients"
@@ -1071,44 +1059,40 @@ msgstr ""
 #, python-format
 msgid "User <strong>%s (%s)</strong> can send email to below recipients."
 msgstr ""
-"Только пользователи домена <strong>%s</strong> могут отсылать почту на "
-"этот адрес"
 
 #: ../templates/default/ldap/user_profile.html:324
 msgid "Blacklisted Recipients"
-msgstr "Разрешить BCC получателя"
+msgstr ""
 
 #: ../templates/default/ldap/user_profile.html:325
 #, python-format
 msgid "User <strong>%s (%s)</strong> can NOT send email to below recipients."
 msgstr ""
-"Только пользователи домена <strong>%s</strong> могут отсылать почту на "
-"этот адрес"
 
 #: ../templates/default/ldap/user_profile.html:333
 msgid "Path to mailbox"
-msgstr "Путь до почтового ящика"
+msgstr ""
 
 #: ../templates/default/macros.html:65
 msgid "Account is active."
-msgstr "Не выбран аккаунт"
+msgstr ""
 
 #: ../templates/default/macros.html:67
 msgid "Account is disabled."
-msgstr "Выбранные аккаунты были выключены"
+msgstr ""
 
 #: ../templates/default/macros.html:73
 msgid "Is a global admin."
-msgstr "Отметить как Глобальный админ"
+msgstr ""
 
 #: ../templates/default/macros.html:75
 msgid "Not a global admin."
-msgstr "Отметить как Глобальный админ"
+msgstr ""
 
 #: ../templates/default/macros.html:100
 #: ../templates/default/ldap/domain_profile.html:159
 msgid "Company/Organization"
-msgstr "Компания"
+msgstr ""
 
 #: ../templates/default/macros.html:102
 #: ../templates/default/ldap/admin_list.html:82
@@ -1125,7 +1109,7 @@ msgstr "Компания"
 #: ../templates/default/ldap/user_list.html:112
 #: ../templates/default/ldap/user_profile.html:147
 msgid "Display Name"
-msgstr "Отображаемое имя"
+msgstr ""
 
 #: ../templates/default/macros.html:111
 #: ../templates/default/ldap/maillist_profile.html:173
@@ -1134,7 +1118,7 @@ msgstr "Отображаемое имя"
 #: ../templates/default/ldap/user_list.html:114
 #: ../templates/default/ldap/user_profile.html:149
 msgid "User ID"
-msgstr "ID пользователя"
+msgstr ""
 
 #: ../templates/default/macros.html:118
 msgid "Job Title/Responsibility"
@@ -1146,19 +1130,19 @@ msgstr ""
 
 #: ../templates/default/macros.html:133 ../templates/default/macros.html:139
 msgid "Telephone Number"
-msgstr "Телефон"
+msgstr ""
 
 #: ../templates/default/macros.html:148
 msgid "Preferred language"
-msgstr "Предпочитаемый язык"
+msgstr ""
 
 #: ../templates/default/macros.html:162
 msgid "Display mail address in global LDAP address book"
-msgstr "Показывать все адреса в глобальной LDAP адресной книге"
+msgstr ""
 
 #: ../templates/default/macros.html:169
 msgid "Mark as global admin"
-msgstr "Отметить как Глобальный админ"
+msgstr ""
 
 #: ../templates/default/macros.html:175 ../templates/default/macros.html:180
 #: ../templates/default/ldap/maillist_profile.html:207
@@ -1166,182 +1150,178 @@ msgstr "Отметить как Глобальный админ"
 #: ../templates/default/ldap/search.html:112
 #: ../templates/default/ldap/user_list.html:152
 msgid "Unlimited"
-msgstr "Неограничено"
+msgstr ""
 
 #: ../templates/default/macros.html:201
 msgid "Max quota size"
-msgstr "Максимальная квота"
+msgstr ""
 
 #: ../templates/default/macros.html:204
 msgid "Max quota size (in MB)"
-msgstr "Максимальная квота (в МБ)"
+msgstr ""
 
 #: ../templates/default/macros.html:206
 #, python-format
 msgid "Current quota size: <strong>%s</strong>."
-msgstr "Текущий размер квоты: <strong>%s</strong>."
+msgstr ""
 
 #: ../templates/default/macros.html:207 ../templates/default/macros.html:215
 #: ../templates/default/macros.html:223 ../templates/default/macros.html:231
 msgid "Tip: 0 means unlimited."
-msgstr "0 означает Неограничено"
+msgstr ""
 
 #: ../templates/default/macros.html:212
 msgid "Max number of mail users"
-msgstr "Максимальное кол-во пользователей"
+msgstr ""
 
 #: ../templates/default/macros.html:214 ../templates/default/macros.html:222
 #: ../templates/default/macros.html:230
 #, python-format
 msgid "Current number: <strong>%s</strong>."
-msgstr "Текущее кол-во: <strong>%s</strong>."
+msgstr ""
 
 #: ../templates/default/macros.html:220
 msgid "Max number of mail lists"
-msgstr "Максимальное кол-во почтовых списков"
+msgstr ""
 
 #: ../templates/default/macros.html:228
 msgid "Max number of mail aliases"
-msgstr "Максимальное кол-во алиасов"
+msgstr ""
 
 #: ../templates/default/macros.html:244
 msgid "Enable this domain"
-msgstr "Включить этот домен"
+msgstr ""
 
 #: ../templates/default/macros.html:246
 msgid "Enable this account"
-msgstr "Включить этот аккаунт"
+msgstr ""
 
 #: ../templates/default/macros.html:255
 msgid "Some examples of mail relay setting"
-msgstr "Примеры использования настроек релея"
+msgstr ""
 
 #: ../templates/default/macros.html:255
 #, python-format
 msgid "(You can find more examples <a target=\"_blank\" href=\"%s\">here</a>):"
-msgstr "(Вы можете найти еще примеров  <a target=\"_blank\" href=\"%s\">тут</a>):"
+msgstr ""
 
 #: ../templates/default/macros.html:260
 msgid "Destination"
-msgstr "Описание"
+msgstr ""
 
 #: ../templates/default/macros.html:261
 #: ../templates/default/ldap/domain_profile.html:202
 #: ../templates/default/ldap/user_profile.html:265
 msgid "Relay Setting"
-msgstr "Настройки релея"
+msgstr ""
 
 #: ../templates/default/macros.html:267
 msgid ""
 "Relay all mails to host \"gateway.example.com\" <strong>with</strong> MX "
 "lookups."
 msgstr ""
-"Пересылать почту на хост \"gateway.example.com\" <strong>c</strong> "
-"просмотром MX записи "
 
 #: ../templates/default/macros.html:272
 msgid ""
 "Relay all mails to host \"gateway.example.com\" <strong>without</strong> "
 "MX lookups."
 msgstr ""
-"Пересылать почту на хост \"gateway.example.com\" <strong>без</strong> "
-"просмотра MX записи "
 
 #: ../templates/default/macros.html:283 ../templates/default/macros.html:285
 msgid "Backup MX"
-msgstr "Резервный MX"
+msgstr ""
 
 #: ../templates/default/macros.html:289
 msgid "Enabled"
-msgstr "Включено"
+msgstr ""
 
 #: ../templates/default/macros.html:293
 msgid "Disabled"
-msgstr "Выключено"
+msgstr ""
 
 #: ../templates/default/macros.html:307
 msgid "Service Control"
-msgstr "Управление службами"
+msgstr ""
 
 #: ../templates/default/macros.html:312
 msgid "Mail service."
-msgstr "Почтовый сервис"
+msgstr ""
 
 #: ../templates/default/macros.html:312
 msgid "Check this box in order to enable all mail related services."
-msgstr "Отметьте тут для включения всех почтовых сервисов"
+msgstr ""
 
 #: ../templates/default/macros.html:327
 msgid "Fetch mails via POP3."
-msgstr "Разрешить почту через POP3"
+msgstr ""
 
 #: ../templates/default/macros.html:332
 msgid "Fetch mails via POP3S (POP3 over TLS/SSL)."
-msgstr "Разрешить почту через POP3S"
+msgstr ""
 
 #: ../templates/default/macros.html:337
 msgid "Fetch mails via IMAP."
-msgstr "Разрешить почту через IMAP"
+msgstr ""
 
 #: ../templates/default/macros.html:342
 msgid "Fetch mails via IMAPS (IMAP over TLS/SSL)."
-msgstr "Разрешить почту через IMAPS"
+msgstr ""
 
 #: ../templates/default/macros.html:347
 msgid "Sending mail via SMTP."
-msgstr "Отсылать почту через SMTP"
+msgstr ""
 
 #: ../templates/default/macros.html:352
 msgid "Receiving mails."
-msgstr "Принимать почту"
+msgstr ""
 
 #: ../templates/default/macros.html:357
 msgid "Customize mail filter rule."
-msgstr "Настраиваемый почтовый фильтр"
+msgstr ""
 
 #: ../templates/default/macros.html:362
 msgid "Customize mail filter rule over TLS/SSL."
-msgstr "Настраиваемый почтовый фильтр через TLS/SSL."
+msgstr ""
 
 #: ../templates/default/macros.html:370
 msgid "Display this account's mail address in global LDAP address book."
-msgstr "Отображать почтовые аккаунты в Глобальной адресной книге LDAP"
+msgstr ""
 
 #: ../templates/default/macros.html:380
 msgid "Domain admin assignment"
-msgstr "Назначение администратор"
+msgstr ""
 
 #: ../templates/default/macros.html:393 ../templates/default/macros.html:566
 #, python-format
 msgid "%s (%s)"
-msgstr "%s (%s)"
+msgstr ""
 
 #: ../templates/default/macros.html:397
 msgid "(Global Admin)"
-msgstr "(Глобальный админ)"
+msgstr ""
 
 #: ../templates/default/macros.html:403
 #: ../templates/default/ldap/admin_create.html:40
 #: ../templates/default/ldap/admin_list.html:72
 msgid "Create new admin"
-msgstr "Создать нового администратора"
+msgstr ""
 
 #: ../templates/default/macros.html:410 ../templates/default/macros.html:413
 msgid "MTA transport"
-msgstr "MTA транспорт"
+msgstr ""
 
 #: ../templates/default/macros.html:413
 #, python-format
 msgid "Default is <strong>%s</strong>."
-msgstr "По умолчанию <strong>%s</strong>."
+msgstr ""
 
 #: ../templates/default/macros.html:414
 msgid "Leave it empty to use default transport."
-msgstr "Оставьте пустым для транспорта по умолчанию"
+msgstr ""
 
 #: ../templates/default/macros.html:423
 msgid "Old password"
-msgstr "Старый пароль"
+msgstr ""
 
 #: ../templates/default/macros.html:423 ../templates/default/macros.html:429
 #: ../templates/default/macros.html:443
@@ -1356,11 +1336,11 @@ msgstr "Старый пароль"
 #: ../templates/default/ldap/user_import.html:73
 #: ../templates/default/ldap/user_import.html:86
 msgid "(Required)"
-msgstr "(Требуется)"
+msgstr ""
 
 #: ../templates/default/macros.html:429
 msgid "New password"
-msgstr "Новый пароль"
+msgstr ""
 
 #: ../templates/default/macros.html:429
 msgid "Need a random password?"
@@ -1376,20 +1356,20 @@ msgstr ""
 #: ../templates/default/macros.html:434
 #, python-format
 msgid "At least <strong>%s</strong> characters."
-msgstr "Новый пароль должен содержать <strong>%s</strong> символов."
+msgstr ""
 
 #: ../templates/default/macros.html:436
 #, python-format
 msgid "No more than <strong>%s</strong> characters."
-msgstr "Новый пароль должен содержать <strong>%s</strong> символов."
+msgstr ""
 
 #: ../templates/default/macros.html:443
 msgid "Confirm new password"
-msgstr "Подтвердить новый пароль"
+msgstr ""
 
 #: ../templates/default/macros.html:443
 msgid "Re-enter your password exactly as before."
-msgstr "Введите пароль точно также как и раньше"
+msgstr ""
 
 #: ../templates/default/macros.html:457
 msgid "Mailbox Quota"
@@ -1397,69 +1377,69 @@ msgstr ""
 
 #: ../templates/default/macros.html:473
 msgid "Enable recipient BCC"
-msgstr "Разрешить BCC получателя"
+msgstr ""
 
 #: ../templates/default/macros.html:479 ../templates/default/macros.html:482
 msgid "Recipient BCC address"
-msgstr "Адрес BCC получателя"
+msgstr ""
 
 #: ../templates/default/macros.html:483 ../templates/default/macros.html:508
 msgid "Multiple addresses are <strong>NOT</strong> supported."
-msgstr "Несколько адресов не поддерживаются"
+msgstr ""
 
 #: ../templates/default/macros.html:492
 msgid "Sender BCC"
-msgstr "Отправитель BCC"
+msgstr ""
 
 #: ../templates/default/macros.html:497
 msgid "Enable sender BCC"
-msgstr "Разрешить BCC для отправителя"
+msgstr ""
 
 #: ../templates/default/macros.html:502 ../templates/default/macros.html:504
 #: ../templates/default/macros.html:507
 msgid "Sender BCC address"
-msgstr "Адрес BCC для отправителя"
+msgstr ""
 
 #: ../templates/default/macros.html:521
 msgid "Enable mail forwarding"
-msgstr "Разрешить пересылку почты"
+msgstr ""
 
 #: ../templates/default/macros.html:525
 msgid "Save a copy in mailbox"
-msgstr "Сохранять копию в ящик"
+msgstr ""
 
 #: ../templates/default/macros.html:534
 msgid "Mail forwarding address"
-msgstr "Адреса пересылки"
+msgstr ""
 
 #: ../templates/default/macros.html:536 ../templates/default/macros.html:586
 msgid "One mail address per-line."
-msgstr "Один адрес на строку"
+msgstr ""
 
 #: ../templates/default/macros.html:554
 #: ../templates/default/ldap/admin_profile.html:46
 msgid "Managed Domains"
-msgstr "Домены"
+msgstr ""
 
 #: ../templates/default/macros.html:576
 #: ../templates/default/ldap/domain_create.html:29
 #: ../templates/default/ldap/domain_list.html:78
 msgid "Create new domain"
-msgstr "Создать домен"
+msgstr ""
 
 #: ../templates/default/macros.html:584
 msgid "Add new alias members"
-msgstr "Добавить участников к алиасу"
+msgstr ""
 
 #: ../templates/default/macros.html:599 ../templates/default/macros.html:611
 #: ../templates/default/ldap/maillist_profile.html:114
 msgid "Unrestricted"
-msgstr "Неограниченный"
+msgstr ""
 
 #: ../templates/default/macros.html:601
 #, python-format
 msgid "<a href=\"%s\">Domain users</a>"
-msgstr "Только <a href=\"%s\"> модераторы </a> могут слать почту на этот адрес."
+msgstr ""
 
 #: ../templates/default/macros.html:603
 #, python-format
@@ -1469,159 +1449,157 @@ msgstr ""
 #: ../templates/default/macros.html:605
 #, python-format
 msgid "<a href=\"%s\">Members</a>"
-msgstr "Только <a href=\"%s\"> модераторы </a> могут слать почту на этот адрес."
+msgstr ""
 
 #: ../templates/default/macros.html:607
 #, python-format
 msgid "<a href=\"%s\">Moderators</a>"
-msgstr "Только <a href=\"%s\"> модераторы </a> могут слать почту на этот адрес."
+msgstr ""
 
 #: ../templates/default/macros.html:609
 #, python-format
 msgid "<a href=\"%s\">Members</a> and <a href=\"%s\">moderators</a>"
-msgstr "Только <a href=\"%s\"> модераторы </a> могут слать почту на этот адрес."
+msgstr ""
 
 #: ../templates/default/macros.html:616
 msgid "Create new:"
-msgstr "Создать нового пользователя"
+msgstr ""
 
 #: ../templates/default/macros.html:618
 #: ../templates/default/ldap/dashboard.html:40
 msgid "Domain"
-msgstr "Домен"
+msgstr ""
 
 #: ../templates/default/macros.html:619
 #: ../templates/default/ldap/dashboard.html:41
 #: ../templates/default/panel/log.html:102
 msgid "Admin"
-msgstr "Администратор"
+msgstr ""
 
 #: ../templates/default/macros.html:621
 #: ../templates/default/ldap/dashboard.html:43
 msgid "User"
-msgstr "Пользователь"
+msgstr ""
 
 #: ../templates/default/macros.html:622
 #: ../templates/default/ldap/dashboard.html:44
 msgid "Mail List"
-msgstr "Списки"
+msgstr ""
 
 #: ../templates/default/macros.html:623
 #: ../templates/default/ldap/dashboard.html:45
 msgid "Alias"
-msgstr "Алиас"
+msgstr ""
 
 #: ../templates/default/macros.html:662
 msgid "Pages:"
-msgstr "Страниц:"
+msgstr ""
 
 #: ../templates/default/macros.html:743
 msgid "Events"
-msgstr "Все события"
+msgstr ""
 
 #: ../templates/default/macros.html:745
 msgid "Admin login"
-msgstr "Вход администратора"
+msgstr ""
 
 #: ../templates/default/macros.html:747
 msgid "Create account"
-msgstr "Создать аккаунт"
+msgstr ""
 
 #: ../templates/default/macros.html:749
 msgid "Delete account"
-msgstr "Удалить аккаунт"
+msgstr ""
 
 #: ../templates/default/macros.html:751
 msgid "Disable account"
-msgstr "Отключить аккаунт"
+msgstr ""
 
 #: ../templates/default/macros.html:753
 msgid "Active account"
-msgstr "Активировать аккаунт"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:46
 msgid "Username or password is incorrect."
-msgstr "Имя пользователя или пароль не верны."
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:48
 msgid "Username must be an valid email address."
-msgstr "Имя пользователя должно иметь корректный адрес"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:50
 msgid "Login required"
-msgstr "Требуется логин"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:52
 msgid "Empty password is not allowed."
-msgstr "Адрес не может быть пустым"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:72
 #: ../templates/default/msgHandlers.html:160
 #: ../templates/default/msgHandlers.html:249
 msgid "Profile update success."
-msgstr "Профиль изменен удачно."
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:74
 msgid "Selected domains were deleted."
-msgstr "Выбранные домены были удалены"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:76
 msgid "Selected domains were disabled."
-msgstr "Выбранные домены были выключены"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:78
 msgid "Selected domains were enabled."
-msgstr "Выбранные домены были включены"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:82
 msgid "Invalid domain name."
-msgstr "Неверное имя домена"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:84
 msgid "Domain name is empty."
-msgstr "Имя домена пустое"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:86
 msgid ""
 "Server-side size limit exceeded. Please increase \"sizelimit\" in your "
 "LDAP server."
 msgstr ""
-"Лимит размера на сервере был превышен. Пожалуйста увеличьте \"sizelimit\""
-" в вашем  LDAP сервере."
 
 #: ../templates/default/msgHandlers.html:88
 msgid "Permission denied."
-msgstr "Доступ закрыт."
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:90
 msgid "No such domain."
-msgstr "Нет такого домена"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:92
 msgid "Incorrect profile type."
-msgstr "Неверен тип профиля"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:94
 msgid "Submited domain name is incorrect."
-msgstr "Имя домена не корректно"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:97
 #: ../templates/default/msgHandlers.html:115
 #: ../templates/default/msgHandlers.html:231
 #: ../templates/default/msgHandlers.html:251
 msgid "No domain under control."
-msgstr "Не указан домен для управления"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:109
 #: ../templates/default/msgHandlers.html:205
 msgid "Profile updated success."
-msgstr "Профиль удачно изменен."
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:111
 #: ../templates/default/msgHandlers.html:207
 #: ../templates/default/msgHandlers.html:265
 msgid "Profile updated failed."
-msgstr "Изменение профиля прошло с ошибкой"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:117
 msgid "Domain name or username is missed."
@@ -1632,48 +1610,48 @@ msgstr ""
 #: ../templates/default/msgHandlers.html:222
 #: ../templates/default/msgHandlers.html:254
 msgid "Selected accounts were deleted."
-msgstr "Выбранные аккаунты были удалены"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:123
 #: ../templates/default/msgHandlers.html:168
 #: ../templates/default/msgHandlers.html:224
 #: ../templates/default/msgHandlers.html:256
 msgid "Selected accounts were disabled."
-msgstr "Выбранные аккаунты были выключены"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:125
 #: ../templates/default/msgHandlers.html:170
 #: ../templates/default/msgHandlers.html:226
 #: ../templates/default/msgHandlers.html:258
 msgid "Selected accounts were enabled."
-msgstr "Выбранные аккаунты были включены"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:127
 msgid "Invalid profile type."
-msgstr "Неверен тип профиля: %s."
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:131
 #: ../templates/default/msgHandlers.html:176
 msgid "Current password is incorrect."
-msgstr "Текущий пароль не верен."
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:133
 #: ../templates/default/msgHandlers.html:178
 msgid "New passwords are not match."
-msgstr "Новые пароли не совпадают"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:135
 #: ../templates/default/msgHandlers.html:180
 msgid "Password is empty."
-msgstr "Пароль пуст"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:137
 msgid "Password is too short."
-msgstr "Пароль пуст"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:139
 msgid "Password is too long."
-msgstr "Пароль пуст"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:158
 #, python-format
@@ -1681,115 +1659,113 @@ msgid ""
 "Account created success. Would you like to <a "
 "href=\"%s/create/admin\">add one more</a>?"
 msgstr ""
-"Аккаунт создан удачно. Хотите <a href=\"%s/create/admin\">добавить еще "
-"</a>?"
 
 #: ../templates/default/msgHandlers.html:172
 msgid "No account selected."
-msgstr "Не выбран аккаунт"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:182
 #, python-format
 msgid "New password must contain at least %s characters."
-msgstr "Новый пароль должен содержать по крайней мере %s символов"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:184
 #, python-format
 msgid "New password must NOT contain more than %s characters."
-msgstr "Новый пароль должен содержать более чем %s символов"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:187
 msgid "Invalid mail address."
-msgstr "Неверное имя домена"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:211
 #: ../templates/default/msgHandlers.html:261
 msgid "Member assigned success."
-msgstr "Участник удачно назначен"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:213
 #: ../templates/default/msgHandlers.html:263
 msgid "Member removed success."
-msgstr "Участник удачно перемещен"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:217
 msgid "Moderators assigned success."
-msgstr "Модератор назначен удачно"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:219
 msgid "Moderators removed success."
-msgstr "Модератор перемещен удачно"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:228
 #: ../templates/default/msgHandlers.html:247
 msgid "Account already exists, please choose another username."
-msgstr "Аккаунт уже создан, пожалуйста выберите другое имя"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:233
 msgid "No moderator selected."
-msgstr "Не выбран модератор"
+msgstr ""
 
 #: ../templates/default/msgHandlers.html:268
 msgid "Empty address is not allowed."
-msgstr "Адрес не может быть пустым"
+msgstr ""
 
 #: ../templates/default/panel/log.html:24
 #: ../templates/default/panel/log.html:28
 msgid "Admin Log"
-msgstr "Лог админинистратора"
+msgstr ""
 
 #: ../templates/default/panel/log.html:48
 msgid "Filter:"
-msgstr "Фильтр"
+msgstr ""
 
 #: ../templates/default/panel/log.html:78
 #, python-format
 msgid "%d-%d/<a href=\"%s\" class=\"noborder\">%d</a>."
-msgstr "Записей с %d по %d из <a href=\"%s\" class=\"noborder\">%d</a>."
+msgstr ""
 
 #: ../templates/default/panel/log.html:86
 #: ../templates/default/policyd/wblist.html:82
 #, python-format
 msgid "Total records: %d."
-msgstr "Всего записей: %d."
+msgstr ""
 
 #: ../templates/default/panel/log.html:101
 msgid "Time"
-msgstr "Время"
+msgstr ""
 
 #: ../templates/default/panel/log.html:103
 msgid "IP Address"
-msgstr "IP адрес"
+msgstr ""
 
 #: ../templates/default/panel/log.html:108
 msgid "Message"
-msgstr "Сообщение"
+msgstr ""
 
 #: ../templates/default/panel/log.html:134
 msgid "Are you sure want to delete selected item(s)?"
-msgstr "Удалить выбранные позиции ?"
+msgstr ""
 
 #: ../templates/default/policyd/wblist.html:17
 #: ../templates/default/policyd/wblist.html:26
 #: ../templates/default/policyd/whitelist_view.html:16
 #: ../templates/default/policyd/whitelist_view.html:25
 msgid "Whitelist"
-msgstr "Белый список"
+msgstr ""
 
 #: ../templates/default/policyd/wblist.html:19
 #: ../templates/default/policyd/wblist.html:27
 #: ../templates/default/policyd/whitelist_view.html:18
 #: ../templates/default/policyd/whitelist_view.html:26
 msgid "Blacklist"
-msgstr "Черный список"
+msgstr ""
 
 #: ../templates/default/policyd/wblist.html:56
 msgid "IP Addresses"
-msgstr "IP адрес"
+msgstr ""
 
 #: ../templates/default/policyd/wblist.html:57
 msgid "Sender"
-msgstr "Отсыльщик"
+msgstr ""
 
 #: ../templates/default/policyd/wblist.html:67
 msgid "HELO"
@@ -1802,19 +1778,19 @@ msgstr ""
 
 #: ../templates/default/policyd/wblist.html:98
 msgid "Description"
-msgstr "Описание"
+msgstr ""
 
 #: ../templates/default/policyd/wblist.html:99
 msgid "Expired Date"
-msgstr "Дата окончания"
+msgstr ""
 
 #: ../templates/default/policyd/whitelist_view.html:31
 msgid "Add new whitelist"
-msgstr "Добавить белый список"
+msgstr ""
 
 #: ../templates/default/policyd/whitelist_view.html:33
 msgid "Add new blacklist"
-msgstr "Добавить черный список"
+msgstr ""
 
 #~ msgid "Import:"
 #~ msgstr ""

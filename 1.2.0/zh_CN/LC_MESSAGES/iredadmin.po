@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: iRedAdmin-Pro-1.2.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2009-10-22 17:33+0800\n"
-"PO-Revision-Date: 2010-05-21 23:11+0800\n"
+"PO-Revision-Date: 2010-06-02 01:43+0800\n"
 "Last-Translator: Zhang Huangbin <michaelbibby@gmail.com>\n"
 "Language-Team: zh_CN <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -26,7 +26,6 @@ msgstr "页面未找到。"
 #: ../templates/default/ldap/alias_create.html:58
 #: ../templates/default/ldap/maillist_create.html:58
 #: ../templates/default/ldap/user_create.html:66
-#: ../templates/default/mysql/msgHandlers.html:27
 msgid "Error:"
 msgstr "错误："
 
@@ -53,7 +52,6 @@ msgstr "iRedMail 管理平台"
 
 #: ../templates/default/layout.html:59
 #: ../templates/default/ldap/dashboard.html:22
-#: ../templates/default/mysql/dashboard.html:22
 msgid "Dashboard"
 msgstr "控制台"
 
@@ -65,7 +63,6 @@ msgstr "域名"
 #: ../templates/default/ldap/alias_list.html:61
 #: ../templates/default/ldap/domain_profile.html:71
 #: ../templates/default/ldap/maillist_list.html:64
-#: ../templates/default/mysql/dashboard.html:50
 msgid "Users"
 msgstr "用户"
 
@@ -141,7 +138,6 @@ msgstr "邮件地址"
 #: ../templates/default/ldap/domain_create.html:60
 #: ../templates/default/ldap/maillist_create.html:92
 #: ../templates/default/ldap/user_create.html:116
-#: ../templates/default/mysql/dashboard.html:37
 msgid "Create"
 msgstr "新建"
 
@@ -158,7 +154,6 @@ msgstr "所有域管理员。"
 #: ../templates/default/ldap/domain_list.html:51
 #: ../templates/default/ldap/maillist_list.html:55
 #: ../templates/default/ldap/user_list.html:60
-#: ../templates/default/mysql/domain_list.html:45
 #, python-format
 msgid "Total: %s."
 msgstr "总共 %s 个。"
@@ -167,6 +162,7 @@ msgstr "总共 %s 个。"
 #: ../templates/default/ldap/alias_list.html:54
 #: ../templates/default/ldap/domain_list.html:52
 #: ../templates/default/ldap/maillist_list.html:56
+#: ../templates/default/ldap/user_list.html:61
 msgid "Current:"
 msgstr "当前容量："
 
@@ -214,7 +210,6 @@ msgstr "编辑管理员属性"
 #: ../templates/default/ldap/maillist_profile.html:218
 #: ../templates/default/ldap/maillist_profile.html:328
 #: ../templates/default/ldap/user_list.html:169
-#: ../templates/default/mysql/domain_list.html:102
 #: ../templates/default/panel/log.html:133
 #: ../templates/default/policyd/wblist.html:137
 msgid "Select/Unselect all"
@@ -225,7 +220,6 @@ msgstr "全选/反选"
 #: ../templates/default/ldap/domain_list.html:146
 #: ../templates/default/ldap/maillist_list.html:146
 #: ../templates/default/ldap/user_list.html:170
-#: ../templates/default/mysql/domain_list.html:103
 #: ../templates/default/panel/log.html:134
 #: ../templates/default/policyd/wblist.html:138
 msgid "Delete"
@@ -243,7 +237,6 @@ msgstr "您确定要删除选中的帐号吗？"
 #: ../templates/default/ldap/domain_list.html:147
 #: ../templates/default/ldap/maillist_list.html:147
 #: ../templates/default/ldap/user_list.html:171
-#: ../templates/default/mysql/domain_list.html:104
 msgid "Disable"
 msgstr "禁用"
 
@@ -259,7 +252,6 @@ msgstr "您确定要禁用选中的帐号吗？"
 #: ../templates/default/ldap/domain_list.html:148
 #: ../templates/default/ldap/maillist_list.html:148
 #: ../templates/default/ldap/user_list.html:172
-#: ../templates/default/mysql/domain_list.html:105
 msgid "Enable"
 msgstr "启用"
 
@@ -281,7 +273,6 @@ msgstr "常用设置"
 #: ../templates/default/ldap/admin_profile.html:48
 #: ../templates/default/ldap/login.html:76
 #: ../templates/default/ldap/user_profile.html:126
-#: ../templates/default/mysql/login.html:76
 msgid "Password"
 msgstr "密码"
 
@@ -309,7 +300,7 @@ msgstr "："
 #: ../templates/default/ldap/alias_profile.html:142
 #: ../templates/default/ldap/domain_profile.html:369
 #: ../templates/default/ldap/maillist_profile.html:368
-#: ../templates/default/ldap/user_profile.html:353
+#: ../templates/default/ldap/user_profile.html:359
 msgid "Save changes"
 msgstr "保存更改"
 
@@ -336,18 +327,18 @@ msgid "You can create <strong>%d</strong> more mail list(s) under domain %s."
 msgstr "您还能在域 %s 内建立 <strong>%d</strong> 个邮件列表。"
 
 #: ../templates/default/ldap/alias_create.html:74
-msgid "TIP"
-msgstr "技巧提示"
-
-#: ../templates/default/ldap/alias_create.html:74
 msgid ""
 "It's better to use mail list instead of alias, since we have mail deliver"
 " restriction for mail list."
 msgstr "建议您使用邮件列表来代替别名，可以进行邮件投递权限控制。"
 
+#: ../templates/default/ldap/alias_create.html:74
+#: ../templates/default/ldap/user_profile.html:278
+msgid "TIP"
+msgstr "提示"
+
 #: ../templates/default/ldap/alias_list.html:37
 #: ../templates/default/ldap/domain_list.html:94
-#: ../templates/default/mysql/domain_list.html:73
 msgid "Mail Aliases"
 msgstr "邮件别名"
 
@@ -367,6 +358,11 @@ msgstr "选择一个域"
 #: ../templates/default/ldap/user_list.html:67
 msgid "View:"
 msgstr "查看："
+
+#: ../templates/default/ldap/alias_list.html:124
+#: ../templates/default/ldap/maillist_list.html:129
+msgid "View members"
+msgstr "查看成员"
 
 #: ../templates/default/ldap/alias_profile.html:40
 #: ../templates/default/ldap/maillist_profile.html:54
@@ -416,7 +412,6 @@ msgid "Are you sure want to assign selected account(s) to alias?"
 msgstr "您确定要将选中的帐号添加到别名中吗？"
 
 #: ../templates/default/ldap/dashboard.html:31
-#: ../templates/default/mysql/dashboard.html:31
 msgid "Available operations"
 msgstr "允许的操作"
 
@@ -427,50 +422,41 @@ msgid "Search"
 msgstr "用户"
 
 #: ../templates/default/ldap/dashboard.html:70
-#: ../templates/default/mysql/dashboard.html:60
 msgid "System info"
 msgstr "系统信息"
 
 #: ../templates/default/ldap/dashboard.html:76
-#: ../templates/default/mysql/dashboard.html:66
 msgid "iRedAdmin version"
 msgstr "iRedAdmin 版本"
 
 #: ../templates/default/ldap/dashboard.html:81
-#: ../templates/default/mysql/dashboard.html:71
 #, python-format
 msgid "Update available: v%s, <a href=\"%s\">release note</a>."
 msgstr "有新版本可更新：v%s, <a href=\"\"%s\">发布声明</a>。"
 
 #: ../templates/default/ldap/dashboard.html:84
-#: ../templates/default/mysql/dashboard.html:74
 #, python-format
 msgid "Error while check new version: %s"
 msgstr "检查新版本时发生错误"
 
 #: ../templates/default/ldap/dashboard.html:90
-#: ../templates/default/mysql/dashboard.html:80
 msgid "Hostname"
 msgstr "主机名"
 
 #: ../templates/default/ldap/dashboard.html:96
-#: ../templates/default/mysql/dashboard.html:86
 msgid "Uptime"
 msgstr "运行时间"
 
 #: ../templates/default/ldap/dashboard.html:97
-#: ../templates/default/mysql/dashboard.html:87
 #, python-format
 msgid "%s days, %s hours, %s minutes."
 msgstr "%s 天，%s 小时，%s 分钟。"
 
 #: ../templates/default/ldap/dashboard.html:102
-#: ../templates/default/mysql/dashboard.html:92
 msgid "Server load"
 msgstr "服务器负载"
 
 #: ../templates/default/ldap/dashboard.html:112
-#: ../templates/default/mysql/dashboard.html:102
 msgid "Network interfaces"
 msgstr "网络接口"
 
@@ -478,23 +464,19 @@ msgstr "网络接口"
 #: ../templates/default/ldap/domain_create.html:51
 #: ../templates/default/ldap/domain_list.html:88
 #: ../templates/default/ldap/domain_profile.html:148
-#: ../templates/default/mysql/domain_list.html:65
 msgid "Domain Name"
 msgstr "域名"
 
 #: ../templates/default/ldap/domain_list.html:45
-#: ../templates/default/mysql/domain_list.html:41
 msgid "Mail Domains"
 msgstr "邮件域"
 
 #: ../templates/default/ldap/domain_list.html:49
-#: ../templates/default/mysql/domain_list.html:45
 msgid "All domains under your control."
 msgstr "您管理的所有邮件域。"
 
 #: ../templates/default/ldap/domain_list.html:92
 #: ../templates/default/ldap/user_list.html:44
-#: ../templates/default/mysql/domain_list.html:69
 msgid "Mail Users"
 msgstr "邮件用户"
 
@@ -511,18 +493,15 @@ msgid "List all mail aliases."
 msgstr "列出所有邮件别名。"
 
 #: ../templates/default/ldap/domain_list.html:146
-#: ../templates/default/mysql/domain_list.html:103
 #: ../templates/default/policyd/wblist.html:138
 msgid "Are you sure want to delete selected domain(s) and accounts under it?"
 msgstr "您确定要删除选中的域和域内的帐号吗？"
 
 #: ../templates/default/ldap/domain_list.html:147
-#: ../templates/default/mysql/domain_list.html:104
 msgid "Are you sure want to disable selected domain(s)?"
 msgstr "您确定要删除选中的域吗？"
 
 #: ../templates/default/ldap/domain_list.html:148
-#: ../templates/default/mysql/domain_list.html:105
 msgid "Are you sure want to enable selected domain(s)?"
 msgstr "您确定要启用选中的域吗？"
 
@@ -703,33 +682,26 @@ msgstr "新建邮件列表"
 
 #: ../templates/default/ldap/login.html:27
 #: ../templates/default/ldap/login.html:49
-#: ../templates/default/mysql/login.html:27
-#: ../templates/default/mysql/login.html:49
 msgid "Login to manage your mail domains & users"
 msgstr "登录管理您的邮件域和用户"
 
 #: ../templates/default/ldap/login.html:69
-#: ../templates/default/mysql/login.html:69
 msgid "Username"
 msgstr "用户名"
 
 #: ../templates/default/ldap/login.html:69
-#: ../templates/default/mysql/login.html:69
 msgid "Must be a valid domain admin email address."
 msgstr "必须是有效的邮件地址。"
 
 #: ../templates/default/ldap/login.html:84
-#: ../templates/default/mysql/login.html:84
 msgid "Remember me"
 msgstr "记住我"
 
 #: ../templates/default/ldap/login.html:84
-#: ../templates/default/mysql/login.html:84
 msgid "Log me in automatically each time I visit."
 msgstr "每次访问时自动登录"
 
 #: ../templates/default/ldap/login.html:90
-#: ../templates/default/mysql/login.html:90
 msgid "Login"
 msgstr "登录"
 
@@ -742,7 +714,7 @@ msgstr "新建邮件列表"
 #: ../templates/default/ldap/maillist_create.html:58
 #, python-format
 msgid "You can't create more mail lists under domain %s."
-msgstr "查看域内的邮件列表："
+msgstr "查看域 %s 内的邮件列表："
 
 #: ../templates/default/ldap/maillist_list.html:44
 msgid "View mail lists under domain:"
@@ -775,7 +747,7 @@ msgstr "没有受您管理的域"
 msgid ""
 "Only <a href=\"%s\">users under domain <strong>%s</strong></a> can send "
 "mail to this address."
-msgstr "只有域 <strong>%s</strong> 内部的用户才可以发送邮件到这个地址。"
+msgstr "只有<a href=\"%s\">域 <strong>%s</strong> 的用户</a>才可以发送邮件到这个地址。"
 
 #: ../templates/default/ldap/maillist_profile.html:126
 msgid "Domain and sub-domain users only"
@@ -786,7 +758,7 @@ msgstr "只允许本域和它的子域"
 msgid ""
 "Only <a href=\"%s\">users under domain <strong>%s</strong></a> or sub "
 "domains can send mail to this address."
-msgstr "只有域 <strong>%s</strong> 内部的用户才可以发送邮件到这个地址。"
+msgstr "只有<a href=\"%s\">域 <strong>%s</strong> 的用户</a>才可以发送邮件到这个地址。"
 
 #: ../templates/default/ldap/maillist_profile.html:131
 msgid "Members only"
@@ -817,11 +789,11 @@ msgstr "管理员"
 msgid ""
 "Only <a href=\"%s\">members</a> and <a href=\"%s\">moderators</a> can "
 "send mail to this address."
-msgstr "只有邮件列表 <a href=\"%s\">管理员</a> 才可以发送邮件到这个地址。"
+msgstr "只有邮件列表的<a href=\"%s\">成员</a>和<a href=\"%s\">管理员</a>可以发送邮件到这个地址。"
 
 #: ../templates/default/ldap/maillist_profile.html:149
 msgid "Internal members"
-msgstr "添加本域内部成员"
+msgstr "域内部成员"
 
 #: ../templates/default/ldap/maillist_profile.html:150
 msgid "Add internal members"
@@ -830,7 +802,7 @@ msgstr "添加本域内部成员"
 #: ../templates/default/ldap/maillist_profile.html:151
 #: ../templates/default/ldap/maillist_profile.html:232
 msgid "External members"
-msgstr "添加本域内部成员"
+msgstr "添加外部成员"
 
 #: ../templates/default/ldap/maillist_profile.html:158
 #: ../templates/default/ldap/maillist_profile.html:268
@@ -895,7 +867,6 @@ msgid "%d user(s) found."
 msgstr "找到 %d 个用户"
 
 #: ../templates/default/ldap/search.html:77
-#: ../templates/default/mysql/domain_list.html:74
 msgid "Created"
 msgstr "建立于"
 
@@ -907,7 +878,7 @@ msgstr "找到 %d 个邮件列表"
 #: ../templates/default/ldap/search.html:177
 #, python-format
 msgid "%d mail alias(es) found."
-msgstr "列出所有邮件别名。"
+msgstr "找到 %d 个邮件别名。"
 
 #: ../templates/default/ldap/search.html:226
 msgid "Your search returned no hits."
@@ -967,10 +938,6 @@ msgstr "确认并导入"
 msgid "View users under domain:"
 msgstr "查看域内的用户："
 
-#: ../templates/default/ldap/user_list.html:61
-msgid "Crrent:"
-msgstr "当前："
-
 #: ../templates/default/ldap/user_list.html:115
 msgid "Job Title"
 msgstr "职位"
@@ -985,7 +952,7 @@ msgstr "邮件转发"
 
 #: ../templates/default/ldap/user_profile.html:120
 msgid "Restrictions"
-msgstr "目标"
+msgstr "收发件限制"
 
 #: ../templates/default/ldap/user_profile.html:121
 msgid "Maildir"
@@ -1028,19 +995,27 @@ msgstr "，"
 msgid "or leave it empty to use <a href=\"%s\">domain setting</a>."
 msgstr "或留空以使用 <a href=\"%s\">域设置</a>。"
 
-#: ../templates/default/ldap/user_profile.html:277
+#: ../templates/default/ldap/user_profile.html:278
+msgid "You should install iRedAPD to make restrictions work as expected."
+msgstr ""
+
+#: ../templates/default/ldap/user_profile.html:278
+msgid "Install iRedAPD"
+msgstr ""
+
+#: ../templates/default/ldap/user_profile.html:283
 msgid ""
 "To bypass or block a <strong>single user</strong>, use full email "
 "address. e.g. <strong>user@domain.ltd</strong>"
 msgstr "放行或拦截 <strong>单个用户</strong>，使用完整的邮件地址。例如：<strong>user@domain.ltd</strong>"
 
-#: ../templates/default/ldap/user_profile.html:278
+#: ../templates/default/ldap/user_profile.html:284
 msgid ""
 "To bypass or block <strong>whole domain</strong>, use @domain.ltd. e.g. "
 "<strong>@domain.ltd</strong>"
 msgstr "放行或拦截 <strong>整个域</strong>，使用 @domain.ltd。例如：<strong>@domain.ltd</strong>"
 
-#: ../templates/default/ldap/user_profile.html:279
+#: ../templates/default/ldap/user_profile.html:285
 msgid ""
 "To bypass or block a <strong>domain and its sub-domains</strong>, use "
 "@.domain.ltd. e.g. <strong>@.domain.ltd</strong>"
@@ -1048,73 +1023,71 @@ msgstr ""
 "放行或拦截 <strong>邮件域和它的子域</strong>，使用 "
 "@.domain.ltd。例如：<strong>@.domain.ltd</strong>"
 
-#: ../templates/default/ldap/user_profile.html:280
+#: ../templates/default/ldap/user_profile.html:286
 msgid "Use <strong>@.</strong> to bypass or block <strong>all accounts</strong>."
 msgstr "使用 <strong>@.</strong> 放行或拦截 <strong>所有帐号</strong>。"
 
-#: ../templates/default/ldap/user_profile.html:281
+#: ../templates/default/ldap/user_profile.html:287
 msgid "Whitelist has higher priority than blacklist."
 msgstr "白名单比黑名单具有更高的优先级。"
 
-#: ../templates/default/ldap/user_profile.html:286
+#: ../templates/default/ldap/user_profile.html:292
 msgid "Sender Restrictions"
 msgstr "发件人限制"
 
-#: ../templates/default/ldap/user_profile.html:293
+#: ../templates/default/ldap/user_profile.html:299
 msgid "Whitelisted Senders"
 msgstr "放行的发件人"
 
-#: ../templates/default/ldap/user_profile.html:294
-msgid "Email comes from whitelisted senders will be bypassed."
+#: ../templates/default/ldap/user_profile.html:300
+msgid "Email comes from below senders will be bypassed."
 msgstr "来自以下发件人的邮件将会被直接放行"
 
-#: ../templates/default/ldap/user_profile.html:299
+#: ../templates/default/ldap/user_profile.html:305
 msgid "Blacklisted Senders"
 msgstr "拦截的发件人"
 
-#: ../templates/default/ldap/user_profile.html:300
-msgid "Email comes from blacklisted senders will be rejected immediately."
-msgstr "来自以下发件人的邮件将会被立刻拦截"
+#: ../templates/default/ldap/user_profile.html:306
+msgid "Email comes from below senders will be rejected immediately."
+msgstr "来自以下发件人的邮件将会被立刻拒绝"
 
-#: ../templates/default/ldap/user_profile.html:305
+#: ../templates/default/ldap/user_profile.html:311
 msgid "Recipient Restrictions"
-msgstr "将收下的邮件密送到以下地址"
+msgstr "收件人限制"
 
-#: ../templates/default/ldap/user_profile.html:312
+#: ../templates/default/ldap/user_profile.html:318
 msgid "Whitelisted Recipients"
 msgstr "放行的收件人"
 
-#: ../templates/default/ldap/user_profile.html:313
-#, python-format
-msgid "User <strong>%s (%s)</strong> can send email to whitelisted recipients."
-msgstr "只有域 <strong>%s</strong> 内部的用户才可以发送邮件到这个地址。"
-
-#: ../templates/default/ldap/user_profile.html:318
-msgid "Blacklisted Recipients"
-msgstr "对收下的邮件启用密送（BCC）功能"
-
 #: ../templates/default/ldap/user_profile.html:319
 #, python-format
-msgid ""
-"User <strong>%s (%s)</strong> can NOT send email to blacklisted "
-"recipients."
-msgstr "只有域 <strong>%s</strong> 内部的用户才可以发送邮件到这个地址。"
+msgid "User <strong>%s (%s)</strong> can send email to below recipients."
+msgstr "用户 <strong>%s (%s)</strong> 可以发送邮件到以下收件人。"
 
-#: ../templates/default/ldap/user_profile.html:327
+#: ../templates/default/ldap/user_profile.html:324
+msgid "Blacklisted Recipients"
+msgstr "拒收的来自以下邮件地址的邮件"
+
+#: ../templates/default/ldap/user_profile.html:325
+#, python-format
+msgid "User <strong>%s (%s)</strong> can NOT send email to below recipients."
+msgstr "用户 <strong>%s (%s)</strong> 可以发送邮件到以下收件人。"
+
+#: ../templates/default/ldap/user_profile.html:333
 msgid "Path to mailbox"
 msgstr "邮箱路径"
 
 #: ../templates/default/macros.html:65
 msgid "Account is active."
-msgstr "没有选定帐号。"
+msgstr "帐号已激活。"
 
 #: ../templates/default/macros.html:67
 msgid "Account is disabled."
-msgstr "已成功禁用选定的帐号。"
+msgstr "帐号已禁用。"
 
 #: ../templates/default/macros.html:73
 msgid "Is a global admin."
-msgstr "标记为全局管理员"
+msgstr "全局管理员"
 
 #: ../templates/default/macros.html:75
 msgid "Not a global admin."
@@ -1366,8 +1339,6 @@ msgstr "旧密码"
 #: ../templates/default/ldap/user_import.html:62
 #: ../templates/default/ldap/user_import.html:73
 #: ../templates/default/ldap/user_import.html:86
-#: ../templates/default/mysql/login.html:69
-#: ../templates/default/mysql/login.html:76
 msgid "(Required)"
 msgstr "（必填）"
 
@@ -1457,7 +1428,6 @@ msgstr "管理的域"
 #: ../templates/default/macros.html:576
 #: ../templates/default/ldap/domain_create.html:29
 #: ../templates/default/ldap/domain_list.html:78
-#: ../templates/default/mysql/domain_list.html:50
 msgid "Create new domain"
 msgstr "新建邮件域"
 
@@ -1473,17 +1443,17 @@ msgstr "邮件服务"
 #: ../templates/default/macros.html:601
 #, python-format
 msgid "<a href=\"%s\">Domain users</a>"
-msgstr ""
+msgstr "<a href=\"%s\">域用户</a>"
 
 #: ../templates/default/macros.html:603
 #, python-format
 msgid "<a href=\"%s\">Domain and sub-domain users</a>"
-msgstr ""
+msgstr "<a href=\"\"%s\">域和子域</a>"
 
 #: ../templates/default/macros.html:605
 #, python-format
 msgid "<a href=\"%s\">Members</a>"
-msgstr ""
+msgstr "<a href=\"%s\">成员</a>"
 
 #: ../templates/default/macros.html:607
 #, python-format
@@ -1493,7 +1463,7 @@ msgstr "只有邮件列表 <a href=\"%s\">管理员</a> 才可以发送邮件到
 #: ../templates/default/macros.html:609
 #, python-format
 msgid "<a href=\"%s\">Members</a> and <a href=\"%s\">moderators</a>"
-msgstr ""
+msgstr "<a href=\"%s\">成员</a>和<a href=\"%s\">管理员</a>"
 
 #: ../templates/default/macros.html:616
 msgid "Create new:"
@@ -1501,145 +1471,119 @@ msgstr "新建邮件用户"
 
 #: ../templates/default/macros.html:618
 #: ../templates/default/ldap/dashboard.html:40
-#: ../templates/default/mysql/dashboard.html:40
 msgid "Domain"
 msgstr "域名"
 
 #: ../templates/default/macros.html:619
 #: ../templates/default/ldap/dashboard.html:41
-#: ../templates/default/mysql/dashboard.html:41
 #: ../templates/default/panel/log.html:102
 msgid "Admin"
 msgstr "管理员"
 
-#: ../templates/default/macros.html:621 ../templates/default/macros.html:630
+#: ../templates/default/macros.html:621
 #: ../templates/default/ldap/dashboard.html:43
-#: ../templates/default/mysql/dashboard.html:43
 msgid "User"
 msgstr "用户"
 
 #: ../templates/default/macros.html:622
 #: ../templates/default/ldap/dashboard.html:44
-#: ../templates/default/mysql/dashboard.html:44
 msgid "Mail List"
 msgstr "邮件列表"
 
 #: ../templates/default/macros.html:623
 #: ../templates/default/ldap/dashboard.html:45
-#: ../templates/default/mysql/dashboard.html:45
 msgid "Alias"
 msgstr "邮件别名"
 
-#: ../templates/default/macros.html:629
-msgid "Import:"
-msgstr ""
-
-#: ../templates/default/macros.html:658
+#: ../templates/default/macros.html:662
 msgid "Pages:"
 msgstr "页面："
 
-#: ../templates/default/macros.html:739
+#: ../templates/default/macros.html:743
 msgid "Events"
 msgstr "所有事件"
 
-#: ../templates/default/macros.html:741
+#: ../templates/default/macros.html:745
 msgid "Admin login"
 msgstr "管理员登录"
 
-#: ../templates/default/macros.html:743
+#: ../templates/default/macros.html:747
 msgid "Create account"
 msgstr "创建日期"
 
-#: ../templates/default/macros.html:745
+#: ../templates/default/macros.html:749
 msgid "Delete account"
 msgstr "启用这个帐号"
 
-#: ../templates/default/macros.html:747
+#: ../templates/default/macros.html:751
 msgid "Disable account"
 msgstr "启用这个帐号"
 
-#: ../templates/default/macros.html:749
+#: ../templates/default/macros.html:753
 msgid "Active account"
 msgstr "启用这个帐号"
 
 #: ../templates/default/msgHandlers.html:46
-#: ../templates/default/mysql/msgHandlers.html:46
 msgid "Username or password is incorrect."
 msgstr "用户名或密码错误。"
 
 #: ../templates/default/msgHandlers.html:48
-#: ../templates/default/mysql/msgHandlers.html:48
 msgid "Username must be an valid email address."
 msgstr "用户名必须是有效的邮件地址。"
 
 #: ../templates/default/msgHandlers.html:50
-#: ../templates/default/mysql/msgHandlers.html:50
 msgid "Login required"
 msgstr "必须先登录才能进行操作"
 
 #: ../templates/default/msgHandlers.html:52
-#: ../templates/default/mysql/msgHandlers.html:52
 msgid "Empty password is not allowed."
 msgstr "不允许使用空地址。"
 
 #: ../templates/default/msgHandlers.html:72
 #: ../templates/default/msgHandlers.html:160
 #: ../templates/default/msgHandlers.html:249
-#: ../templates/default/mysql/msgHandlers.html:70
-#: ../templates/default/mysql/msgHandlers.html:156
-#: ../templates/default/mysql/msgHandlers.html:245
 msgid "Profile update success."
 msgstr "属性更新成功。"
 
 #: ../templates/default/msgHandlers.html:74
-#: ../templates/default/mysql/msgHandlers.html:72
 msgid "Selected domains were deleted."
 msgstr "已删除选定的域。"
 
 #: ../templates/default/msgHandlers.html:76
-#: ../templates/default/mysql/msgHandlers.html:74
 msgid "Selected domains were disabled."
 msgstr "已禁用选定的域。"
 
 #: ../templates/default/msgHandlers.html:78
-#: ../templates/default/mysql/msgHandlers.html:76
 msgid "Selected domains were enabled."
 msgstr "已启用选定的域。"
 
 #: ../templates/default/msgHandlers.html:82
-#: ../templates/default/mysql/msgHandlers.html:80
 msgid "Invalid domain name."
 msgstr "无效的域名"
 
 #: ../templates/default/msgHandlers.html:84
-#: ../templates/default/mysql/msgHandlers.html:82
 msgid "Domain name is empty."
 msgstr "域名为空。"
 
 #: ../templates/default/msgHandlers.html:86
-#: ../templates/default/mysql/msgHandlers.html:84
 msgid ""
 "Server-side size limit exceeded. Please increase \"sizelimit\" in your "
 "LDAP server."
 msgstr "超出了服务器端的大小限制。请增大的 LDAP 服务器中的 \"sizelimit\" 数值。"
 
 #: ../templates/default/msgHandlers.html:88
-#: ../templates/default/mysql/msgHandlers.html:86
 msgid "Permission denied."
 msgstr "拒绝访问。"
 
 #: ../templates/default/msgHandlers.html:90
-#: ../templates/default/mysql/msgHandlers.html:88
 msgid "No such domain."
 msgstr "域名不存在。"
 
 #: ../templates/default/msgHandlers.html:92
-#: ../templates/default/mysql/msgHandlers.html:90
 msgid "Incorrect profile type."
 msgstr "错误的偏好类型。"
 
 #: ../templates/default/msgHandlers.html:94
-#: ../templates/default/mysql/msgHandlers.html:92
 msgid "Submited domain name is incorrect."
 msgstr "提交的域名不正确。"
 
@@ -1647,26 +1591,17 @@ msgstr "提交的域名不正确。"
 #: ../templates/default/msgHandlers.html:115
 #: ../templates/default/msgHandlers.html:231
 #: ../templates/default/msgHandlers.html:251
-#: ../templates/default/mysql/msgHandlers.html:95
-#: ../templates/default/mysql/msgHandlers.html:113
-#: ../templates/default/mysql/msgHandlers.html:227
-#: ../templates/default/mysql/msgHandlers.html:247
 msgid "No domain under control."
 msgstr "没有受您管理的域。"
 
 #: ../templates/default/msgHandlers.html:109
 #: ../templates/default/msgHandlers.html:205
-#: ../templates/default/mysql/msgHandlers.html:107
-#: ../templates/default/mysql/msgHandlers.html:201
 msgid "Profile updated success."
 msgstr "属性已成功更新。"
 
 #: ../templates/default/msgHandlers.html:111
 #: ../templates/default/msgHandlers.html:207
 #: ../templates/default/msgHandlers.html:265
-#: ../templates/default/mysql/msgHandlers.html:109
-#: ../templates/default/mysql/msgHandlers.html:203
-#: ../templates/default/mysql/msgHandlers.html:261
 msgid "Profile updated failed."
 msgstr "属性更新失败。"
 
@@ -1678,10 +1613,6 @@ msgstr ""
 #: ../templates/default/msgHandlers.html:166
 #: ../templates/default/msgHandlers.html:222
 #: ../templates/default/msgHandlers.html:254
-#: ../templates/default/mysql/msgHandlers.html:117
-#: ../templates/default/mysql/msgHandlers.html:162
-#: ../templates/default/mysql/msgHandlers.html:218
-#: ../templates/default/mysql/msgHandlers.html:250
 msgid "Selected accounts were deleted."
 msgstr "已成功删除选中的帐号。"
 
@@ -1689,10 +1620,6 @@ msgstr "已成功删除选中的帐号。"
 #: ../templates/default/msgHandlers.html:168
 #: ../templates/default/msgHandlers.html:224
 #: ../templates/default/msgHandlers.html:256
-#: ../templates/default/mysql/msgHandlers.html:119
-#: ../templates/default/mysql/msgHandlers.html:164
-#: ../templates/default/mysql/msgHandlers.html:220
-#: ../templates/default/mysql/msgHandlers.html:252
 msgid "Selected accounts were disabled."
 msgstr "已成功禁用选定的帐号。"
 
@@ -1700,51 +1627,37 @@ msgstr "已成功禁用选定的帐号。"
 #: ../templates/default/msgHandlers.html:170
 #: ../templates/default/msgHandlers.html:226
 #: ../templates/default/msgHandlers.html:258
-#: ../templates/default/mysql/msgHandlers.html:121
-#: ../templates/default/mysql/msgHandlers.html:166
-#: ../templates/default/mysql/msgHandlers.html:222
-#: ../templates/default/mysql/msgHandlers.html:254
 msgid "Selected accounts were enabled."
 msgstr "已成功启用选定的帐号。"
 
 #: ../templates/default/msgHandlers.html:127
-#: ../templates/default/mysql/msgHandlers.html:123
 msgid "Invalid profile type."
-msgstr "无效的偏好类型：%s。"
+msgstr "无效的属性类型。"
 
 #: ../templates/default/msgHandlers.html:131
 #: ../templates/default/msgHandlers.html:176
-#: ../templates/default/mysql/msgHandlers.html:127
-#: ../templates/default/mysql/msgHandlers.html:172
 msgid "Current password is incorrect."
 msgstr "当前密码不正确。"
 
 #: ../templates/default/msgHandlers.html:133
 #: ../templates/default/msgHandlers.html:178
-#: ../templates/default/mysql/msgHandlers.html:129
-#: ../templates/default/mysql/msgHandlers.html:174
 msgid "New passwords are not match."
 msgstr "新密码不匹配。"
 
 #: ../templates/default/msgHandlers.html:135
 #: ../templates/default/msgHandlers.html:180
-#: ../templates/default/mysql/msgHandlers.html:131
-#: ../templates/default/mysql/msgHandlers.html:176
 msgid "Password is empty."
 msgstr "密码为空。"
 
 #: ../templates/default/msgHandlers.html:137
-#: ../templates/default/mysql/msgHandlers.html:133
 msgid "Password is too short."
 msgstr "密码为空。"
 
 #: ../templates/default/msgHandlers.html:139
-#: ../templates/default/mysql/msgHandlers.html:135
 msgid "Password is too long."
 msgstr "密码为空。"
 
 #: ../templates/default/msgHandlers.html:158
-#: ../templates/default/mysql/msgHandlers.html:154
 #, python-format
 msgid ""
 "Account created success. Would you like to <a "
@@ -1752,75 +1665,53 @@ msgid ""
 msgstr "帐号已成功建立。您是否需要<a href=\"%s/create/admin\">再添加一个</a>？"
 
 #: ../templates/default/msgHandlers.html:172
-#: ../templates/default/mysql/msgHandlers.html:168
 msgid "No account selected."
 msgstr "没有选定帐号。"
 
 #: ../templates/default/msgHandlers.html:182
-#: ../templates/default/mysql/msgHandlers.html:178
 #, python-format
 msgid "New password must contain at least %s characters."
 msgstr "新密码必须至少含有 %s 个字符。"
 
 #: ../templates/default/msgHandlers.html:184
-#: ../templates/default/mysql/msgHandlers.html:180
 #, python-format
 msgid "New password must NOT contain more than %s characters."
 msgstr "新密码长度不能超过 %s 个字符。"
 
 #: ../templates/default/msgHandlers.html:187
-#: ../templates/default/mysql/msgHandlers.html:183
 msgid "Invalid mail address."
 msgstr "无效的域名"
 
 #: ../templates/default/msgHandlers.html:211
 #: ../templates/default/msgHandlers.html:261
-#: ../templates/default/mysql/msgHandlers.html:207
-#: ../templates/default/mysql/msgHandlers.html:257
 msgid "Member assigned success."
 msgstr "已成功添加成员。"
 
 #: ../templates/default/msgHandlers.html:213
 #: ../templates/default/msgHandlers.html:263
-#: ../templates/default/mysql/msgHandlers.html:209
-#: ../templates/default/mysql/msgHandlers.html:259
 msgid "Member removed success."
 msgstr "已成功删除成员。"
 
 #: ../templates/default/msgHandlers.html:217
-#: ../templates/default/mysql/msgHandlers.html:213
 msgid "Moderators assigned success."
 msgstr "已成功添加成员。"
 
 #: ../templates/default/msgHandlers.html:219
-#: ../templates/default/mysql/msgHandlers.html:215
 msgid "Moderators removed success."
 msgstr "已成功删除成员。"
 
 #: ../templates/default/msgHandlers.html:228
 #: ../templates/default/msgHandlers.html:247
-#: ../templates/default/mysql/msgHandlers.html:224
-#: ../templates/default/mysql/msgHandlers.html:243
 msgid "Account already exists, please choose another username."
 msgstr "帐号已存在，请选择另外一个用户名。"
 
 #: ../templates/default/msgHandlers.html:233
-#: ../templates/default/mysql/msgHandlers.html:229
 msgid "No moderator selected."
 msgstr "没有选定帐号。"
 
 #: ../templates/default/msgHandlers.html:268
-#: ../templates/default/mysql/msgHandlers.html:264
 msgid "Empty address is not allowed."
 msgstr "不允许使用空地址。"
-
-#: ../templates/default/mysql/dashboard.html:48
-msgid "Import"
-msgstr ""
-
-#: ../templates/default/mysql/msgHandlers.html:66
-msgid "Domain was created."
-msgstr "邮件域已成功创建。"
 
 #: ../templates/default/panel/log.html:24
 #: ../templates/default/panel/log.html:28
@@ -1834,7 +1725,7 @@ msgstr "过滤"
 #: ../templates/default/panel/log.html:78
 #, python-format
 msgid "%d-%d/<a href=\"%s\" class=\"noborder\">%d</a>."
-msgstr "%d 至 %d，共 <a href=\"%s\" class=\"noborder\">%d</a>。"
+msgstr "%d至%d，共 <a href=\"%s\" class=\"noborder\">%d</a>。"
 
 #: ../templates/default/panel/log.html:86
 #: ../templates/default/policyd/wblist.html:82
