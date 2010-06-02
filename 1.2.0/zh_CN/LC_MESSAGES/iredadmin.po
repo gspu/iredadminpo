@@ -324,7 +324,7 @@ msgstr "已经超过了最大帐号数量限制。"
 #: ../templates/default/ldap/maillist_create.html:63
 #, python-format
 msgid "You can create <strong>%d</strong> more mail list(s) under domain %s."
-msgstr "您还能在域 %s 内建立 <strong>%d</strong> 个邮件列表。"
+msgstr "还能建立 <strong>%d</strong> 个邮件列表（域 %s）。"
 
 #: ../templates/default/ldap/alias_create.html:74
 msgid ""
@@ -437,7 +437,7 @@ msgstr "有新版本可更新：v%s, <a href=\"\"%s\">发布声明</a>。"
 #: ../templates/default/ldap/dashboard.html:84
 #, python-format
 msgid "Error while check new version: %s"
-msgstr "检查新版本时发生错误"
+msgstr "检查新版本时发生错误：%s"
 
 #: ../templates/default/ldap/dashboard.html:90
 msgid "Hostname"
@@ -892,7 +892,7 @@ msgstr "只有域 <strong>%s</strong> 内部的用户才可以发送邮件到这
 #: ../templates/default/ldap/user_create.html:71
 #, python-format
 msgid "You can create <strong>%d</strong> more mail user(s) under domain %s."
-msgstr "您可以在域 %s 下建立 <strong>%d</strong> 个邮件用户。"
+msgstr "还可以在建立 <strong>%d</strong> 个邮件用户（域 %s）。"
 
 #: ../templates/default/ldap/user_import.html:37
 msgid "Import users"
@@ -1731,7 +1731,7 @@ msgstr "%d至%d，共 <a href=\"%s\" class=\"noborder\">%d</a>。"
 #: ../templates/default/policyd/wblist.html:82
 #, python-format
 msgid "Total records: %d."
-msgstr "总共 %s 个。"
+msgstr "总共 %d 个。"
 
 #: ../templates/default/panel/log.html:101
 msgid "Time"
