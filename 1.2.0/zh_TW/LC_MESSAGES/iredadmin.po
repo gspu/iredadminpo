@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: iRedAdmin-Pro-1.2.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2009-10-22 17:33+0800\n"
-"PO-Revision-Date: 2010-06-03 11:42+0800\n"
+"PO-Revision-Date: 2010-06-02 23:21+0800\n"
 "Last-Translator: Zhang Huangbin <michaelbibby@gmail.com>\n"
 "Language-Team: zh_CN <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -1014,25 +1014,22 @@ msgstr "安裝 iRedAPD"
 msgid ""
 "To bypass or block a <strong>single user</strong>, use full email "
 "address. e.g. <strong>user@domain.ltd</strong>"
-msgstr ""
-"放行或攔截<strong>單個用戶</strong>﹐ 使用完整的郵件地址。\"\n"
-"\"例如﹕<strong>user@domain.ltd</strong>"
+msgstr "放行或攔截<strong>單個用戶</strong>﹐ 使用完整的郵件地址。"
+"例如﹕<strong>user@domain.ltd</strong>"
 
 #: ../templates/default/ldap/user_profile.html:284
 msgid ""
 "To bypass or block <strong>whole domain</strong>, use @domain.ltd. e.g. "
 "<strong>@domain.ltd</strong>"
-msgstr ""
-"放行或攔截<strong>整個郵件域</strong>, 可使用\"\n"
-"\"<strong>@domain.ltd</strong> 例如<strong>@domain.ltd</strong>"
+msgstr "放行或攔截<strong>整個郵件域</strong>, 可使用"
+"<strong>@domain.ltd</strong> 例如<strong>@domain.ltd</strong>"
 
 #: ../templates/default/ldap/user_profile.html:285
 msgid ""
 "To bypass or block a <strong>domain and its sub-domains</strong>, use "
 "@.domain.ltd. e.g. <strong>@.domain.ltd</strong>"
-msgstr ""
-"放行或攔截<strong>郵件域和其子域</strong>, 可使用 \"\n"
-"\"<strong>@.domain.ltd</strong> 例如<strong>@.domain.ltd</strong>"
+msgstr "放行或攔截<strong>郵件域和其子域</strong>, 可使用 "
+"<strong>@.domain.ltd</strong> 例如<strong>@.domain.ltd</strong>"
 
 #: ../templates/default/ldap/user_profile.html:286
 msgid "Use <strong>@.</strong> to bypass or block <strong>all accounts</strong>."
@@ -1073,7 +1070,7 @@ msgstr "白名單(收件者)"
 #: ../templates/default/ldap/user_profile.html:319
 #, python-format
 msgid "User <strong>%s (%s)</strong> can send email to below recipients."
-msgstr "當前數量是：<strong>%s（%s）</strong>。"
+msgstr "帳號 <strong>%s (%s)</strong> 能夠發送郵件到以下收件者。"
 
 #: ../templates/default/ldap/user_profile.html:324
 msgid "Blacklisted Recipients"
