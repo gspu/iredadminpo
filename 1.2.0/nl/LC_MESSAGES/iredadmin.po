@@ -1,4 +1,4 @@
-# Vietnamese (Vietnam) translations for iRedAdmin.
+# Dutch translations for iRedAdmin.
 # Copyright (C) 2009 ORGANIZATION
 # This file is distributed under the same license as the iRedAdmin project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: iRedAdmin-Pro-1.2.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2009-10-02 01:16+0800\n"
+"POT-Creation-Date: 2009-10-22 21:56+0800\n"
 "PO-Revision-Date: 2010-06-04 10:19+0800\n"
-"Last-Translator: Lâm Minh Thông <lmthong@gmail.com>\n"
-"Language-Team: vi_VN <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Last-Translator: Luc Verhoeven <lverhoeven@vcn>\n"
+"Language-Team: nl_NL <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../templates/default/error404.html:22 ../templates/default/error404.html:28
 msgid "Page not found."
-msgstr "Không tìm thấy trang (%s)."
+msgstr "Pagina niet gevonden"
 
 #: ../templates/default/error404.html:22 ../templates/default/error404.html:28
 #: ../templates/default/msgHandlers.html:27
@@ -27,44 +27,44 @@ msgstr "Không tìm thấy trang (%s)."
 #: ../templates/default/ldap/maillist_create.html:58
 #: ../templates/default/ldap/user_create.html:66
 msgid "Error:"
-msgstr "Lỗi:"
+msgstr "Error:"
 
 #: ../templates/default/error404.html:28
 msgid "Go back."
-msgstr ""
+msgstr "Ga terug"
 
 #: ../templates/default/layout.html:46
 #, python-format
 msgid "Logged in as %s."
-msgstr ""
+msgstr "Ingelogd als %s"
 
 #: ../templates/default/layout.html:47
 msgid "Preferences"
-msgstr "Tuỳ chọn"
+msgstr "Voorkeuren"
 
 #: ../templates/default/layout.html:48
 msgid "Logout"
-msgstr "Đăng xuất"
+msgstr "Uitloggen"
 
 #: ../templates/default/layout.html:53
 msgid "iRedMail Management"
-msgstr "Quản trị iRedMail"
+msgstr "iRedMail Management"
 
 #: ../templates/default/layout.html:59
 #: ../templates/default/ldap/dashboard.html:22
 msgid "Dashboard"
-msgstr "Thông tin tóm tắt"
+msgstr "Dashboard"
 
 #: ../templates/default/layout.html:60 ../templates/default/panel/log.html:50
 msgid "Domains"
-msgstr "Danh sách Tên miền"
+msgstr "Domeinen"
 
 #: ../templates/default/layout.html:61
 #: ../templates/default/ldap/alias_list.html:61
 #: ../templates/default/ldap/domain_profile.html:71
 #: ../templates/default/ldap/maillist_list.html:64
 msgid "Users"
-msgstr "Danh sách tài khoản"
+msgstr "Gebruikers"
 
 #: ../templates/default/layout.html:62
 #: ../templates/default/ldap/alias_list.html:62
@@ -73,43 +73,43 @@ msgstr "Danh sách tài khoản"
 #: ../templates/default/ldap/maillist_list.html:39
 #: ../templates/default/ldap/user_list.html:68
 msgid "Mail Lists"
-msgstr "Các tài khoản thư"
+msgstr "E-mail lijsten"
 
 #: ../templates/default/layout.html:63
 #: ../templates/default/ldap/domain_profile.html:73
 #: ../templates/default/ldap/maillist_list.html:65
 #: ../templates/default/ldap/user_list.html:69
 msgid "Aliases"
-msgstr ""
+msgstr "Aliassen"
 
 #: ../templates/default/layout.html:66
 #: ../templates/default/ldap/domain_list.html:95
 #: ../templates/default/ldap/domain_profile.html:55
 #: ../templates/default/panel/log.html:58
 msgid "Admins"
-msgstr "Danh sách Quản trị viên"
+msgstr "Beheerders"
 
 #: ../templates/default/layout.html:69
 msgid "System"
-msgstr ""
+msgstr "Systeem"
 
 #: ../templates/default/layout.html:73
 msgid "Search name or email"
-msgstr ""
+msgstr "Zoek naam of e-mail"
 
 #: ../templates/default/layout.html:73
 #: ../templates/default/ldap/dashboard.html:59
 #: ../templates/default/ldap/search.html:48
 msgid "Account display name or email"
-msgstr ""
+msgstr "Account weergave naam of e-mail"
 
 #: ../templates/default/layout.html:95
 msgid "Feature request & get support"
-msgstr ""
+msgstr "Dien een aanvraag in en krijg support"
 
 #: ../templates/default/layout.html:97
 msgid "Contact webmaster"
-msgstr ""
+msgstr "Neem contact op met de beheerder"
 
 #: ../templates/default/ldap/admin_create.html:61
 #: ../templates/default/ldap/admin_list.html:83
@@ -130,7 +130,7 @@ msgstr ""
 #: ../templates/default/ldap/user_list.html:113
 #: ../templates/default/ldap/user_profile.html:148
 msgid "Mail Address"
-msgstr "Địa chỉ hộp thư"
+msgstr "E-mail adres"
 
 #: ../templates/default/ldap/admin_create.html:88
 #: ../templates/default/ldap/alias_create.html:97
@@ -139,15 +139,15 @@ msgstr "Địa chỉ hộp thư"
 #: ../templates/default/ldap/maillist_create.html:92
 #: ../templates/default/ldap/user_create.html:116
 msgid "Create"
-msgstr "Tạo"
+msgstr "Aanmaken"
 
 #: ../templates/default/ldap/admin_list.html:37
 msgid "Domain Admins"
-msgstr "Các quản trị viên"
+msgstr "Domein beheerder"
 
 #: ../templates/default/ldap/admin_list.html:41
 msgid "All mail administrators."
-msgstr "Tất cả các quản trị viên"
+msgstr "Alle e-mail beheerders"
 
 #: ../templates/default/ldap/admin_list.html:43
 #: ../templates/default/ldap/alias_list.html:53
@@ -156,7 +156,7 @@ msgstr "Tất cả các quản trị viên"
 #: ../templates/default/ldap/user_list.html:60
 #, python-format
 msgid "Total: %s."
-msgstr "Tổng cộng: %s."
+msgstr "Totaal: %s"
 
 #: ../templates/default/ldap/admin_list.html:44
 #: ../templates/default/ldap/alias_list.html:54
@@ -164,11 +164,11 @@ msgstr "Tổng cộng: %s."
 #: ../templates/default/ldap/maillist_list.html:56
 #: ../templates/default/ldap/user_list.html:61
 msgid "Current:"
-msgstr "Quota hiện tại:"
+msgstr "Huidige:"
 
 #: ../templates/default/ldap/admin_list.html:84
 msgid "Global Admin"
-msgstr "Tài khoản quản trị chung"
+msgstr "Globale beheerder"
 
 #: ../templates/default/ldap/admin_list.html:85
 #: ../templates/default/ldap/admin_profile.html:74
@@ -184,7 +184,7 @@ msgstr "Tài khoản quản trị chung"
 #: ../templates/default/ldap/user_list.html:83
 #: ../templates/default/ldap/user_profile.html:150
 msgid "Created Date"
-msgstr "Ngày tạo"
+msgstr "Datum aangemaakt"
 
 #: ../templates/default/ldap/admin_list.html:108
 #: ../templates/default/ldap/admin_profile.html:40
@@ -201,7 +201,7 @@ msgstr "Ngày tạo"
 #: ../templates/default/ldap/user_list.html:143
 #: ../templates/default/ldap/user_profile.html:58
 msgid "Edit account profile"
-msgstr "Sửa thông tin tài khoản quãn trị"
+msgstr "Wijzig account profiel"
 
 #: ../templates/default/ldap/admin_list.html:126
 #: ../templates/default/ldap/alias_list.html:140
@@ -214,7 +214,7 @@ msgstr "Sửa thông tin tài khoản quãn trị"
 #: ../templates/default/panel/log.html:133
 #: ../templates/default/policyd/wblist.html:137
 msgid "Select/Unselect all"
-msgstr "Chọn/Bỏ chọn tất cả"
+msgstr "Selecteer/Deselecteer alles"
 
 #: ../templates/default/ldap/admin_list.html:127
 #: ../templates/default/ldap/alias_list.html:141
@@ -224,14 +224,14 @@ msgstr "Chọn/Bỏ chọn tất cả"
 #: ../templates/default/panel/log.html:134
 #: ../templates/default/policyd/wblist.html:138
 msgid "Delete"
-msgstr "Xoá"
+msgstr "Verwijder"
 
 #: ../templates/default/ldap/admin_list.html:127
 #: ../templates/default/ldap/alias_list.html:141
 #: ../templates/default/ldap/maillist_list.html:146
 #: ../templates/default/ldap/user_list.html:170
 msgid "Are you sure want to delete selected account(s)?"
-msgstr "Bạn có chắc muốn xoá các tài khoản đã chọn?"
+msgstr "Weet u zeker dat u de geselecteerde account(s) wilt verwijderen?"
 
 #: ../templates/default/ldap/admin_list.html:128
 #: ../templates/default/ldap/alias_list.html:142
@@ -239,14 +239,14 @@ msgstr "Bạn có chắc muốn xoá các tài khoản đã chọn?"
 #: ../templates/default/ldap/maillist_list.html:147
 #: ../templates/default/ldap/user_list.html:171
 msgid "Disable"
-msgstr "Vô hiệu"
+msgstr "Uitschakelen"
 
 #: ../templates/default/ldap/admin_list.html:128
 #: ../templates/default/ldap/alias_list.html:142
 #: ../templates/default/ldap/maillist_list.html:147
 #: ../templates/default/ldap/user_list.html:171
 msgid "Are you sure want to disable selected account(s)?"
-msgstr "Bạn có chắc muốn vô hiệu các tài khoản đã chọn?"
+msgstr "Weet u zeker dat u de geselecteerde account(s) wilt uitschakelen?"
 
 #: ../templates/default/ldap/admin_list.html:129
 #: ../templates/default/ldap/alias_list.html:143
@@ -254,14 +254,14 @@ msgstr "Bạn có chắc muốn vô hiệu các tài khoản đã chọn?"
 #: ../templates/default/ldap/maillist_list.html:148
 #: ../templates/default/ldap/user_list.html:172
 msgid "Enable"
-msgstr "Kích hoạt"
+msgstr "Inschakelen"
 
 #: ../templates/default/ldap/admin_list.html:129
 #: ../templates/default/ldap/alias_list.html:143
 #: ../templates/default/ldap/maillist_list.html:148
 #: ../templates/default/ldap/user_list.html:172
 msgid "Are you sure want to enable selected account(s)?"
-msgstr "Bạn có chắc muốn kích hoạt các tài khoản đã chọn?"
+msgstr "Weet u zeker dat u de geselecteerde account(s) wilt inschakelen?"
 
 #: ../templates/default/ldap/admin_profile.html:44
 #: ../templates/default/ldap/alias_profile.html:39
@@ -269,17 +269,17 @@ msgstr "Bạn có chắc muốn kích hoạt các tài khoản đã chọn?"
 #: ../templates/default/ldap/maillist_profile.html:53
 #: ../templates/default/ldap/user_profile.html:111
 msgid "General"
-msgstr "Thông tin chung"
+msgstr "Algemeen"
 
 #: ../templates/default/ldap/admin_profile.html:48
 #: ../templates/default/ldap/login.html:76
 #: ../templates/default/ldap/user_profile.html:126
 msgid "Password"
-msgstr "Mật khẩu"
+msgstr "Wachtwoord"
 
 #: ../templates/default/ldap/admin_profile.html:53
 msgid "Back to admin list"
-msgstr "Quay về danh sách quản trị viên"
+msgstr "Terug naar de beheerders lijst"
 
 #: ../templates/default/ldap/admin_profile.html:72
 #: ../templates/default/ldap/admin_profile.html:73
@@ -303,80 +303,82 @@ msgstr ":"
 #: ../templates/default/ldap/maillist_profile.html:368
 #: ../templates/default/ldap/user_profile.html:359
 msgid "Save changes"
-msgstr "Lưu"
+msgstr "Wijzigingen opslaan"
 
 #: ../templates/default/ldap/alias_create.html:36
 #: ../templates/default/ldap/alias_list.html:87
 msgid "Create new alias"
-msgstr "Tạo tài khoản quản trị mới"
+msgstr "Maak een nieuwe alias aan"
 
 #: ../templates/default/ldap/alias_create.html:58
 #, python-format
 msgid "You can't create more mail aliases under domain %s."
-msgstr "Xem các tài khoản trong domain:"
+msgstr "U kunt geen nieuwe e-mail alias meer aanmaken onder domein %s."
 
 #: ../templates/default/ldap/alias_create.html:58
 #: ../templates/default/ldap/maillist_create.html:58
 #: ../templates/default/ldap/user_create.html:66
 msgid "Already exceed max number of account limit."
-msgstr ""
+msgstr "U heeft de limiet voor het maximale aantal account overschreden"
 
 #: ../templates/default/ldap/alias_create.html:63
 #: ../templates/default/ldap/maillist_create.html:63
 #, python-format
 msgid "You can create <strong>%d</strong> more mail list(s) under domain %s."
-msgstr ""
+msgstr "U kunt nog <strong>%d</strong> e-mail lijst(en) aanmaken onder domein %s"
 
 #: ../templates/default/ldap/alias_create.html:74
 msgid ""
 "It's better to use mail list instead of alias, since we have mail deliver"
 " restriction for mail list."
 msgstr ""
+"Het is beter om gebruik te maken van e-mail lijsten in plaats van alias, "
+"dit omdat we bezorg restricties hebben voor e-mail lijsten."
 
 #: ../templates/default/ldap/alias_create.html:74
 #: ../templates/default/ldap/user_profile.html:278
 msgid "TIP"
-msgstr ""
+msgstr "TIP"
 
 #: ../templates/default/ldap/alias_list.html:37
 #: ../templates/default/ldap/domain_list.html:94
 msgid "Mail Aliases"
-msgstr "Các tài khoản thư"
+msgstr "E-mail aliassen"
 
 #: ../templates/default/ldap/alias_list.html:42
 msgid "View aliases under domain:"
-msgstr "Xem các tài khoản trong domain:"
+msgstr "Geef aliassen onder domein weer:"
 
 #: ../templates/default/ldap/alias_list.html:45
 #: ../templates/default/ldap/maillist_list.html:47
 #: ../templates/default/ldap/user_list.html:52
 msgid "Select a domain"
-msgstr "Chọn một tên miền"
+msgstr "Selecteer een domein"
 
 #: ../templates/default/ldap/alias_list.html:60
 #: ../templates/default/ldap/domain_profile.html:70
 #: ../templates/default/ldap/maillist_list.html:63
 #: ../templates/default/ldap/user_list.html:67
 msgid "View:"
-msgstr ""
+msgstr "Weergeven"
 
 #: ../templates/default/ldap/alias_list.html:124
 #: ../templates/default/ldap/maillist_list.html:129
 msgid "View members"
-msgstr "Ghi nhớ tài khoản này"
+msgstr "Geef leden weer"
 
 #: ../templates/default/ldap/alias_profile.html:40
 #: ../templates/default/ldap/maillist_profile.html:54
 msgid "Members"
-msgstr "Ghi nhớ tài khoản này"
+msgstr "Leden"
 
 #: ../templates/default/ldap/alias_profile.html:44
 msgid "Back to mail alias list"
-msgstr "Quay về danh sách quản trị viên"
+msgstr "Ga terug naar e-mail alias lijst"
 
 #: ../templates/default/ldap/alias_profile.html:91
 msgid "Current members"
-msgstr "Phiên bản iRedMail hiện tại"
+msgstr "Huidige leden"
 
 #: ../templates/default/ldap/alias_profile.html:91
 #: ../templates/default/ldap/domain_profile.html:356
@@ -390,257 +392,266 @@ msgstr "Phiên bản iRedMail hiện tại"
 #: ../templates/default/ldap/user_profile.html:238
 #, python-format
 msgid "(%s)"
-msgstr "%s (%s)"
+msgstr "(%s)"
 
 #: ../templates/default/ldap/alias_profile.html:92
 msgid "Add members"
-msgstr "Ghi nhớ tài khoản này"
+msgstr "Voeg leden toe"
 
 #: ../templates/default/ldap/alias_profile.html:128
 msgid "Remove from alias"
-msgstr ""
+msgstr "Verwijder uit alias"
 
 #: ../templates/default/ldap/alias_profile.html:128
 msgid "Are you sure want to remove selected account(s) from alias?"
-msgstr "Bạn có chắc muốn kích hoạt các tài khoản đã chọn?"
+msgstr "Weet u zeker dat u de geselecteerde account(s) wilt verwijderen uit alias?"
 
 #: ../templates/default/ldap/alias_profile.html:132
 msgid "Assign to alias"
-msgstr ""
+msgstr "Wijs toe aan alias"
 
 #: ../templates/default/ldap/alias_profile.html:132
 msgid "Are you sure want to assign selected account(s) to alias?"
-msgstr "Bạn có chắc muốn kích hoạt các tài khoản đã chọn?"
+msgstr "Weet u zeker dat u de geselecteerde account(s) wilt toewijzen aan alias"
 
 #: ../templates/default/ldap/dashboard.html:31
 msgid "Available operations"
-msgstr "Các thao tác"
+msgstr "Beschikbare handelingen"
 
 #: ../templates/default/ldap/dashboard.html:57
 #: ../templates/default/ldap/search.html:35
 #: ../templates/default/ldap/search.html:46
 msgid "Search"
-msgstr "Danh sách tài khoản"
+msgstr "Zoeken"
 
 #: ../templates/default/ldap/dashboard.html:70
 msgid "System info"
-msgstr "Thông tin hệ thống"
+msgstr "Systeem informatie"
 
 #: ../templates/default/ldap/dashboard.html:76
 msgid "iRedAdmin version"
-msgstr "Phiên bản iRedMail"
+msgstr "iRedAdmin versie"
 
 #: ../templates/default/ldap/dashboard.html:81
 #, python-format
 msgid "Update available: v%s, <a href=\"%s\">release note</a>."
-msgstr ""
+msgstr "Update beschikbaar: v%s, <a href=\"%s\">release note</a>."
 
 #: ../templates/default/ldap/dashboard.html:84
 #, python-format
 msgid "Error while check new version: %s"
-msgstr "Lỗi trong quá trình kiểm tra phiên bản mới"
+msgstr "Error tijdens het controleren op nieuwe versie: %s"
 
 #: ../templates/default/ldap/dashboard.html:90
 msgid "Hostname"
-msgstr "Tên máy chủ"
+msgstr "Systeemnaam"
 
 #: ../templates/default/ldap/dashboard.html:96
 msgid "Uptime"
-msgstr "Thời gian chạy"
+msgstr "Draaitijd"
 
 #: ../templates/default/ldap/dashboard.html:97
 #, python-format
 msgid "%s days, %s hours, %s minutes."
-msgstr "%s ngày, %s giờ, %s phút."
+msgstr "%s dagen, %s uur, %s minuten."
 
 #: ../templates/default/ldap/dashboard.html:102
 msgid "Server load"
-msgstr "Trạng thái tải của máy chủ"
+msgstr "Server belasting"
 
 #: ../templates/default/ldap/dashboard.html:112
 msgid "Network interfaces"
-msgstr "Giao tiếp mạng"
+msgstr "Netwerk interfaces"
 
 #: ../templates/default/ldap/domain_create.html:48
 #: ../templates/default/ldap/domain_create.html:51
 #: ../templates/default/ldap/domain_list.html:88
 #: ../templates/default/ldap/domain_profile.html:148
 msgid "Domain Name"
-msgstr "Tên miền"
+msgstr "Domeinnaam"
 
 #: ../templates/default/ldap/domain_list.html:45
 msgid "Mail Domains"
-msgstr "Danh sách tên miền"
+msgstr "E-mail domeinen"
 
 #: ../templates/default/ldap/domain_list.html:49
 msgid "All domains under your control."
-msgstr "Bạn có thể quản lý tất cả các tên miền."
+msgstr "Alle domeinen in uw beheer"
 
 #: ../templates/default/ldap/domain_list.html:92
 #: ../templates/default/ldap/user_list.html:44
 msgid "Mail Users"
-msgstr "Các tài khoản thư"
+msgstr "E-mail gebruikers"
 
 #: ../templates/default/ldap/domain_list.html:124
 msgid "List all mail users."
-msgstr "Danh sách tài khoản."
+msgstr "Geef alle e-mail gebruikers weer"
 
 #: ../templates/default/ldap/domain_list.html:127
 msgid "List all mail lists."
-msgstr "Danh sách tài khoản."
+msgstr "Geef alle e-mail lijsten weer"
 
 #: ../templates/default/ldap/domain_list.html:130
 msgid "List all mail aliases."
-msgstr "Danh sách tài khoản."
+msgstr "Geef alle e-mail aliassen weer"
 
 #: ../templates/default/ldap/domain_list.html:146
 #: ../templates/default/policyd/wblist.html:138
 msgid "Are you sure want to delete selected domain(s) and accounts under it?"
-msgstr "Bạn muốn xoá tên miền đã chọn và các tài khoản trong đó?"
+msgstr ""
+"Weet u zeker dat u de geselecteerde domein en alle accounts onder dit "
+"domein wilt verwijderen?"
 
 #: ../templates/default/ldap/domain_list.html:147
 msgid "Are you sure want to disable selected domain(s)?"
-msgstr "Bạn muốn vô hiệu tên miền đã chọn?"
+msgstr "Weet u zeker dat u de geselecteerde domeinen wilt uitschakelen?"
 
 #: ../templates/default/ldap/domain_list.html:148
 msgid "Are you sure want to enable selected domain(s)?"
-msgstr "Bạn muốn kích hoạt tên miền đã chọn?"
+msgstr "Weet u zeker dat u alle geselecteerde domeinen wilt inschakelen?"
 
 #: ../templates/default/ldap/domain_profile.html:49
 msgid "Edit account profile."
-msgstr "Sửa thông tin tài khoản quãn trị"
+msgstr "Wijzig account profiel"
 
 #: ../templates/default/ldap/domain_profile.html:56
 #: ../templates/default/ldap/user_profile.html:118
 msgid "Services"
-msgstr "Tài khoản thư"
+msgstr "Services"
 
 #: ../templates/default/ldap/domain_profile.html:57
 #: ../templates/default/ldap/user_profile.html:116
 msgid "Relay"
-msgstr ""
+msgstr "Relay"
 
 #: ../templates/default/ldap/domain_profile.html:58
 #: ../templates/default/ldap/user_profile.html:117
 msgid "BCC"
-msgstr ""
+msgstr "BCC"
 
 #: ../templates/default/ldap/domain_profile.html:59
 msgid "Catch-all"
-msgstr ""
+msgstr "Catch-all"
 
 #: ../templates/default/ldap/domain_profile.html:61
 #: ../templates/default/ldap/domain_profile.html:267
 msgid "Disclaimer"
-msgstr ""
+msgstr "Disclaimer"
 
 #: ../templates/default/ldap/domain_profile.html:62
 msgid "Advanced"
-msgstr ""
+msgstr "Geavanceerd"
 
 #: ../templates/default/ldap/domain_profile.html:69
 #: ../templates/default/ldap/user_create.html:40
 #: ../templates/default/ldap/user_list.html:102
 #: ../templates/default/ldap/user_profile.html:130
 msgid "Create new user"
-msgstr "Tạo tài khoản thư mới"
+msgstr "Nieuwe gebruiker aanmaken"
 
 #: ../templates/default/ldap/domain_profile.html:178
 msgid "If no admin assigned for domain, you can also manage it with global admin."
 msgstr ""
-"Nếu không chỉ định tài khoản quản trị, tài khoản quan trị chung sẽ được "
-"dùng"
+"Indien er geen beheerder is toegewezen aan het domein kan deze ook "
+"beheerd worden door de globale beheerder"
 
 #: ../templates/default/ldap/domain_profile.html:194
 msgid ""
 "Per-user relay setting will override per-domain relay setting you set in "
 "this page."
 msgstr ""
+"Per gebruiker relay instellingen zullen de per domein relay instellingen "
+"welke je in deze pagina insteld overtreffen."
 
 #: ../templates/default/ldap/domain_profile.html:194
 #: ../templates/default/ldap/domain_profile.html:218
 msgid "WARNING!"
-msgstr ""
+msgstr "WAARSCHUWING!"
 
 #: ../templates/default/ldap/domain_profile.html:203
 #: ../templates/default/ldap/user_profile.html:266
 msgid "Samples"
-msgstr ""
+msgstr "Voorbeelden"
 
 #: ../templates/default/ldap/domain_profile.html:218
 msgid "Domain BCC setting will override per-user bcc settings."
-msgstr ""
+msgstr "Domein BCC instellingen zullen per gebruiker BCC instellingen overtreffen"
 
 #: ../templates/default/ldap/domain_profile.html:230
 msgid ""
 "Received emails does not match any existing address will be delivered to "
 "catch-all address(es)."
 msgstr ""
+"Ontvangen e-mails die niet overeenkomen met bestaande e-mail adressen "
+"zullen bezorgd worden aan catch-all adressen"
 
 #: ../templates/default/ldap/domain_profile.html:231
 msgid "Be careful: This account may receive many spam emails."
-msgstr ""
+msgstr "Let op: Dit account ontvangt veel spam e-mails"
 
 #: ../templates/default/ldap/domain_profile.html:239
 msgid "Enable catch-all address"
-msgstr ""
+msgstr "Catch-all adressen inschakelen"
 
 #: ../templates/default/ldap/domain_profile.html:243
 msgid "Catch-all address"
-msgstr "Địa chỉ hộp thư"
+msgstr "Catch-all adres"
 
 #: ../templates/default/ldap/domain_profile.html:243
 msgid "Multiple addresses MUST be seperated by comma (,)."
-msgstr ""
+msgstr "Meerdere adressen MOETEN gescheiden zijn door een comma (,)."
 
 #: ../templates/default/ldap/domain_profile.html:255
 msgid "NOTE:"
-msgstr ""
+msgstr "NOTITIE:"
 
 #: ../templates/default/ldap/domain_profile.html:255
 msgid ""
 "Please make sure you have enable signing disclaimer on outgoing mails and"
 " have crontab job to dump disclaimer text automaticly."
 msgstr ""
+"Zorg er alstublieft voor dat u ondertekenen met disclamer op uitgaande "
+"e-mails ingeschakeld heeft en dat u een crontab taak heeb die de "
+"disclaimer text automatisch toevoegd."
 
 #: ../templates/default/ldap/domain_profile.html:255
 msgid "Reference:"
-msgstr "Tuỳ chọn"
+msgstr "Referentie:"
 
 #: ../templates/default/ldap/domain_profile.html:257
 msgid "How to enable signing disclaimer on outgoing mails."
-msgstr ""
+msgstr "Hoe schakel je een disclamer in op uitgaande e-mails."
 
 #: ../templates/default/ldap/domain_profile.html:258
 msgid "How to dump disclaimer text from LDAP/MySQL automaticly."
-msgstr ""
+msgstr "Hoe voeg je automatisch de disclaimer text toe vanuit LDAP/MySQL."
 
 #: ../templates/default/ldap/domain_profile.html:269
 msgid "Plain text only."
-msgstr ""
+msgstr "Enkel kale tekst."
 
 #: ../templates/default/ldap/domain_profile.html:284
 msgid "Default mail storage base directory"
-msgstr ""
+msgstr "Standaard e-mail opslag locatie"
 
 #: ../templates/default/ldap/domain_profile.html:284
 msgid "Sample:"
-msgstr ""
+msgstr "Voorbeeld:"
 
 #: ../templates/default/ldap/domain_profile.html:285
 msgid "Leave it empty to use default setting."
-msgstr "Để trống nếu dùng giá trị mặc định."
+msgstr "Laat het leeg om de standaard waarde te gebruiken"
 
 #: ../templates/default/ldap/domain_profile.html:295
 msgid "Number of max mail users"
-msgstr "Tạo tài khoản thư mới"
+msgstr "Maximaal aantal e-mail gebruikers"
 
 #: ../templates/default/ldap/domain_profile.html:296
 #: ../templates/default/ldap/domain_profile.html:303
 #: ../templates/default/ldap/domain_profile.html:310
 #, python-format
 msgid "%s account(s) exist."
-msgstr "Không có tài khoản nào được chọn."
+msgstr "Er bestaan %s accounts."
 
 #: ../templates/default/ldap/domain_profile.html:296
 #: ../templates/default/ldap/domain_profile.html:303
@@ -650,120 +661,124 @@ msgstr "Không có tài khoản nào được chọn."
 #: ../templates/default/ldap/domain_profile.html:334
 #: ../templates/default/ldap/user_import.html:79
 msgid "Set to 0 for unlimited."
-msgstr ""
+msgstr "Voer 0 in voor ongelimiteerd"
 
 #: ../templates/default/ldap/domain_profile.html:302
 msgid "Number of max mail lists"
-msgstr "Tạo tài khoản thư mới"
+msgstr "Maximaal aantal e-mail lijsten"
 
 #: ../templates/default/ldap/domain_profile.html:309
 msgid "Number of max mail aliases"
-msgstr "Tạo tài khoản thư mới"
+msgstr "Maximaal aantal e-mail aliassen"
 
 #: ../templates/default/ldap/domain_profile.html:319
 msgid "Minimal password length"
-msgstr ""
+msgstr "Minimale wachtwoord lengte"
 
 #: ../templates/default/ldap/domain_profile.html:324
 msgid "Maximal password length"
-msgstr ""
+msgstr "Maximale wachtwoord lengte"
 
 #: ../templates/default/ldap/domain_profile.html:333
 msgid "Default quota of new user"
-msgstr "Tạo tài khoản thư mới"
+msgstr "Standaard quota voor nieuwe gebruikers"
 
 #: ../templates/default/ldap/domain_profile.html:342
 msgid "Default mail group(s) of new user"
-msgstr ""
+msgstr "Standaard e-mail groep(en) voor nieuwe gebruikers"
 
 #: ../templates/default/ldap/domain_profile.html:362
 #: ../templates/default/ldap/user_profile.html:211
 msgid "Create new mail list"
-msgstr "Tạo tài khoản thư mới"
+msgstr "Maak een nieuwe e-mail lijst aan"
 
 #: ../templates/default/ldap/login.html:27
 #: ../templates/default/ldap/login.html:49
 msgid "Login to manage your mail domains & users"
-msgstr "Đăng nhập quản trị tên miền và tài khoản"
+msgstr "Login om uw e-mail domeinen en gebruikers te beheren"
 
 #: ../templates/default/ldap/login.html:69
 msgid "Username"
-msgstr "Tên tài khoản"
+msgstr "Gebruikersnaam"
 
 #: ../templates/default/ldap/login.html:69
 msgid "Must be a valid domain admin email address."
-msgstr "Phải là một tài khoản quản trị hợp lệ."
+msgstr "Moet een geldig domein beheerders e-mail adres zijn."
 
 #: ../templates/default/ldap/login.html:84
 msgid "Remember me"
-msgstr "Ghi nhớ tài khoản này"
+msgstr "Onthoud mij"
 
 #: ../templates/default/ldap/login.html:84
 msgid "Log me in automatically each time I visit."
-msgstr "Giúp tôi tự động đăng nhập."
+msgstr "Log me elke keer automatisch in."
 
 #: ../templates/default/ldap/login.html:90
 msgid "Login"
-msgstr "Đăng nhập"
+msgstr "Login"
 
 #: ../templates/default/ldap/maillist_create.html:36
 #: ../templates/default/ldap/maillist_list.html:91
 #: ../templates/default/ldap/maillist_profile.html:59
 msgid "Create new list"
-msgstr "Tạo tài khoản thư mới"
+msgstr "Maak een nieuwe lijst aan"
 
 #: ../templates/default/ldap/maillist_create.html:58
 #, python-format
 msgid "You can't create more mail lists under domain %s."
-msgstr "Xem các tài khoản trong domain:"
+msgstr "U kunt geen e-mail lijsten meer aanmaken onder het domein %s."
 
 #: ../templates/default/ldap/maillist_list.html:44
 msgid "View mail lists under domain:"
-msgstr "Xem các tài khoản trong domain:"
+msgstr "Geef e-mail lijsten weer onder het domein:"
 
 #: ../templates/default/ldap/maillist_list.html:103
 #: ../templates/default/ldap/maillist_profile.html:109
 #: ../templates/default/ldap/search.html:137
 msgid "Mail Deliver Restriction"
-msgstr ""
+msgstr "E-mail bezorgings restricties"
 
 #: ../templates/default/ldap/maillist_profile.html:55
 msgid "Moderators"
-msgstr ""
+msgstr "Moderators"
 
 #: ../templates/default/ldap/maillist_profile.html:60
 msgid "Back to maillist list"
-msgstr "Quay về danh sách quản trị viên"
+msgstr "Ga terug naar de e-mail lijsten"
 
 #: ../templates/default/ldap/maillist_profile.html:114
 msgid "Everyone can send mail to this address."
-msgstr ""
+msgstr "Idereen kan e-mails sturen naar dit adres"
 
 #: ../templates/default/ldap/maillist_profile.html:120
 msgid "Domain users only"
-msgstr "Bạn có thể quản lý tất cả các tên miền."
+msgstr "Alleen domein gebruikers"
 
 #: ../templates/default/ldap/maillist_profile.html:120
 #, python-format
 msgid ""
 "Only <a href=\"%s\">users under domain <strong>%s</strong></a> can send "
 "mail to this address."
-msgstr "Mặc định là <strong>%s</strong>."
+msgstr ""
+"Alleen <a href=\"%s\">gebrukers in domein <stroing>%s</stroing></a> "
+"kunnen e-mails sturen naar dit adres."
 
 #: ../templates/default/ldap/maillist_profile.html:126
 msgid "Domain and sub-domain users only"
-msgstr ""
+msgstr "Alleen domein en sub-domein gebrukers"
 
 #: ../templates/default/ldap/maillist_profile.html:126
 #, python-format
 msgid ""
 "Only <a href=\"%s\">users under domain <strong>%s</strong></a> or sub "
 "domains can send mail to this address."
-msgstr "Mặc định là <strong>%s</strong>."
+msgstr ""
+"Alleen <a href=\"%s\">gebrukers in domein <stroing>%s</stroing></a> of "
+"sub-domeinen kunnen e-mails sturen naar dit adres."
 
 #: ../templates/default/ldap/maillist_profile.html:131
 msgid "Members only"
-msgstr "Ghi nhớ tài khoản này"
+msgstr "Alleen leden"
 
 #: ../templates/default/ldap/maillist_profile.html:131
 #, python-format
@@ -771,45 +786,49 @@ msgid ""
 "Only <a href=\"%s\">members</a> of this mail list can send mail to this "
 "address."
 msgstr ""
+"Alleen <a href=\"%s\">leden</a> van deze e-mail lijst kunnen e-mails\"\n"
+"\" sturen naar dit adres."
 
 #: ../templates/default/ldap/maillist_profile.html:136
 msgid "Moderators only"
-msgstr "Phiên bản iRedMail hiện tại"
+msgstr "Alleen moderators"
 
 #: ../templates/default/ldap/maillist_profile.html:136
 #, python-format
 msgid "Only <a href=\"%s\">moderators</a> can send mail to this address."
-msgstr ""
+msgstr "Alleen <a href=\"%s\">moderators</a> kunnen e-mails sturen naar dit adres."
 
 #: ../templates/default/ldap/maillist_profile.html:141
 msgid "Members and moderators only"
-msgstr "Phiên bản iRedMail hiện tại"
+msgstr "Alleen leden en moderators"
 
 #: ../templates/default/ldap/maillist_profile.html:141
 #, python-format
 msgid ""
 "Only <a href=\"%s\">members</a> and <a href=\"%s\">moderators</a> can "
 "send mail to this address."
-msgstr "Mặc định là <strong>%s</strong>."
+msgstr ""
+"Alleen <a href=\"%s\">leden</a> en <a href=\"%s\">moderators</a> kunnen "
+"e-mails sturen naar dit adres"
 
 #: ../templates/default/ldap/maillist_profile.html:149
 msgid "Internal members"
-msgstr "Phiên bản iRedMail hiện tại"
+msgstr "Interne leden"
 
 #: ../templates/default/ldap/maillist_profile.html:150
 msgid "Add internal members"
-msgstr ""
+msgstr "Interne leden toevoegen"
 
 #: ../templates/default/ldap/maillist_profile.html:151
 #: ../templates/default/ldap/maillist_profile.html:232
 msgid "External members"
-msgstr "Phiên bản iRedMail hiện tại"
+msgstr "Externe leden"
 
 #: ../templates/default/ldap/maillist_profile.html:158
 #: ../templates/default/ldap/maillist_profile.html:268
 #: ../templates/default/ldap/user_list.html:80
 msgid "Last Login Date"
-msgstr ""
+msgstr "Laatste login datum"
 
 #: ../templates/default/ldap/maillist_profile.html:174
 #: ../templates/default/ldap/maillist_profile.html:284
@@ -821,277 +840,292 @@ msgstr "Quota"
 #: ../templates/default/ldap/maillist_profile.html:220
 #: ../templates/default/ldap/maillist_profile.html:330
 msgid "Remove from list"
-msgstr ""
+msgstr "Verwijder uit lijst"
 
 #: ../templates/default/ldap/maillist_profile.html:222
 #: ../templates/default/ldap/maillist_profile.html:332
 msgid "Assign to list"
-msgstr ""
+msgstr "Voeg toe aan lijst"
 
 #: ../templates/default/ldap/maillist_profile.html:234
 #: ../templates/default/ldap/maillist_profile.html:343
 msgid "One mail address one line."
-msgstr ""
+msgstr "Een e-mail adres pet lijn"
 
 #: ../templates/default/ldap/maillist_profile.html:250
 #: ../templates/default/ldap/maillist_profile.html:359
 #: ../templates/default/ldap/search.html:49
 #: ../templates/default/panel/log.html:71
 msgid "Submit"
-msgstr ""
+msgstr "Verzend"
 
 #: ../templates/default/ldap/maillist_profile.html:259
 msgid "Internal moderators"
-msgstr "Phiên bản iRedMail hiện tại"
+msgstr "Interne moderators"
 
 #: ../templates/default/ldap/maillist_profile.html:260
 msgid "Add internal moderators"
-msgstr ""
+msgstr "Voeg interne moderators toe"
 
 #: ../templates/default/ldap/maillist_profile.html:261
 #: ../templates/default/ldap/maillist_profile.html:341
 msgid "External moderators"
-msgstr "Phiên bản iRedMail hiện tại"
+msgstr "Externe moderators"
 
 #: ../templates/default/ldap/search.html:38
 msgid "Search accounts in all domains under your control:"
-msgstr "Bạn có thể quản lý tất cả các tên miền."
+msgstr "Zoek accounts in alle domeinen in uw beheer:"
 
 #: ../templates/default/ldap/search.html:58
 #: ../templates/default/ldap/search.html:222
 msgid "Search results."
-msgstr ""
+msgstr "Zoek resultaten"
 
 #: ../templates/default/ldap/search.html:66
 #, python-format
 msgid "%d user(s) found."
-msgstr ""
+msgstr "%d gebruiker(s) gevonden"
 
 #: ../templates/default/ldap/search.html:128
 #, python-format
 msgid "%d mail list(s) found."
-msgstr ""
+msgstr "%d e-mail lijst(en) gevonden"
 
 #: ../templates/default/ldap/search.html:177
 #, python-format
 msgid "%d mail alias(es) found."
-msgstr "Danh sách tài khoản."
+msgstr "%d e-mail alias(sen) gevonden"
 
 #: ../templates/default/ldap/search.html:226
 msgid "Your search returned no hits."
-msgstr ""
+msgstr "Uw zoekopdracht leverde niets op."
 
 #: ../templates/default/ldap/user_create.html:66
 #, python-format
 msgid "You can't create more users under domain <strong>%s</strong>."
-msgstr "Mặc định là <strong>%s</strong>."
+msgstr "U kunt geen gebruikers meer aanmaken onder domein <strong>%s</strong>."
 
 #: ../templates/default/ldap/user_create.html:71
 #, python-format
 msgid "You can create <strong>%d</strong> more mail user(s) under domain %s."
-msgstr ""
+msgstr "U kunt nog <strong>%d</strong> gebruiker(s) aanmaken onder domein %s."
 
 #: ../templates/default/ldap/user_import.html:37
 msgid "Import users"
-msgstr ""
+msgstr "Importeer gebruikers"
 
 #: ../templates/default/ldap/user_import.html:62
 msgid "Import users under domain"
-msgstr "Xem các tài khoản trong domain:"
+msgstr "Importeer gebruikers onder domein"
 
 #: ../templates/default/ldap/user_import.html:73
 msgid "Password for all accounts"
-msgstr ""
+msgstr "Wachtwoord voor alle accounts"
 
 #: ../templates/default/ldap/user_import.html:78
 msgid "Mailbox quota for new user"
-msgstr ""
+msgstr "Mailbox quota voor nieuw gebruiker"
 
 #: ../templates/default/ldap/user_import.html:86
 msgid "Account names"
-msgstr ""
+msgstr "Account namen"
 
 #: ../templates/default/ldap/user_import.html:88
 msgid "One account one line."
-msgstr "Không có tài khoản nào được chọn."
+msgstr "Een account per regel."
 
 #: ../templates/default/ldap/user_import.html:88
 msgid "Multi-byte characters in username is not allowed."
-msgstr ""
+msgstr "Multi-byte karakters zijn in de gebruikersnaam niet toegestaan."
 
 #: ../templates/default/ldap/user_import.html:90
 msgid "Username, Display name, Password"
-msgstr ""
+msgstr "Gebruikersnaam, Weergavenaam, wachtwoord"
 
 #: ../templates/default/ldap/user_import.html:101
 msgid "Submit to preview"
-msgstr ""
+msgstr "Indienen voor voorbeeld"
 
 #: ../templates/default/ldap/user_import.html:102
 msgid "Confirm to import"
-msgstr ""
+msgstr "Bevestig om te importeren"
 
 #: ../templates/default/ldap/user_list.html:49
 msgid "View users under domain:"
-msgstr "Xem các tài khoản trong domain:"
+msgstr "Geef gebruikers weer onder domein:"
 
 #: ../templates/default/ldap/user_list.html:115
 msgid "Job Title"
-msgstr ""
+msgstr "Functiebenaming"
 
 #: ../templates/default/ldap/user_profile.html:114
 msgid "Member of Groups"
-msgstr ""
+msgstr "Lid van groepen"
 
 #: ../templates/default/ldap/user_profile.html:115
 msgid "Forwarding"
-msgstr "Tên miền"
+msgstr "Doorsturen"
 
 #: ../templates/default/ldap/user_profile.html:120
 msgid "Restrictions"
-msgstr "Tài khoản thư"
+msgstr "Restricties"
 
 #: ../templates/default/ldap/user_profile.html:121
 msgid "Maildir"
-msgstr ""
+msgstr "Maildir"
 
 #: ../templates/default/ldap/user_profile.html:131
 msgid "Back to user list"
-msgstr "Quay lại danh sách tài khoản"
+msgstr "Terug naar gebruikers lijst"
 
 #: ../templates/default/ldap/user_profile.html:144
 msgid "No avatar available."
-msgstr "Không có hình đại diện nào."
+msgstr "Geen avatar beschikbaar"
 
 #: ../templates/default/ldap/user_profile.html:183
 msgid "Member of Mail Lists"
-msgstr ""
+msgstr "Lid van e-mail lijsten"
 
 #: ../templates/default/ldap/user_profile.html:205
 msgid "Warning:"
-msgstr "Tên miền"
+msgstr "Waarschuwing:"
 
 #: ../templates/default/ldap/user_profile.html:205
 msgid "Account NOT exists."
-msgstr ""
+msgstr "Account bestaat niet"
 
 #: ../templates/default/ldap/user_profile.html:217
 msgid "Member of Mail Aliases"
-msgstr "Tạo tài khoản thư mới"
+msgstr "Lid van e-mail aliassen"
 
 #: ../templates/default/ldap/user_profile.html:244
 msgid "Create new mail alias"
-msgstr "Tạo tài khoản thư mới"
+msgstr "Maak een nieuw e-mail alias aan"
 
 #: ../templates/default/ldap/user_profile.html:266
 msgid ","
-msgstr ""
+msgstr ","
 
 #: ../templates/default/ldap/user_profile.html:266
 #, python-format
 msgid "or leave it empty to use <a href=\"%s\">domain setting</a>."
 msgstr ""
+"of laat het leeg om de standaard <a href=\"%s\">domein instelling</a> te "
+"gebruiken"
 
 #: ../templates/default/ldap/user_profile.html:278
 msgid "You should install iRedAPD to make restrictions work as expected."
-msgstr ""
+msgstr "U zou iRedAPD moeten installeren om restricties goed werkend te krijgen"
 
 #: ../templates/default/ldap/user_profile.html:278
 msgid "Install iRedAPD"
-msgstr ""
+msgstr "Installeer iRedAPD"
 
 #: ../templates/default/ldap/user_profile.html:283
 msgid ""
 "To bypass or block a <strong>single user</strong>, use full email "
 "address. e.g. <strong>user@domain.ltd</strong>"
 msgstr ""
+"Om een <strong>enkele gebruiker</strong> door te laten of te blokkeren, "
+"gebruik  het volledig e-mail adres. Bijv. "
+"<strong>gebruiker@domein.nl</strong>"
 
 #: ../templates/default/ldap/user_profile.html:284
 msgid ""
 "To bypass or block <strong>whole domain</strong>, use @domain.ltd. e.g. "
 "<strong>@domain.ltd</strong>"
 msgstr ""
+"Om een <strong>heel domein</strong> door te laten of te blokkeren, "
+"gebruik @domein.nl. Bijv. <strong>@domein.nl</strong>"
 
 #: ../templates/default/ldap/user_profile.html:285
 msgid ""
 "To bypass or block a <strong>domain and its sub-domains</strong>, use "
 "@.domain.ltd. e.g. <strong>@.domain.ltd</strong>"
 msgstr ""
+"Om een <strong>heel domeinen subdomeinen</strong> door te laten of te "
+"blokkeren, gebruik @.domein.nl. Bijv. <strong>@.domein.nl</strong> "
 
 #: ../templates/default/ldap/user_profile.html:286
 msgid "Use <strong>@.</strong> to bypass or block <strong>all accounts</strong>."
 msgstr ""
+"Gebruik <strong>@.</strong> om <strong>alle accounts</strong> door te "
+"laten of te blokkeren."
 
 #: ../templates/default/ldap/user_profile.html:287
 msgid "Whitelist has higher priority than blacklist."
-msgstr ""
+msgstr "Whitelist heeft een hogere prioriteit dan blacklist."
 
 #: ../templates/default/ldap/user_profile.html:292
 msgid "Sender Restrictions"
-msgstr ""
+msgstr "Afzender restricties"
 
 #: ../templates/default/ldap/user_profile.html:299
 msgid "Whitelisted Senders"
-msgstr ""
+msgstr "Gewhiteliste afzenders"
 
 #: ../templates/default/ldap/user_profile.html:300
 msgid "Email comes from below senders will be bypassed."
-msgstr ""
+msgstr "E-mail komende van onderstaande afzenders zal doorgelaten worden."
 
 #: ../templates/default/ldap/user_profile.html:305
 msgid "Blacklisted Senders"
-msgstr ""
+msgstr "Geblackliste afzenders"
 
 #: ../templates/default/ldap/user_profile.html:306
 msgid "Email comes from below senders will be rejected immediately."
-msgstr ""
+msgstr "E-mail komende van onderstaande afzenders zal direct geblokkeerd worden."
 
 #: ../templates/default/ldap/user_profile.html:311
 msgid "Recipient Restrictions"
-msgstr ""
+msgstr "Ontvanger restricties"
 
 #: ../templates/default/ldap/user_profile.html:318
 msgid "Whitelisted Recipients"
-msgstr ""
+msgstr "Gewhiteliste ontvangers"
 
 #: ../templates/default/ldap/user_profile.html:319
 #, python-format
 msgid "User <strong>%s (%s)</strong> can send email to below recipients."
-msgstr "Mặc định là <strong>%s</strong>."
+msgstr ""
+"Gebruiker <strong>%s (%s)</strong> kan e-mails sturen aan onderstaande "
+"ontvangers."
 
 #: ../templates/default/ldap/user_profile.html:324
 msgid "Blacklisted Recipients"
-msgstr ""
+msgstr "Geblackliste ontvangers"
 
 #: ../templates/default/ldap/user_profile.html:325
 #, python-format
 msgid "User <strong>%s (%s)</strong> can NOT send email to below recipients."
-msgstr "Mặc định là <strong>%s</strong>."
+msgstr ""
+"Gebruiker <strong>%s (%s)</strong> kan GEEN e-mails sturen aan "
+"onderstaande ontvangers."
 
 #: ../templates/default/ldap/user_profile.html:333
 msgid "Path to mailbox"
-msgstr ""
+msgstr "Pad naar mailbox"
 
 #: ../templates/default/macros.html:65
 msgid "Account is active."
-msgstr "Không có tài khoản nào được chọn."
+msgstr "Account is active"
 
 #: ../templates/default/macros.html:67
 msgid "Account is disabled."
-msgstr "Các tài khoản đã được vô hiệu."
+msgstr "Accoutn is uitgeschakeld"
 
 #: ../templates/default/macros.html:73
 msgid "Is a global admin."
-msgstr "Tài khoản quản trị chung"
+msgstr "Is globale beheerder"
 
 #: ../templates/default/macros.html:75
 msgid "Not a global admin."
-msgstr "Tài khoản quản trị chung"
+msgstr "Geen globale beheerder"
 
 #: ../templates/default/macros.html:100
 #: ../templates/default/ldap/domain_profile.html:159
 msgid "Company/Organization"
-msgstr "Công ty/Tổ chức"
+msgstr "Bedrijf/organisatie"
 
 #: ../templates/default/macros.html:102
 #: ../templates/default/ldap/admin_list.html:82
@@ -1108,7 +1142,7 @@ msgstr "Công ty/Tổ chức"
 #: ../templates/default/ldap/user_list.html:112
 #: ../templates/default/ldap/user_profile.html:147
 msgid "Display Name"
-msgstr "Tên hiễn thị"
+msgstr "Weergave naam"
 
 #: ../templates/default/macros.html:111
 #: ../templates/default/ldap/maillist_profile.html:173
@@ -1117,31 +1151,31 @@ msgstr "Tên hiễn thị"
 #: ../templates/default/ldap/user_list.html:114
 #: ../templates/default/ldap/user_profile.html:149
 msgid "User ID"
-msgstr "Mã nhân viên"
+msgstr "Gebruikers ID"
 
 #: ../templates/default/macros.html:118
 msgid "Job Title/Responsibility"
-msgstr ""
+msgstr "Functieomschrijving/Verantwoordelijkheid"
 
 #: ../templates/default/macros.html:125
 msgid "Mobile"
-msgstr ""
+msgstr "Mobiel"
 
 #: ../templates/default/macros.html:133 ../templates/default/macros.html:139
 msgid "Telephone Number"
-msgstr "Số điện thoại"
+msgstr "Telefoonnummer"
 
 #: ../templates/default/macros.html:148
 msgid "Preferred language"
-msgstr "Ngôn ngữ mặc định"
+msgstr "Voorkeurs taal"
 
 #: ../templates/default/macros.html:162
 msgid "Display mail address in global LDAP address book"
-msgstr ""
+msgstr "Geef e-mail adres woor in het globale LDAP adres boek"
 
 #: ../templates/default/macros.html:169
 msgid "Mark as global admin"
-msgstr "Tài khoản quản trị chung"
+msgstr "Markeer als globale beheerder"
 
 #: ../templates/default/macros.html:175 ../templates/default/macros.html:180
 #: ../templates/default/ldap/maillist_profile.html:207
@@ -1149,146 +1183,152 @@ msgstr "Tài khoản quản trị chung"
 #: ../templates/default/ldap/search.html:112
 #: ../templates/default/ldap/user_list.html:152
 msgid "Unlimited"
-msgstr "Không giới hạn"
+msgstr "Ongelimiteerd"
 
 #: ../templates/default/macros.html:201
 msgid "Max quota size"
-msgstr ""
+msgstr "Maximale qoata grootte"
 
 #: ../templates/default/macros.html:204
 msgid "Max quota size (in MB)"
-msgstr "Kích thước hộp thư (MB)"
+msgstr "Maximale quoat grootte (in MB)"
 
 #: ../templates/default/macros.html:206
 #, python-format
 msgid "Current quota size: <strong>%s</strong>."
-msgstr "Mặc định là <strong>%s</strong>."
+msgstr "Huidige quota grootte: <strong>%s</strong>."
 
 #: ../templates/default/macros.html:207 ../templates/default/macros.html:215
 #: ../templates/default/macros.html:223 ../templates/default/macros.html:231
 msgid "Tip: 0 means unlimited."
-msgstr ""
+msgstr "Top: 0 betekend ongelimiteerd"
 
 #: ../templates/default/macros.html:212
 msgid "Max number of mail users"
-msgstr "Tạo tài khoản thư mới"
+msgstr "Maximaal aantal e-mail gebruikers"
 
 #: ../templates/default/macros.html:214 ../templates/default/macros.html:222
 #: ../templates/default/macros.html:230
 #, python-format
 msgid "Current number: <strong>%s</strong>."
-msgstr "Mặc định là <strong>%s</strong>."
+msgstr "Huidig aantal: <strong>%s</strong>."
 
 #: ../templates/default/macros.html:220
 msgid "Max number of mail lists"
-msgstr ""
+msgstr "Maxinmaal aantal e-mail lijsten"
 
 #: ../templates/default/macros.html:228
 msgid "Max number of mail aliases"
-msgstr ""
+msgstr "Maximaal aantal e-mail aliassen"
 
 #: ../templates/default/macros.html:244
 msgid "Enable this domain"
-msgstr "Kích hoạt tên miền này"
+msgstr "Activeer dit domein"
 
 #: ../templates/default/macros.html:246
 msgid "Enable this account"
-msgstr "Kích hoạt tài khoản này"
+msgstr "Activeer dit account"
 
 #: ../templates/default/macros.html:255
 msgid "Some examples of mail relay setting"
-msgstr ""
+msgstr "Een aantal voorbeelden van e-mail relay instellingen"
 
 #: ../templates/default/macros.html:255
 #, python-format
 msgid "(You can find more examples <a target=\"_blank\" href=\"%s\">here</a>):"
-msgstr ""
+msgstr "(U kunt < target=\"_blank\" href=\"%s\">hier</a? meer voorbeelden vinden):"
 
 #: ../templates/default/macros.html:260
 msgid "Destination"
-msgstr ""
+msgstr "Bestemming"
 
 #: ../templates/default/macros.html:261
 #: ../templates/default/ldap/domain_profile.html:202
 #: ../templates/default/ldap/user_profile.html:265
 msgid "Relay Setting"
-msgstr ""
+msgstr "Relay instelling"
 
 #: ../templates/default/macros.html:267
 msgid ""
 "Relay all mails to host \"gateway.example.com\" <strong>with</strong> MX "
 "lookups."
 msgstr ""
+"Relay alle e-mails naar host \"gateway.example.com\" <strong>met</strong>"
+" MX lookups."
 
 #: ../templates/default/macros.html:272
 msgid ""
 "Relay all mails to host \"gateway.example.com\" <strong>without</strong> "
 "MX lookups."
 msgstr ""
+"Relay alle e-mails naar host \"gateway.example.com\" "
+"<strong>zonder</strong> MX lookups."
 
 #: ../templates/default/macros.html:283 ../templates/default/macros.html:285
 msgid "Backup MX"
-msgstr "MX dự phòng"
+msgstr "Back-up MX"
 
 #: ../templates/default/macros.html:289
 msgid "Enabled"
-msgstr "Kích hoạt"
+msgstr "Ingeschakeld"
 
 #: ../templates/default/macros.html:293
 msgid "Disabled"
-msgstr "Vô hiệu"
+msgstr "Uitgeschakeld"
 
 #: ../templates/default/macros.html:307
 msgid "Service Control"
-msgstr ""
+msgstr "Service beheer"
 
 #: ../templates/default/macros.html:312
 msgid "Mail service."
-msgstr "Tài khoản thư"
+msgstr "E-mail service"
 
 #: ../templates/default/macros.html:312
 msgid "Check this box in order to enable all mail related services."
-msgstr ""
+msgstr "Selecteer dit vakje om alle e-mail gerelateerde services in te schakelen."
 
 #: ../templates/default/macros.html:327
 msgid "Fetch mails via POP3."
-msgstr ""
+msgstr "Haal e-mails op via POP3"
 
 #: ../templates/default/macros.html:332
 msgid "Fetch mails via POP3S (POP3 over TLS/SSL)."
-msgstr ""
+msgstr "Haal e-mails op via POP3S (POP3 over TLS/SSL)."
 
 #: ../templates/default/macros.html:337
 msgid "Fetch mails via IMAP."
-msgstr ""
+msgstr "Haal e-mails op via IMAP"
 
 #: ../templates/default/macros.html:342
 msgid "Fetch mails via IMAPS (IMAP over TLS/SSL)."
-msgstr ""
+msgstr "Haal e-mails op via IMAPS (IMAP over TLS/SSL)."
 
 #: ../templates/default/macros.html:347
 msgid "Sending mail via SMTP."
-msgstr ""
+msgstr "Verzenden e-mails via SMTP"
 
 #: ../templates/default/macros.html:352
 msgid "Receiving mails."
-msgstr ""
+msgstr "E-mails ontvangen"
 
 #: ../templates/default/macros.html:357
 msgid "Customize mail filter rule."
-msgstr ""
+msgstr "Personaliseer e-mail filter regel."
 
 #: ../templates/default/macros.html:362
 msgid "Customize mail filter rule over TLS/SSL."
-msgstr ""
+msgstr "Personaliseer e-mail filter regel over TLS/SSL."
 
 #: ../templates/default/macros.html:370
 msgid "Display this account's mail address in global LDAP address book."
 msgstr ""
+"Geef het e-mail adres van deze account weer in het globale LDAP adres "
+"boek."
 
 #: ../templates/default/macros.html:380
 msgid "Domain admin assignment"
-msgstr "Chỉ định tài khoản quan trị"
+msgstr "Domein beheerder toewijzen"
 
 #: ../templates/default/macros.html:393 ../templates/default/macros.html:566
 #, python-format
@@ -1297,13 +1337,13 @@ msgstr "%s (%s)"
 
 #: ../templates/default/macros.html:397
 msgid "(Global Admin)"
-msgstr "(Tài khoản quản trị chung)"
+msgstr "(Globale beheerder)"
 
 #: ../templates/default/macros.html:403
 #: ../templates/default/ldap/admin_create.html:40
 #: ../templates/default/ldap/admin_list.html:72
 msgid "Create new admin"
-msgstr "Tạo tài khoản quản trị mới"
+msgstr "Maak een nieuwe beheerder aan"
 
 #: ../templates/default/macros.html:410 ../templates/default/macros.html:413
 msgid "MTA transport"
@@ -1312,15 +1352,15 @@ msgstr "MTA transport"
 #: ../templates/default/macros.html:413
 #, python-format
 msgid "Default is <strong>%s</strong>."
-msgstr "Mặc định là <strong>%s</strong>."
+msgstr "Standaard is <strong>%s</strong>."
 
 #: ../templates/default/macros.html:414
 msgid "Leave it empty to use default transport."
-msgstr "Để trống nếu dùng giá trị mặc định."
+msgstr "Laat het leeg om de standaard transport methode te gebruiken"
 
 #: ../templates/default/macros.html:423
 msgid "Old password"
-msgstr "Mật khẩu cũ"
+msgstr "Oud wachtwoord"
 
 #: ../templates/default/macros.html:423 ../templates/default/macros.html:429
 #: ../templates/default/macros.html:443
@@ -1335,15 +1375,15 @@ msgstr "Mật khẩu cũ"
 #: ../templates/default/ldap/user_import.html:73
 #: ../templates/default/ldap/user_import.html:86
 msgid "(Required)"
-msgstr "(Bắt buộc)"
+msgstr "(Verplicht)"
 
 #: ../templates/default/macros.html:429
 msgid "New password"
-msgstr "Mật khẩu mới"
+msgstr "Nieuw wachtwoord"
 
 #: ../templates/default/macros.html:429
 msgid "Need a random password?"
-msgstr ""
+msgstr "Een willekeurig wachtwoord nodig?"
 
 #: ../templates/default/macros.html:432
 #, python-format
@@ -1351,306 +1391,310 @@ msgid ""
 "At least <strong>%s</strong> characters, but no more than "
 "<strong>%s</strong>."
 msgstr ""
+"Tenminste <strong>%s</strong> karakter maar niet \"\n"
+"\"meer dan <strong>%s</strong>."
 
 #: ../templates/default/macros.html:434
 #, python-format
 msgid "At least <strong>%s</strong> characters."
-msgstr "Mật khẩu mới phải chứa tối thiểu <strong>%s</strong> ký tự."
+msgstr "Tenminste <strong>%s</strong> karakters."
 
 #: ../templates/default/macros.html:436
 #, python-format
 msgid "No more than <strong>%s</strong> characters."
-msgstr "Mật khẩu mới phải chứa tối thiểu <strong>%s</strong> ký tự."
+msgstr "Niet meer dan <strong>%s</strong> karakters."
 
 #: ../templates/default/macros.html:443
 msgid "Confirm new password"
-msgstr "Nhập lại mật khẩu mới"
+msgstr "Bevestig nieuw wachtwoord"
 
 #: ../templates/default/macros.html:443
 msgid "Re-enter your password exactly as before."
-msgstr "Nhập lại mật khẩu."
+msgstr "Voor het wachtwoord nogmaals in."
 
 #: ../templates/default/macros.html:457
 msgid "Mailbox Quota"
-msgstr ""
+msgstr "Mailbox quota"
 
 #: ../templates/default/macros.html:473
 msgid "Enable recipient BCC"
-msgstr ""
+msgstr "Schakel ontvanger BCC in"
 
 #: ../templates/default/macros.html:479 ../templates/default/macros.html:482
 msgid "Recipient BCC address"
-msgstr ""
+msgstr "Ontvanger BCC adres"
 
 #: ../templates/default/macros.html:483 ../templates/default/macros.html:508
 msgid "Multiple addresses are <strong>NOT</strong> supported."
-msgstr ""
+msgstr "Meerdere adressen wordt <strong>NIET</strong> ondersteund."
 
 #: ../templates/default/macros.html:492
 msgid "Sender BCC"
-msgstr ""
+msgstr "Afzender BCC"
 
 #: ../templates/default/macros.html:497
 msgid "Enable sender BCC"
-msgstr ""
+msgstr "Schakel afzender BCC in"
 
 #: ../templates/default/macros.html:502 ../templates/default/macros.html:504
 #: ../templates/default/macros.html:507
 msgid "Sender BCC address"
-msgstr ""
+msgstr "Afzender BCC adres"
 
 #: ../templates/default/macros.html:521
 msgid "Enable mail forwarding"
-msgstr "Tạo tài khoản quản trị mới"
+msgstr "Schakel e-mail doorsturen in"
 
 #: ../templates/default/macros.html:525
 msgid "Save a copy in mailbox"
-msgstr ""
+msgstr "Bewaar een kopie in de mailbox"
 
 #: ../templates/default/macros.html:534
 msgid "Mail forwarding address"
-msgstr ""
+msgstr "E-mail doorstuur adres"
 
 #: ../templates/default/macros.html:536 ../templates/default/macros.html:586
 msgid "One mail address per-line."
-msgstr ""
+msgstr "Een e-mailadres per regel."
 
 #: ../templates/default/macros.html:554
 #: ../templates/default/ldap/admin_profile.html:46
 msgid "Managed Domains"
-msgstr "Kích hoạt tên miền này"
+msgstr "Beheerder domeinen"
 
 #: ../templates/default/macros.html:576
 #: ../templates/default/ldap/domain_create.html:29
 #: ../templates/default/ldap/domain_list.html:78
 msgid "Create new domain"
-msgstr "Tạo tên miền mới"
+msgstr "Maak een nieuwe domein aan"
 
 #: ../templates/default/macros.html:584
 msgid "Add new alias members"
-msgstr ""
+msgstr "Voeg nieuwe alias leden toe"
 
 #: ../templates/default/macros.html:599 ../templates/default/macros.html:611
 #: ../templates/default/ldap/maillist_profile.html:114
 msgid "Unrestricted"
-msgstr "Tài khoản thư"
+msgstr "Onbeperkt"
 
 #: ../templates/default/macros.html:601
 #, python-format
 msgid "<a href=\"%s\">Domain users</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Domein gebruikers</a>"
 
 #: ../templates/default/macros.html:603
 #, python-format
 msgid "<a href=\"%s\">Domain and sub-domain users</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Domein en sub-domein gebruikers</a>"
 
 #: ../templates/default/macros.html:605
 #, python-format
 msgid "<a href=\"%s\">Members</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Leden</a>"
 
 #: ../templates/default/macros.html:607
 #, python-format
 msgid "<a href=\"%s\">Moderators</a>"
-msgstr ""
+msgstr ",a href=\"%s\">Moderators</a>"
 
 #: ../templates/default/macros.html:609
 #, python-format
 msgid "<a href=\"%s\">Members</a> and <a href=\"%s\">moderators</a>"
-msgstr ""
+msgstr "<a href=\"%s\">leden</a> en <a href=\"%s\">moderators</a>"
 
 #: ../templates/default/macros.html:616
 msgid "Create new:"
-msgstr "Tạo tài khoản thư mới"
+msgstr "Maak nieuwe aan:"
 
 #: ../templates/default/macros.html:618
 #: ../templates/default/ldap/dashboard.html:40
 msgid "Domain"
-msgstr "Danh sách Tên miền"
+msgstr "Domein"
 
 #: ../templates/default/macros.html:619
 #: ../templates/default/ldap/dashboard.html:41
 #: ../templates/default/panel/log.html:102
 msgid "Admin"
-msgstr "Danh sách Quản trị viên"
+msgstr "Beheerder"
 
 #: ../templates/default/macros.html:621
 #: ../templates/default/ldap/dashboard.html:43
 msgid "User"
-msgstr "Danh sách tài khoản"
+msgstr "Gebruiker"
 
 #: ../templates/default/macros.html:622
 #: ../templates/default/ldap/dashboard.html:44
 msgid "Mail List"
-msgstr "Các tài khoản thư"
+msgstr "E-mail lijst"
 
 #: ../templates/default/macros.html:623
 #: ../templates/default/ldap/dashboard.html:45
 msgid "Alias"
-msgstr "Các tài khoản thư"
+msgstr "Alias"
 
 #: ../templates/default/macros.html:662
 msgid "Pages:"
-msgstr ""
+msgstr "Paginas:"
 
 #: ../templates/default/macros.html:743
 msgid "Events"
-msgstr ""
+msgstr "Evenementen"
 
 #: ../templates/default/macros.html:745
 msgid "Admin login"
-msgstr ""
+msgstr "Beheerder login"
 
 #: ../templates/default/macros.html:747
 msgid "Create account"
-msgstr "Ngày tạo"
+msgstr "Maak een account aan"
 
 #: ../templates/default/macros.html:749
 msgid "Delete account"
-msgstr "Kích hoạt tài khoản này"
+msgstr "Verwijder account"
 
 #: ../templates/default/macros.html:751
 msgid "Disable account"
-msgstr "Kích hoạt tài khoản này"
+msgstr "Schakel account uit"
 
 #: ../templates/default/macros.html:753
 msgid "Active account"
-msgstr "Kích hoạt tài khoản này"
+msgstr "Active account"
 
 #: ../templates/default/msgHandlers.html:46
 msgid "Username or password is incorrect."
-msgstr "Tên tài khoản hoặc mật khẩu không đúng."
+msgstr "Gebruikersnaam of wachtwoord is onjuist."
 
 #: ../templates/default/msgHandlers.html:48
 msgid "Username must be an valid email address."
-msgstr "Tên tài khoản phải là một địa chỉ email hợp lệ."
+msgstr "Gebruikersnaam moet een geldig e-mail adres zijn."
 
 #: ../templates/default/msgHandlers.html:50
 msgid "Login required"
-msgstr "Yêu cầu đăng nhập."
+msgstr "Login verplicht"
 
 #: ../templates/default/msgHandlers.html:52
 msgid "Empty password is not allowed."
-msgstr "Mật khẩu hiện tại không đúng"
+msgstr "Een leeg wachtwoord is niet toegestaan"
 
 #: ../templates/default/msgHandlers.html:72
 #: ../templates/default/msgHandlers.html:160
 #: ../templates/default/msgHandlers.html:249
 msgid "Profile update success."
-msgstr "Tài khoản đã được cập nhật"
+msgstr "Profiel update succesvol"
 
 #: ../templates/default/msgHandlers.html:74
 msgid "Selected domains were deleted."
-msgstr "Tên miền đã bị xoá."
+msgstr "De geselecteerde domeinen zijn verwijderd"
 
 #: ../templates/default/msgHandlers.html:76
 msgid "Selected domains were disabled."
-msgstr "Tên miền đã ngừng kích hoạt."
+msgstr "De geslecteerde domeinen zijn uitgeschakeld."
 
 #: ../templates/default/msgHandlers.html:78
 msgid "Selected domains were enabled."
-msgstr "Tên miền đã được kích hoạt."
+msgstr "De geselecteerde domeinen zijn ingeschakeld."
 
 #: ../templates/default/msgHandlers.html:82
 msgid "Invalid domain name."
-msgstr ""
+msgstr "Ongeldige domeinnaam"
 
 #: ../templates/default/msgHandlers.html:84
 msgid "Domain name is empty."
-msgstr "Tên miền rỗng"
+msgstr "Domeinnaam is leeg."
 
 #: ../templates/default/msgHandlers.html:86
 msgid ""
 "Server-side size limit exceeded. Please increase \"sizelimit\" in your "
 "LDAP server."
 msgstr ""
+"Limiet voor de grootte aan de server zijde overschreden. Verhoog "
+"alstublieft de \"sizelimit\" in uw LDAP server."
 
 #: ../templates/default/msgHandlers.html:88
 msgid "Permission denied."
-msgstr "Không có quyền truy cập."
+msgstr "Toegang geweigerd"
 
 #: ../templates/default/msgHandlers.html:90
 msgid "No such domain."
-msgstr "Không có tên miền."
+msgstr "Domein niet gevonden."
 
 #: ../templates/default/msgHandlers.html:92
 msgid "Incorrect profile type."
-msgstr "Thông tin không hợp lệ."
+msgstr "Onjuist profiel type"
 
 #: ../templates/default/msgHandlers.html:94
 msgid "Submited domain name is incorrect."
-msgstr "Tên miền không hợp lệ."
+msgstr "Ingevoerd domein is onjuist."
 
 #: ../templates/default/msgHandlers.html:97
 #: ../templates/default/msgHandlers.html:115
 #: ../templates/default/msgHandlers.html:231
 #: ../templates/default/msgHandlers.html:251
 msgid "No domain under control."
-msgstr "Bạn có thể quản lý tất cả các tên miền."
+msgstr "Geen domein in beheer."
 
 #: ../templates/default/msgHandlers.html:109
 #: ../templates/default/msgHandlers.html:205
 msgid "Profile updated success."
-msgstr "Cập nhật thông tin thành công."
+msgstr "Profiel succesvol geupdate"
 
 #: ../templates/default/msgHandlers.html:111
 #: ../templates/default/msgHandlers.html:207
 #: ../templates/default/msgHandlers.html:265
 msgid "Profile updated failed."
-msgstr "Cập nhật thông tin không thành công."
+msgstr "Profiel update mislukt"
 
 #: ../templates/default/msgHandlers.html:117
 msgid "Domain name or username is missed."
-msgstr ""
+msgstr "Domeinnaam of gebruikersnaam is niet aanwezig."
 
 #: ../templates/default/msgHandlers.html:121
 #: ../templates/default/msgHandlers.html:166
 #: ../templates/default/msgHandlers.html:222
 #: ../templates/default/msgHandlers.html:254
 msgid "Selected accounts were deleted."
-msgstr "Các tài khoản đã được xoá."
+msgstr "Geselecteerd accounts zijn verwijderd."
 
 #: ../templates/default/msgHandlers.html:123
 #: ../templates/default/msgHandlers.html:168
 #: ../templates/default/msgHandlers.html:224
 #: ../templates/default/msgHandlers.html:256
 msgid "Selected accounts were disabled."
-msgstr "Các tài khoản đã được vô hiệu."
+msgstr "Geselecteerde accounts zijn uitgeschakeld."
 
 #: ../templates/default/msgHandlers.html:125
 #: ../templates/default/msgHandlers.html:170
 #: ../templates/default/msgHandlers.html:226
 #: ../templates/default/msgHandlers.html:258
 msgid "Selected accounts were enabled."
-msgstr "Các tài khoản đã được kích hoạt."
+msgstr "Geselecteerde accounts zijn ingeschakeld"
 
 #: ../templates/default/msgHandlers.html:127
 msgid "Invalid profile type."
-msgstr "Kiểu thông tin không hợp lệ: %s."
+msgstr "Ongeldig profiel type."
 
 #: ../templates/default/msgHandlers.html:131
 #: ../templates/default/msgHandlers.html:176
 msgid "Current password is incorrect."
-msgstr "Mật khẩu hiện tại không đúng"
+msgstr "Huidige wachtwoord is onjuist."
 
 #: ../templates/default/msgHandlers.html:133
 #: ../templates/default/msgHandlers.html:178
 msgid "New passwords are not match."
-msgstr "Mật khẩu mới không hợp lệ"
+msgstr "Nieuwe wachtwoorden komen niet overeen."
 
 #: ../templates/default/msgHandlers.html:135
 #: ../templates/default/msgHandlers.html:180
 msgid "Password is empty."
-msgstr "Mật khẩu rỗng."
+msgstr "Wachtwoord is leeg."
 
 #: ../templates/default/msgHandlers.html:137
 msgid "Password is too short."
-msgstr "Mật khẩu rỗng."
+msgstr "Wachtwoord is te kort."
 
 #: ../templates/default/msgHandlers.html:139
 msgid "Password is too long."
-msgstr "Mật khẩu rỗng."
+msgstr "Wachtwoord is te lang."
 
 #: ../templates/default/msgHandlers.html:158
 #, python-format
@@ -1658,141 +1702,141 @@ msgid ""
 "Account created success. Would you like to <a "
 "href=\"%s/create/admin\">add one more</a>?"
 msgstr ""
-"Tài khoàn đã được tạo. Bạn có muốn <a href=\"%s/create/admin\">tạo "
-"thêm</a>?"
+"Account succesvol aangemaakt. Wilt u er <a href=\"$s/create/admin\"> nog "
+"een toevoegen</a>?"
 
 #: ../templates/default/msgHandlers.html:172
 msgid "No account selected."
-msgstr "Không có tài khoản nào được chọn."
+msgstr "Geen account geselecteerd"
 
 #: ../templates/default/msgHandlers.html:182
 #, python-format
 msgid "New password must contain at least %s characters."
-msgstr "Mật khẩu mới phải chứa tối thiểu %s ký tự."
+msgstr "Nieuw wachtwoord moet tenminste %s karakters bevatten."
 
 #: ../templates/default/msgHandlers.html:184
 #, python-format
 msgid "New password must NOT contain more than %s characters."
-msgstr "Mật khẩu mới phải KHÔNG quá %s ký tự."
+msgstr "Nieuw wachtwoord mag NIET meer dan %s karakters bevatten."
 
 #: ../templates/default/msgHandlers.html:187
 msgid "Invalid mail address."
-msgstr "Tên tài khoản phải là một địa chỉ email hợp lệ."
+msgstr "Ongeldig e-mail adres"
 
 #: ../templates/default/msgHandlers.html:211
 #: ../templates/default/msgHandlers.html:261
 msgid "Member assigned success."
-msgstr ""
+msgstr "Lid succesvol toegewezen"
 
 #: ../templates/default/msgHandlers.html:213
 #: ../templates/default/msgHandlers.html:263
 msgid "Member removed success."
-msgstr ""
+msgstr "Lid succesvol verwijderd"
 
 #: ../templates/default/msgHandlers.html:217
 msgid "Moderators assigned success."
-msgstr ""
+msgstr "Moderator succesvol toegewezen"
 
 #: ../templates/default/msgHandlers.html:219
 msgid "Moderators removed success."
-msgstr ""
+msgstr "Moderator succesvol verwijderd."
 
 #: ../templates/default/msgHandlers.html:228
 #: ../templates/default/msgHandlers.html:247
 msgid "Account already exists, please choose another username."
-msgstr "Tài khoản này đã tồn tại, xin chọn tên khác."
+msgstr "Account bestaat reeds, kies alstublieft een andere gebruikersnaam."
 
 #: ../templates/default/msgHandlers.html:233
 msgid "No moderator selected."
-msgstr "Không có tài khoản nào được chọn."
+msgstr "Geen moderator geselecteerd."
 
 #: ../templates/default/msgHandlers.html:268
 msgid "Empty address is not allowed."
-msgstr ""
+msgstr "Leeg adres is niet toegestaan"
 
 #: ../templates/default/panel/log.html:24
 #: ../templates/default/panel/log.html:28
 msgid "Admin Log"
-msgstr ""
+msgstr "Beheerders log"
 
 #: ../templates/default/panel/log.html:48
 msgid "Filter:"
-msgstr ""
+msgstr "Filter:"
 
 #: ../templates/default/panel/log.html:78
 #, python-format
 msgid "%d-%d/<a href=\"%s\" class=\"noborder\">%d</a>."
-msgstr ""
+msgstr "%d-%d/<a href=\"%s\" class=\"noborder\">%d</a>."
 
 #: ../templates/default/panel/log.html:86
 #: ../templates/default/policyd/wblist.html:82
 #, python-format
 msgid "Total records: %d."
-msgstr "Tổng cộng: %s."
+msgstr "Totaal aantal records: %d."
 
 #: ../templates/default/panel/log.html:101
 msgid "Time"
-msgstr "Thời gian chạy"
+msgstr "Tijd"
 
 #: ../templates/default/panel/log.html:103
 msgid "IP Address"
-msgstr "Địa chỉ hộp thư"
+msgstr "IP adres"
 
 #: ../templates/default/panel/log.html:108
 msgid "Message"
-msgstr ""
+msgstr "Bericht"
 
 #: ../templates/default/panel/log.html:134
 msgid "Are you sure want to delete selected item(s)?"
-msgstr "Bạn có chắc muốn xoá các tài khoản đã chọn?"
+msgstr "Weet u zeker dat u de geselecteerde items wilt verwijderen"
 
 #: ../templates/default/policyd/wblist.html:17
 #: ../templates/default/policyd/wblist.html:26
 #: ../templates/default/policyd/whitelist_view.html:16
 #: ../templates/default/policyd/whitelist_view.html:25
 msgid "Whitelist"
-msgstr ""
+msgstr "Whitelist"
 
 #: ../templates/default/policyd/wblist.html:19
 #: ../templates/default/policyd/wblist.html:27
 #: ../templates/default/policyd/whitelist_view.html:18
 #: ../templates/default/policyd/whitelist_view.html:26
 msgid "Blacklist"
-msgstr ""
+msgstr "Blacklist"
 
 #: ../templates/default/policyd/wblist.html:56
 msgid "IP Addresses"
-msgstr ""
+msgstr "IP adressen"
 
 #: ../templates/default/policyd/wblist.html:57
 msgid "Sender"
-msgstr "Thông tin chung"
+msgstr "Afzender"
 
 #: ../templates/default/policyd/wblist.html:67
 msgid "HELO"
-msgstr ""
+msgstr "HELO"
 
 #: ../templates/default/policyd/wblist.html:74
 #, python-format
 msgid "%d to %d of <a href=\"%s\" class=\"noborder\">%d</a>."
-msgstr ""
+msgstr "%d tot %d van <a href=\"%s\" class=\"noborder\">%d</a>."
 
 #: ../templates/default/policyd/wblist.html:98
 msgid "Description"
-msgstr ""
+msgstr "Beschrijving"
 
 #: ../templates/default/policyd/wblist.html:99
 msgid "Expired Date"
-msgstr ""
+msgstr "Datum verlopen"
 
 #: ../templates/default/policyd/whitelist_view.html:31
 msgid "Add new whitelist"
-msgstr ""
+msgstr "Voeg nieuwe whitelist toe"
 
 #: ../templates/default/policyd/whitelist_view.html:33
 msgid "Add new blacklist"
-msgstr ""
+msgstr "Voeg nieuwe blacklist toe"
 
 #~ msgid "Created"
-#~ msgstr "Tạo"
+#~ msgstr "Aangemaakt"
 

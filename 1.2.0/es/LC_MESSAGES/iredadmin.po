@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: iRedAdmin-Pro-1.2.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2009-11-28 17:33+0500\n"
-"PO-Revision-Date: 2010-06-02 01:43+0800\n"
+"PO-Revision-Date: 2010-06-04 10:19+0800\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: es_ES <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -180,6 +180,7 @@ msgstr "Administradores Globales"
 #: ../templates/default/ldap/maillist_profile.html:90
 #: ../templates/default/ldap/maillist_profile.html:161
 #: ../templates/default/ldap/maillist_profile.html:271
+#: ../templates/default/ldap/search.html:77
 #: ../templates/default/ldap/user_list.html:83
 #: ../templates/default/ldap/user_profile.html:150
 msgid "Created Date"
@@ -865,10 +866,6 @@ msgstr ""
 #, python-format
 msgid "%d user(s) found."
 msgstr ""
-
-#: ../templates/default/ldap/search.html:77
-msgid "Created"
-msgstr "Crear"
 
 #: ../templates/default/ldap/search.html:128
 #, python-format
@@ -1796,6 +1793,6 @@ msgstr ""
 msgid "Add new blacklist"
 msgstr ""
 
-#~ msgid "Import:"
-#~ msgstr ""
+#~ msgid "Created"
+#~ msgstr "Crear"
 

@@ -2,19 +2,19 @@
 # Copyright (C) 2009 ORGANIZATION
 # This file is distributed under the same license as the iRedAdmin project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: iRedAdmin-Pro-1.2.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2009-10-22 17:33+0800\n"
-"PO-Revision-Date: 2010-06-02 01:43+0800\n"
+"PO-Revision-Date: 2010-06-04 10:19+0800\n"
 "Last-Translator: Zhang Huangbin <michaelbibby@gmail.com>\n"
 "Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
 "Generated-By: Babel 0.9.4\n"
 
 #: ../templates/default/error404.html:22 ../templates/default/error404.html:28
@@ -180,6 +180,7 @@ msgstr "全局管理员"
 #: ../templates/default/ldap/maillist_profile.html:90
 #: ../templates/default/ldap/maillist_profile.html:161
 #: ../templates/default/ldap/maillist_profile.html:271
+#: ../templates/default/ldap/search.html:77
 #: ../templates/default/ldap/user_list.html:83
 #: ../templates/default/ldap/user_profile.html:150
 msgid "Created Date"
@@ -327,7 +328,9 @@ msgid "You can create <strong>%d</strong> more mail list(s) under domain %s."
 msgstr "还能建立 <strong>%d</strong> 个邮件列表（域 %s）。"
 
 #: ../templates/default/ldap/alias_create.html:74
-msgid "It's better to use mail list instead of alias, since we have mail deliver restriction for mail list."
+msgid ""
+"It's better to use mail list instead of alias, since we have mail deliver"
+" restriction for mail list."
 msgstr "建议您使用邮件列表来代替别名，可以进行邮件投递权限控制。"
 
 #: ../templates/default/ldap/alias_create.html:74
@@ -547,7 +550,9 @@ msgid "If no admin assigned for domain, you can also manage it with global admin
 msgstr "如果没有指派管理员，您仍然可以使用全局管理员帐号进行管理。"
 
 #: ../templates/default/ldap/domain_profile.html:194
-msgid "Per-user relay setting will override per-domain relay setting you set in this page."
+msgid ""
+"Per-user relay setting will override per-domain relay setting you set in "
+"this page."
 msgstr "针对单个用户的转发设置将会覆盖本页中针对单个域的设置。"
 
 #: ../templates/default/ldap/domain_profile.html:194
@@ -565,7 +570,9 @@ msgid "Domain BCC setting will override per-user bcc settings."
 msgstr "域级别的 BCC 设置将会覆盖针对单个用户的 BCC 设置。"
 
 #: ../templates/default/ldap/domain_profile.html:230
-msgid "Received emails does not match any existing address will be delivered to catch-all address(es)."
+msgid ""
+"Received emails does not match any existing address will be delivered to "
+"catch-all address(es)."
 msgstr "接收到发给不存在的帐号的邮件将会被投递到 catch-all 地址里去。"
 
 #: ../templates/default/ldap/domain_profile.html:231
@@ -589,7 +596,9 @@ msgid "NOTE:"
 msgstr "注意："
 
 #: ../templates/default/ldap/domain_profile.html:255
-msgid "Please make sure you have enable signing disclaimer on outgoing mails and have crontab job to dump disclaimer text automaticly."
+msgid ""
+"Please make sure you have enable signing disclaimer on outgoing mails and"
+" have crontab job to dump disclaimer text automaticly."
 msgstr ""
 "请确保您已经启用为外发的邮件签署免责声明的功能并使用 crontab 任务\"\n"
 "\"自动将他们定期导出。"
@@ -736,7 +745,9 @@ msgstr "没有受您管理的域"
 
 #: ../templates/default/ldap/maillist_profile.html:120
 #, python-format
-msgid "Only <a href=\"%s\">users under domain <strong>%s</strong></a> can send mail to this address."
+msgid ""
+"Only <a href=\"%s\">users under domain <strong>%s</strong></a> can send "
+"mail to this address."
 msgstr "只有<a href=\"%s\">域 <strong>%s</strong> 的用户</a>才可以发送邮件到这个地址。"
 
 #: ../templates/default/ldap/maillist_profile.html:126
@@ -745,7 +756,9 @@ msgstr "只允许本域和它的子域"
 
 #: ../templates/default/ldap/maillist_profile.html:126
 #, python-format
-msgid "Only <a href=\"%s\">users under domain <strong>%s</strong></a> or sub domains can send mail to this address."
+msgid ""
+"Only <a href=\"%s\">users under domain <strong>%s</strong></a> or sub "
+"domains can send mail to this address."
 msgstr "只有<a href=\"%s\">域 <strong>%s</strong> 的用户</a>才可以发送邮件到这个地址。"
 
 #: ../templates/default/ldap/maillist_profile.html:131
@@ -754,7 +767,9 @@ msgstr "只允许成员"
 
 #: ../templates/default/ldap/maillist_profile.html:131
 #, python-format
-msgid "Only <a href=\"%s\">members</a> of this mail list can send mail to this address."
+msgid ""
+"Only <a href=\"%s\">members</a> of this mail list can send mail to this "
+"address."
 msgstr "只有邮件列表的 <a href=\"%s\">成员</a> 才可以发送邮件到这个地址。"
 
 #: ../templates/default/ldap/maillist_profile.html:136
@@ -772,7 +787,9 @@ msgstr "管理员"
 
 #: ../templates/default/ldap/maillist_profile.html:141
 #, python-format
-msgid "Only <a href=\"%s\">members</a> and <a href=\"%s\">moderators</a> can send mail to this address."
+msgid ""
+"Only <a href=\"%s\">members</a> and <a href=\"%s\">moderators</a> can "
+"send mail to this address."
 msgstr "只有邮件列表的<a href=\"%s\">成员</a>和<a href=\"%s\">管理员</a>可以发送邮件到这个地址。"
 
 #: ../templates/default/ldap/maillist_profile.html:149
@@ -849,10 +866,6 @@ msgstr "查询结果。"
 #, python-format
 msgid "%d user(s) found."
 msgstr "找到 %d 个用户"
-
-#: ../templates/default/ldap/search.html:77
-msgid "Created"
-msgstr "建立于"
 
 #: ../templates/default/ldap/search.html:128
 #, python-format
@@ -988,16 +1001,24 @@ msgid "Install iRedAPD"
 msgstr "安装 iRedAPD"
 
 #: ../templates/default/ldap/user_profile.html:283
-msgid "To bypass or block a <strong>single user</strong>, use full email address. e.g. <strong>user@domain.ltd</strong>"
+msgid ""
+"To bypass or block a <strong>single user</strong>, use full email "
+"address. e.g. <strong>user@domain.ltd</strong>"
 msgstr "放行或拦截 <strong>单个用户</strong>，使用完整的邮件地址。例如：<strong>user@domain.ltd</strong>"
 
 #: ../templates/default/ldap/user_profile.html:284
-msgid "To bypass or block <strong>whole domain</strong>, use @domain.ltd. e.g. <strong>@domain.ltd</strong>"
+msgid ""
+"To bypass or block <strong>whole domain</strong>, use @domain.ltd. e.g. "
+"<strong>@domain.ltd</strong>"
 msgstr "放行或拦截 <strong>整个域</strong>，使用 @domain.ltd。例如：<strong>@domain.ltd</strong>"
 
 #: ../templates/default/ldap/user_profile.html:285
-msgid "To bypass or block a <strong>domain and its sub-domains</strong>, use @.domain.ltd. e.g. <strong>@.domain.ltd</strong>"
-msgstr "放行或拦截 <strong>邮件域和它的子域</strong>，使用 @.domain.ltd。例如：<strong>@.domain.ltd</strong>"
+msgid ""
+"To bypass or block a <strong>domain and its sub-domains</strong>, use "
+"@.domain.ltd. e.g. <strong>@.domain.ltd</strong>"
+msgstr ""
+"放行或拦截 <strong>邮件域和它的子域</strong>，使用 "
+"@.domain.ltd。例如：<strong>@.domain.ltd</strong>"
 
 #: ../templates/default/ldap/user_profile.html:286
 msgid "Use <strong>@.</strong> to bypass or block <strong>all accounts</strong>."
@@ -1196,11 +1217,15 @@ msgid "Relay Setting"
 msgstr "中继转发设置"
 
 #: ../templates/default/macros.html:267
-msgid "Relay all mails to host \"gateway.example.com\" <strong>with</strong> MX lookups."
+msgid ""
+"Relay all mails to host \"gateway.example.com\" <strong>with</strong> MX "
+"lookups."
 msgstr "中继转发所有邮件到域名 \"gateway.example.com\" 的 DNS MX 记录指定的主机"
 
 #: ../templates/default/macros.html:272
-msgid "Relay all mails to host \"gateway.example.com\" <strong>without</strong> MX lookups."
+msgid ""
+"Relay all mails to host \"gateway.example.com\" <strong>without</strong> "
+"MX lookups."
 msgstr "中继转发所有邮件到域名 \"gateway.example.com\" 的 DNS A 记录指定的主机"
 
 #: ../templates/default/macros.html:283 ../templates/default/macros.html:285
@@ -1324,7 +1349,9 @@ msgstr "需要一个随机密码？"
 
 #: ../templates/default/macros.html:432
 #, python-format
-msgid "At least <strong>%s</strong> characters, but no more than <strong>%s</strong>."
+msgid ""
+"At least <strong>%s</strong> characters, but no more than "
+"<strong>%s</strong>."
 msgstr "至少<strong>%s</strong>个字符，但不得多于<strong>%s</strong>个。"
 
 #: ../templates/default/macros.html:434
@@ -1536,7 +1563,9 @@ msgid "Domain name is empty."
 msgstr "域名为空。"
 
 #: ../templates/default/msgHandlers.html:86
-msgid "Server-side size limit exceeded. Please increase \"sizelimit\" in your LDAP server."
+msgid ""
+"Server-side size limit exceeded. Please increase \"sizelimit\" in your "
+"LDAP server."
 msgstr "超出了服务器端的大小限制。请增大的 LDAP 服务器中的 \"sizelimit\" 数值。"
 
 #: ../templates/default/msgHandlers.html:88
@@ -1627,7 +1656,9 @@ msgstr "密码为空。"
 
 #: ../templates/default/msgHandlers.html:158
 #, python-format
-msgid "Account created success. Would you like to <a href=\"%s/create/admin\">add one more</a>?"
+msgid ""
+"Account created success. Would you like to <a "
+"href=\"%s/create/admin\">add one more</a>?"
 msgstr "帐号已成功建立。您是否需要<a href=\"%s/create/admin\">再添加一个</a>？"
 
 #: ../templates/default/msgHandlers.html:172
@@ -1761,3 +1792,7 @@ msgstr "添加白名单"
 #: ../templates/default/policyd/whitelist_view.html:33
 msgid "Add new blacklist"
 msgstr "添加黑名单"
+
+#~ msgid "Created"
+#~ msgstr "建立于"
+

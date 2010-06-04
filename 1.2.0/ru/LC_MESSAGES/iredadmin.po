@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: iRedAdmin-Pro-1.2.0\n"
 "Report-Msgid-Bugs-To: suds77@gmail.com\n"
 "POT-Creation-Date: 2009-10-22 21:56+0800\n"
-"PO-Revision-Date: 2010-06-02 01:43+0800\n"
+"PO-Revision-Date: 2010-06-04 10:19+0800\n"
 "Last-Translator: Dmitry Sukharev <suds77@gmail.com>\n"
 "Language-Team: ru_RU <suds77@gmail.com>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -180,6 +180,7 @@ msgstr "Глобальный админ"
 #: ../templates/default/ldap/maillist_profile.html:90
 #: ../templates/default/ldap/maillist_profile.html:161
 #: ../templates/default/ldap/maillist_profile.html:271
+#: ../templates/default/ldap/search.html:77
 #: ../templates/default/ldap/user_list.html:83
 #: ../templates/default/ldap/user_profile.html:150
 msgid "Created Date"
@@ -873,10 +874,6 @@ msgstr ""
 #, python-format
 msgid "%d user(s) found."
 msgstr ""
-
-#: ../templates/default/ldap/search.html:77
-msgid "Created"
-msgstr "Создать"
 
 #: ../templates/default/ldap/search.html:128
 #, python-format
@@ -1816,6 +1813,6 @@ msgstr "Добавить белый список"
 msgid "Add new blacklist"
 msgstr "Добавить черный список"
 
-#~ msgid "Import:"
-#~ msgstr ""
+#~ msgid "Created"
+#~ msgstr "Создать"
 

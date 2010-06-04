@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: iRedAdmin-Pro-1.2.0\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2009-10-22 17:33+0800\n"
-"PO-Revision-Date: 2010-06-02 23:21+0800\n"
+"PO-Revision-Date: 2010-06-04 10:19+0800\n"
 "Last-Translator: Zhang Huangbin <michaelbibby@gmail.com>\n"
 "Language-Team: zh_CN <LL@li.org>\n"
 "Plural-Forms: nplurals=1; plural=0\n"
@@ -35,7 +35,7 @@ msgstr "返回。"
 #: ../templates/default/layout.html:46
 #, python-format
 msgid "Logged in as %s."
-msgstr "登錄帳號：%s。"
+msgstr "登錄帳號：%s"
 
 #: ../templates/default/layout.html:47
 msgid "Preferences"
@@ -94,13 +94,13 @@ msgstr "系統"
 
 #: ../templates/default/layout.html:73
 msgid "Search name or email"
-msgstr "搜尋顯示名稱/電郵"
+msgstr "搜尋顯示名稱/電郵地址"
 
 #: ../templates/default/layout.html:73
 #: ../templates/default/ldap/dashboard.html:59
 #: ../templates/default/ldap/search.html:48
 msgid "Account display name or email"
-msgstr "搜尋顯示名稱/電郵"
+msgstr "顯示名稱/電郵地址"
 
 #: ../templates/default/layout.html:95
 msgid "Feature request & get support"
@@ -129,7 +129,7 @@ msgstr "聯繫管理員"
 #: ../templates/default/ldap/user_list.html:113
 #: ../templates/default/ldap/user_profile.html:148
 msgid "Mail Address"
-msgstr "郵寄地址"
+msgstr "電郵地址"
 
 #: ../templates/default/ldap/admin_create.html:88
 #: ../templates/default/ldap/alias_create.html:97
@@ -138,7 +138,7 @@ msgstr "郵寄地址"
 #: ../templates/default/ldap/maillist_create.html:92
 #: ../templates/default/ldap/user_create.html:116
 msgid "Create"
-msgstr "新建"
+msgstr "創建"
 
 #: ../templates/default/ldap/admin_list.html:37
 msgid "Domain Admins"
@@ -179,6 +179,7 @@ msgstr "全域管理員"
 #: ../templates/default/ldap/maillist_profile.html:90
 #: ../templates/default/ldap/maillist_profile.html:161
 #: ../templates/default/ldap/maillist_profile.html:271
+#: ../templates/default/ldap/search.html:77
 #: ../templates/default/ldap/user_list.html:83
 #: ../templates/default/ldap/user_profile.html:150
 msgid "Created Date"
@@ -311,19 +312,19 @@ msgstr "新建郵件別名"
 #: ../templates/default/ldap/alias_create.html:58
 #, python-format
 msgid "You can't create more mail aliases under domain %s."
-msgstr "您不能再新增郵件別名在此域名：%s"
+msgstr "您不能再在域 %s 新增更多郵件別名。"
 
 #: ../templates/default/ldap/alias_create.html:58
 #: ../templates/default/ldap/maillist_create.html:58
 #: ../templates/default/ldap/user_create.html:66
 msgid "Already exceed max number of account limit."
-msgstr "已超出最大帳號數量。"
+msgstr "已超過了最大帳號數量限制。"
 
 #: ../templates/default/ldap/alias_create.html:63
 #: ../templates/default/ldap/maillist_create.html:63
 #, python-format
 msgid "You can create <strong>%d</strong> more mail list(s) under domain %s."
-msgstr "您仍可建立 <strong>%d</strong> 郵寄清單於域名 %s 中。"
+msgstr "您還能建立 <strong>%d</strong> 個郵寄清單於域名 %s 中。"
 
 #: ../templates/default/ldap/alias_create.html:74
 msgid ""
@@ -361,7 +362,7 @@ msgstr "查看："
 #: ../templates/default/ldap/alias_list.html:124
 #: ../templates/default/ldap/maillist_list.html:129
 msgid "View members"
-msgstr "添加成員"
+msgstr "查看成員"
 
 #: ../templates/default/ldap/alias_profile.html:40
 #: ../templates/default/ldap/maillist_profile.html:54
@@ -506,7 +507,7 @@ msgstr "您確定要啟用選中的域嗎？"
 
 #: ../templates/default/ldap/domain_profile.html:49
 msgid "Edit account profile."
-msgstr "編輯管理員屬性。"
+msgstr "編輯屬性。"
 
 #: ../templates/default/ldap/domain_profile.html:56
 #: ../templates/default/ldap/user_profile.html:118
@@ -534,7 +535,7 @@ msgstr "免責聲明"
 
 #: ../templates/default/ldap/domain_profile.html:62
 msgid "Advanced"
-msgstr "進階"
+msgstr "進階設定"
 
 #: ../templates/default/ldap/domain_profile.html:69
 #: ../templates/default/ldap/user_create.html:40
@@ -571,9 +572,7 @@ msgstr "域級別的密送(BCC)設置將會覆蓋針對單個用戶的密送(BCC
 msgid ""
 "Received emails does not match any existing address will be delivered to "
 "catch-all address(es)."
-msgstr ""
-"如收到之郵件找不到存在或相配之收件帳號將被轉發到\"\n"
-"\"被指定為 catch-all 之帳號。"
+msgstr "如收到之郵件找不到存在或相配之收件帳號，將被轉發到被指定為 catch-all 之帳號。"
 
 #: ../templates/default/ldap/domain_profile.html:231
 msgid "Be careful: This account may receive many spam emails."
@@ -589,7 +588,7 @@ msgstr "Catch-all 帳號"
 
 #: ../templates/default/ldap/domain_profile.html:243
 msgid "Multiple addresses MUST be seperated by comma (,)."
-msgstr "多於一個帳號'必須以','號分隔"
+msgstr "多於一個帳號'必須以英文(,)號分隔"
 
 #: ../templates/default/ldap/domain_profile.html:255
 msgid "NOTE:"
@@ -605,7 +604,7 @@ msgstr ""
 
 #: ../templates/default/ldap/domain_profile.html:255
 msgid "Reference:"
-msgstr "参考"
+msgstr "偏好設置"
 
 #: ../templates/default/ldap/domain_profile.html:257
 msgid "How to enable signing disclaimer on outgoing mails."
@@ -625,7 +624,7 @@ msgstr "默認郵件存儲路徑"
 
 #: ../templates/default/ldap/domain_profile.html:284
 msgid "Sample:"
-msgstr "樣本"
+msgstr "樣本："
 
 #: ../templates/default/ldap/domain_profile.html:285
 msgid "Leave it empty to use default setting."
@@ -640,7 +639,7 @@ msgstr "郵件用戶的最大數量"
 #: ../templates/default/ldap/domain_profile.html:310
 #, python-format
 msgid "%s account(s) exist."
-msgstr "%s 帳號存在。"
+msgstr "已有 %s 個帳號存在。"
 
 #: ../templates/default/ldap/domain_profile.html:296
 #: ../templates/default/ldap/domain_profile.html:303
@@ -650,7 +649,7 @@ msgstr "%s 帳號存在。"
 #: ../templates/default/ldap/domain_profile.html:334
 #: ../templates/default/ldap/user_import.html:79
 msgid "Set to 0 for unlimited."
-msgstr "提示：0 表示無限制。"
+msgstr "設置為 0 表示無限制。"
 
 #: ../templates/default/ldap/domain_profile.html:302
 msgid "Number of max mail lists"
@@ -715,7 +714,7 @@ msgstr "新建郵寄清單"
 #: ../templates/default/ldap/maillist_create.html:58
 #, python-format
 msgid "You can't create more mail lists under domain %s."
-msgstr "您不能再新增郵寄清單在此域名：%s"
+msgstr "您不能再在域 %s 新增更多郵寄清單"
 
 #: ../templates/default/ldap/maillist_list.html:44
 msgid "View mail lists under domain:"
@@ -737,7 +736,7 @@ msgstr "返回郵寄清單頁面"
 
 #: ../templates/default/ldap/maillist_profile.html:114
 msgid "Everyone can send mail to this address."
-msgstr "所有用戶皆可傳送郵件到此帳號。"
+msgstr "所有人皆可傳送郵件到此帳號。"
 
 #: ../templates/default/ldap/maillist_profile.html:120
 msgid "Domain users only"
@@ -748,9 +747,7 @@ msgstr "僅限該域名用戶"
 msgid ""
 "Only <a href=\"%s\">users under domain <strong>%s</strong></a> can send "
 "mail to this address."
-msgstr ""
-"僅限 <a href=\"%s\">用戶在域名 <strong>%s</strong></a> 下才能傳送\"\n"
-"\"郵件到此帳號。"
+msgstr "僅限 <a href=\"%s\">在域名 <strong>%s</strong>下之用戶</a> 才能傳送郵件到此帳號。"
 
 #: ../templates/default/ldap/maillist_profile.html:126
 msgid "Domain and sub-domain users only"
@@ -761,9 +758,7 @@ msgstr "僅限該域名及子域名用戶"
 msgid ""
 "Only <a href=\"%s\">users under domain <strong>%s</strong></a> or sub "
 "domains can send mail to this address."
-msgstr ""
-"僅限 <a href=\"%s\">用戶在域名 <strong>%s</strong></a> 或其子域名 \"\n"
-"\"才能傳送郵件到此帳號。"
+msgstr "僅限 <a href=\"%s\">在域名 <strong>%s</strong></a> 或其子域名下之用戶才能傳送郵件到此帳號。"
 
 #: ../templates/default/ldap/maillist_profile.html:131
 msgid "Members only"
@@ -794,9 +789,7 @@ msgstr "僅限成員及仲裁員"
 msgid ""
 "Only <a href=\"%s\">members</a> and <a href=\"%s\">moderators</a> can "
 "send mail to this address."
-msgstr ""
-"僅限郵寄清單的 <a href=\"%s\">成員</a> 及 <a href=\"%s\">仲裁員</a> 可以 \"\n"
-"\"傳送郵件到此帳號。"
+msgstr "僅限郵寄清單的 <a href=\"%s\">成員</a> 及 <a href=\"%s\">仲裁員</a> 可以傳送郵件到此帳號。"
 
 #: ../templates/default/ldap/maillist_profile.html:149
 msgid "Internal members"
@@ -822,7 +815,7 @@ msgstr "最後登錄時間"
 #: ../templates/default/ldap/search.html:76
 #: ../templates/default/ldap/user_list.html:116
 msgid "Quota"
-msgstr "容量限額"
+msgstr "郵箱容量"
 
 #: ../templates/default/ldap/maillist_profile.html:220
 #: ../templates/default/ldap/maillist_profile.html:330
@@ -871,16 +864,12 @@ msgstr "搜尋結果"
 #: ../templates/default/ldap/search.html:66
 #, python-format
 msgid "%d user(s) found."
-msgstr "%d 已找到用戶"
-
-#: ../templates/default/ldap/search.html:77
-msgid "Created"
-msgstr "新建"
+msgstr "已找到 %d 個用戶"
 
 #: ../templates/default/ldap/search.html:128
 #, python-format
 msgid "%d mail list(s) found."
-msgstr "已找到 %d 郵寄清單"
+msgstr "已找到 %d 個郵寄清單"
 
 #: ../templates/default/ldap/search.html:177
 #, python-format
@@ -894,12 +883,12 @@ msgstr "找不到所提供之搜尋資料。"
 #: ../templates/default/ldap/user_create.html:66
 #, python-format
 msgid "You can't create more users under domain <strong>%s</strong>."
-msgstr "您不能再添加任何用戶在域名：<strong>%s</strong>。"
+msgstr "您不能再在域 <strong>%s</strong> 新增更多用戶。"
 
 #: ../templates/default/ldap/user_create.html:71
 #, python-format
 msgid "You can create <strong>%d</strong> more mail user(s) under domain %s."
-msgstr "您可再添加<strong>%d</strong>用戶在域名 %s。"
+msgstr "您可再在域 <strong>%s</strong> 新增 <strong>%d</strong> 個用戶。"
 
 #: ../templates/default/ldap/user_import.html:37
 msgid "Import users"
@@ -915,7 +904,7 @@ msgstr "為所有帳號指定一個密碼"
 
 #: ../templates/default/ldap/user_import.html:78
 msgid "Mailbox quota for new user"
-msgstr "新用戶郵箱容量限額"
+msgstr "新用戶郵箱容量"
 
 #: ../templates/default/ldap/user_import.html:86
 msgid "Account names"
@@ -979,7 +968,7 @@ msgstr "郵寄清單成員"
 
 #: ../templates/default/ldap/user_profile.html:205
 msgid "Warning:"
-msgstr "警告:"
+msgstr "警告："
 
 #: ../templates/default/ldap/user_profile.html:205
 msgid "Account NOT exists."
@@ -1000,11 +989,11 @@ msgstr "，"
 #: ../templates/default/ldap/user_profile.html:266
 #, python-format
 msgid "or leave it empty to use <a href=\"%s\">domain setting</a>."
-msgstr "或留空則使用<a href=\"%s\">的域設定</a>。"
+msgstr "或留空則使用<a href=\"%s\">域的設定</a>。"
 
 #: ../templates/default/ldap/user_profile.html:278
 msgid "You should install iRedAPD to make restrictions work as expected."
-msgstr "要使'限制'功能正常運作, 應先安裝 iRedAPD。"
+msgstr "您需要安裝 iRedAPD 才能使用此功能。"
 
 #: ../templates/default/ldap/user_profile.html:278
 msgid "Install iRedAPD"
@@ -1014,26 +1003,27 @@ msgstr "安裝 iRedAPD"
 msgid ""
 "To bypass or block a <strong>single user</strong>, use full email "
 "address. e.g. <strong>user@domain.ltd</strong>"
-msgstr "放行或攔截<strong>單個用戶</strong>﹐ 使用完整的郵件地址。"
-"例如﹕<strong>user@domain.ltd</strong>"
+msgstr "放行或攔截<strong>單個用戶</strong>，請使用完整的郵件地址。例如﹕<strong>user@domain.ltd</strong>"
 
 #: ../templates/default/ldap/user_profile.html:284
 msgid ""
 "To bypass or block <strong>whole domain</strong>, use @domain.ltd. e.g. "
 "<strong>@domain.ltd</strong>"
-msgstr "放行或攔截<strong>整個郵件域</strong>, 可使用"
-"<strong>@domain.ltd</strong> 例如<strong>@domain.ltd</strong>"
+msgstr ""
+"放行或攔截<strong>整個郵件域</strong>，可使用 "
+"<strong>@domain.ltd</strong>。例如：<strong>@domain.ltd</strong>"
 
 #: ../templates/default/ldap/user_profile.html:285
 msgid ""
 "To bypass or block a <strong>domain and its sub-domains</strong>, use "
 "@.domain.ltd. e.g. <strong>@.domain.ltd</strong>"
-msgstr "放行或攔截<strong>郵件域和其子域</strong>, 可使用 "
-"<strong>@.domain.ltd</strong> 例如<strong>@.domain.ltd</strong>"
+msgstr ""
+"放行或攔截<strong>郵件域和其子域</strong>，可使用 "
+"<strong>@.domain.ltd</strong>。例如：<strong>@.domain.ltd</strong>"
 
 #: ../templates/default/ldap/user_profile.html:286
 msgid "Use <strong>@.</strong> to bypass or block <strong>all accounts</strong>."
-msgstr "使用 <strong>@.</strong> 放行或攔截<strong>所有帳號</strong>"
+msgstr "使用 <strong>@.</strong> 放行或攔截<strong>所有帳號</strong>。"
 
 #: ../templates/default/ldap/user_profile.html:287
 msgid "Whitelist has higher priority than blacklist."
@@ -1061,7 +1051,7 @@ msgstr "由以下寄件者所發出之郵件將被直接拒絕。"
 
 #: ../templates/default/ldap/user_profile.html:311
 msgid "Recipient Restrictions"
-msgstr "限制收件者"
+msgstr "收件者限制"
 
 #: ../templates/default/ldap/user_profile.html:318
 msgid "Whitelisted Recipients"
@@ -1070,11 +1060,11 @@ msgstr "白名單(收件者)"
 #: ../templates/default/ldap/user_profile.html:319
 #, python-format
 msgid "User <strong>%s (%s)</strong> can send email to below recipients."
-msgstr "帳號 <strong>%s (%s)</strong> 能夠發送郵件到以下收件者。"
+msgstr "帳號 <strong>%s (%s)</strong> 可以發送郵件到以下收件人。"
 
 #: ../templates/default/ldap/user_profile.html:324
 msgid "Blacklisted Recipients"
-msgstr "對收下的郵件啟用密送（BCC）功能"
+msgstr "黑名單(收件者)"
 
 #: ../templates/default/ldap/user_profile.html:325
 #, python-format
@@ -1261,7 +1251,7 @@ msgstr "郵件服務"
 
 #: ../templates/default/macros.html:312
 msgid "Check this box in order to enable all mail related services."
-msgstr "勾選這個選項以啟用所有郵件相關的服務。"
+msgstr "選取這個選項以啟用所有郵件相關的服務。"
 
 #: ../templates/default/macros.html:327
 msgid "Fetch mails via POP3."
@@ -1297,7 +1287,7 @@ msgstr "自訂郵件過濾規則（使用 TLS/SSL 加密傳輸）"
 
 #: ../templates/default/macros.html:370
 msgid "Display this account's mail address in global LDAP address book."
-msgstr "在全域 LDAP 位址簿中顯示該帳號的郵寄地址。"
+msgstr "在全域 LDAP 地址簿中顯示該帳號的電郵地址。"
 
 #: ../templates/default/macros.html:380
 msgid "Domain admin assignment"
@@ -1373,7 +1363,7 @@ msgstr "新密碼必須至少包含 <strong>%s</strong> 個字元。"
 #: ../templates/default/macros.html:436
 #, python-format
 msgid "No more than <strong>%s</strong> characters."
-msgstr "新密碼必須至少包含 <strong>%s</strong> 個字元。"
+msgstr "新密碼必須至不多於 <strong>%s</strong> 個字元。"
 
 #: ../templates/default/macros.html:443
 msgid "Confirm new password"
@@ -1381,7 +1371,7 @@ msgstr "確認新密碼"
 
 #: ../templates/default/macros.html:443
 msgid "Re-enter your password exactly as before."
-msgstr "重新輸入上面的密碼以進行確認。"
+msgstr "重新輸入以上密碼以進行確認。"
 
 #: ../templates/default/macros.html:457
 msgid "Mailbox Quota"
@@ -1393,7 +1383,7 @@ msgstr "對收件者啟用密送（BCC）功能"
 
 #: ../templates/default/macros.html:479 ../templates/default/macros.html:482
 msgid "Recipient BCC address"
-msgstr "對收下的郵件密送到以下地址"
+msgstr "對收取的郵件密送到以下地址"
 
 #: ../templates/default/macros.html:483 ../templates/default/macros.html:508
 msgid "Multiple addresses are <strong>NOT</strong> supported."
@@ -1410,7 +1400,7 @@ msgstr "對發件者啟用密送（BCC）功能"
 #: ../templates/default/macros.html:502 ../templates/default/macros.html:504
 #: ../templates/default/macros.html:507
 msgid "Sender BCC address"
-msgstr "對將發送的郵件密送到以下地址"
+msgstr "對發送的郵件密送到以下地址"
 
 #: ../templates/default/macros.html:521
 msgid "Enable mail forwarding"
@@ -1480,7 +1470,7 @@ msgstr "新建郵件用戶："
 #: ../templates/default/macros.html:618
 #: ../templates/default/ldap/dashboard.html:40
 msgid "Domain"
-msgstr "功能變數名稱"
+msgstr "域名"
 
 #: ../templates/default/macros.html:619
 #: ../templates/default/ldap/dashboard.html:41
@@ -1517,11 +1507,11 @@ msgstr "管理員登錄"
 
 #: ../templates/default/macros.html:747
 msgid "Create account"
-msgstr "創建日期"
+msgstr "創建帳號"
 
 #: ../templates/default/macros.html:749
 msgid "Delete account"
-msgstr "啟用這個帳號"
+msgstr "刪除這個帳號"
 
 #: ../templates/default/macros.html:751
 msgid "Disable account"
@@ -1533,11 +1523,11 @@ msgstr "啟用這個帳號"
 
 #: ../templates/default/msgHandlers.html:46
 msgid "Username or password is incorrect."
-msgstr "用戶名或密碼錯誤。"
+msgstr "帳號名稱或密碼錯誤。"
 
 #: ../templates/default/msgHandlers.html:48
 msgid "Username must be an valid email address."
-msgstr "用戶名必須是有效的郵寄地址。"
+msgstr "帳號名稱必須是有效的電郵地址。"
 
 #: ../templates/default/msgHandlers.html:50
 msgid "Login required"
@@ -1545,7 +1535,7 @@ msgstr "必須先登錄才能進行操作"
 
 #: ../templates/default/msgHandlers.html:52
 msgid "Empty password is not allowed."
-msgstr "不允許使用空位址。"
+msgstr "不允許使用空白位址。"
 
 #: ../templates/default/msgHandlers.html:72
 #: ../templates/default/msgHandlers.html:160
@@ -1640,7 +1630,7 @@ msgstr "已成功啟用選定的帳號。"
 
 #: ../templates/default/msgHandlers.html:127
 msgid "Invalid profile type."
-msgstr "無效的偏好類型：%s。"
+msgstr "無效的屬性類型。"
 
 #: ../templates/default/msgHandlers.html:131
 #: ../templates/default/msgHandlers.html:176
@@ -1719,7 +1709,7 @@ msgstr "沒有選定仲裁員帳號。"
 
 #: ../templates/default/msgHandlers.html:268
 msgid "Empty address is not allowed."
-msgstr "不允許使用空位址。"
+msgstr "不允許使用空白位址。"
 
 #: ../templates/default/panel/log.html:24
 #: ../templates/default/panel/log.html:28
@@ -1728,7 +1718,7 @@ msgstr "管理員日誌"
 
 #: ../templates/default/panel/log.html:48
 msgid "Filter:"
-msgstr "過濾"
+msgstr "過濾："
 
 #: ../templates/default/panel/log.html:78
 #, python-format
@@ -1743,7 +1733,7 @@ msgstr "總共 %d 筆記錄。"
 
 #: ../templates/default/panel/log.html:101
 msgid "Time"
-msgstr "執行時間"
+msgstr "運行時間"
 
 #: ../templates/default/panel/log.html:103
 msgid "IP Address"
@@ -1803,4 +1793,7 @@ msgstr "新增白名單"
 #: ../templates/default/policyd/whitelist_view.html:33
 msgid "Add new blacklist"
 msgstr "新增黑名單"
+
+#~ msgid "Created"
+#~ msgstr "建立日期"
 
