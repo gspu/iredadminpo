@@ -81,7 +81,7 @@ msgstr "Создать аккаунт"
 
 #: ../templates/default/layout.html:74
 msgid "Search name or email"
-msgstr ""
+msgstr "Поиск имени или ящика"
 
 #: ../templates/default/layout.html:74
 #: ../templates/default/ldap/dashboard.html:66
@@ -91,11 +91,11 @@ msgstr ""
 
 #: ../templates/default/layout.html:100
 msgid "News & Announments"
-msgstr ""
+msgstr "Новости и объявления"
 
 #: ../templates/default/layout.html:101
 msgid "Support"
-msgstr ""
+msgstr "Поддержка"
 
 #: ../templates/default/layout.html:103
 msgid "Contact webmaster"
@@ -126,7 +126,7 @@ msgstr "Глобальный админ"
 #: ../templates/default/ldap/maillist/profile.html:62
 #: ../templates/default/ldap/user/profile.html:132
 msgid "Export:"
-msgstr ""
+msgstr "Экспорт:"
 
 #: ../templates/default/ldap/admin/profile.html:52
 #: ../templates/default/ldap/alias/profile.html:50
@@ -134,14 +134,14 @@ msgstr ""
 #: ../templates/default/ldap/maillist/profile.html:63
 #: ../templates/default/ldap/user/profile.html:133
 msgid "Export account in LDIF format"
-msgstr ""
+msgstr "Экспорт аккаунта в LDIF формат"
 
 #: ../templates/default/ldap/admin/profile.html:56
 #: ../templates/default/ldap/alias/profile.html:54
 #: ../templates/default/ldap/maillist/profile.html:67
 #: ../templates/default/ldap/user/profile.html:138
 msgid "Profile"
-msgstr ""
+msgstr "Профиль"
 
 #: ../templates/default/ldap/admin/profile.html:62
 #: ../templates/default/ldap/alias/profile.html:55
@@ -196,7 +196,7 @@ msgstr "Записать изменения"
 #: ../templates/default/ldap/alias/create.html:37
 #: ../templates/default/ldap/alias/list.html:81
 msgid "Add alias"
-msgstr ""
+msgstr "Добавить алиас"
 
 #: ../templates/default/ldap/alias/create.html:60
 #, python-format
@@ -291,7 +291,7 @@ msgstr "Доступные операции"
 #: ../templates/default/policyd/blacklist/create.html:85
 #: ../templates/default/policyd/whitelist/create.html:67
 msgid "Add"
-msgstr ""
+msgstr "Добавить"
 
 #: ../templates/default/ldap/dashboard.html:64
 #: ../templates/default/ldap/search.html:37
@@ -363,7 +363,7 @@ msgstr "Списки"
 
 #: ../templates/default/ldap/domain/list.html:151
 msgid "Change domain quota."
-msgstr ""
+msgstr "Изменить квоту домена."
 
 #: ../templates/default/ldap/domain/list.html:164
 msgid "List all mail users."
@@ -416,12 +416,12 @@ msgstr "Службы"
 #: ../templates/default/ldap/domain/profile.html:173
 #: ../templates/default/ldap/user/profile.html:155
 msgid "Throttle"
-msgstr ""
+msgstr "Регулировать"
 
 #: ../templates/default/ldap/domain/profile.html:176
 #: ../templates/default/ldap/user/profile.html:162
 msgid "Advanced"
-msgstr ""
+msgstr "Дополнительно"
 
 #: ../templates/default/ldap/domain/profile.html:205
 msgid "Enable domain alias"
@@ -468,7 +468,7 @@ msgstr "Настройки релея"
 #: ../templates/default/ldap/domain/profile.html:287
 #: ../templates/default/ldap/user/profile.html:456
 msgid "Samples"
-msgstr ""
+msgstr "Примеры"
 
 #: ../templates/default/ldap/domain/profile.html:303
 msgid ""
@@ -478,11 +478,11 @@ msgstr ""
 
 #: ../templates/default/ldap/domain/profile.html:304
 msgid "Be careful: Catch-all address may receive many spam emails."
-msgstr ""
+msgstr "Осторожно! Catch-all адресс может принимать много спам сообщений !"
 
 #: ../templates/default/ldap/domain/profile.html:312
 msgid "Enable catch-all address"
-msgstr ""
+msgstr "Разрешить Catch-all адресс"
 
 #: ../templates/default/ldap/domain/profile.html:316
 msgid "Catch-all address"
@@ -490,7 +490,7 @@ msgstr "Почтовый адрес"
 
 #: ../templates/default/ldap/domain/profile.html:316
 msgid "Multiple addresses MUST be seperated by comma (,)."
-msgstr ""
+msgstr "Несколько адресов должны быть разделены запятой"
 
 #: ../templates/default/ldap/domain/profile.html:328
 msgid "NOTE:"
@@ -535,7 +535,7 @@ msgstr "Путь до главной директории"
 
 #: ../templates/default/ldap/domain/profile.html:404
 msgid "Sample:"
-msgstr ""
+msgstr "Пример:"
 
 #: ../templates/default/ldap/domain/profile.html:405
 msgid "Leave it empty to use default setting."
@@ -566,11 +566,11 @@ msgstr "Максимальное кол-во алиасов"
 
 #: ../templates/default/ldap/domain/profile.html:456
 msgid "Minimal password length"
-msgstr ""
+msgstr "Мин. длинна пароля"
 
 #: ../templates/default/ldap/domain/profile.html:461
 msgid "Maximal password length"
-msgstr ""
+msgstr "Макс. длинна пароля"
 
 #: ../templates/default/ldap/domain/profile.html:470
 msgid "Default quota of new user"
@@ -578,7 +578,7 @@ msgstr "Создать нового пользователя"
 
 #: ../templates/default/ldap/domain/profile.html:479
 msgid "Default mail group(s) of new user"
-msgstr ""
+msgstr "Группа по умолчанию для нового пользователя"
 
 #: ../templates/default/ldap/domain/profile.html:499
 #: ../templates/default/ldap/maillist/create.html:37
@@ -652,7 +652,7 @@ msgstr ""
 
 #: ../templates/default/ldap/maillist/profile.html:138
 msgid "Domain and sub-domain users only"
-msgstr ""
+msgstr "Только пользователи домена и субдомена"
 
 #: ../templates/default/ldap/maillist/profile.html:138
 #, python-format
@@ -752,17 +752,17 @@ msgstr "Все домены, доступные для управления"
 #: ../templates/default/ldap/maillist/profile.html:371
 #: ../templates/default/panel/log.html:77
 msgid "Submit"
-msgstr ""
+msgstr "Подтвердить"
 
 #: ../templates/default/ldap/search.html:60
 #: ../templates/default/ldap/search.html:265
 msgid "Search results."
-msgstr ""
+msgstr "Результаты поиска."
 
 #: ../templates/default/ldap/search.html:68
 #, python-format
 msgid "%d user(s) found."
-msgstr ""
+msgstr "%d пользователей найдено."
 
 #: ../templates/default/ldap/search.html:78
 #: ../templates/default/ldap/search.html:151
@@ -908,13 +908,13 @@ msgstr "Включить выбранные аккаунты ?"
 #: ../templates/default/ldap/search.html:141
 #, python-format
 msgid "%d mail list(s) found."
-msgstr ""
+msgstr "%d почтовых списков найдено."
 
 #: ../templates/default/ldap/search.html:152
 #: ../templates/default/ldap/maillist/list.html:97
 #: ../templates/default/ldap/maillist/profile.html:121
 msgid "Mail Deliver Restriction"
-msgstr ""
+msgstr "Ограничения на доставку почты"
 
 #: ../templates/default/ldap/search.html:178
 #: ../templates/default/ldap/search.html:240
@@ -930,12 +930,12 @@ msgstr "Список всех почтовых алиасов"
 
 #: ../templates/default/ldap/search.html:269
 msgid "Your search returned no hits."
-msgstr ""
+msgstr "Поиск не вернул результатов"
 
 #: ../templates/default/ldap/user/create.html:40
 #: ../templates/default/ldap/user/list.html:96
 msgid "Add user"
-msgstr ""
+msgstr "Добавить пользователя"
 
 #: ../templates/default/ldap/user/create.html:92
 #, python-format
@@ -944,7 +944,7 @@ msgstr "Просмотр списков текущего домена:"
 
 #: ../templates/default/ldap/user/create.html:99
 msgid "Increase it now?"
-msgstr ""
+msgstr "Увеличить это ?"
 
 #: ../templates/default/ldap/user/create.html:105
 #, python-format
@@ -965,7 +965,7 @@ msgstr "Назначить пароль для всех аккаунтов"
 
 #: ../templates/default/ldap/user/import.html:78
 msgid "Mailbox quota for new user"
-msgstr ""
+msgstr "Размер квоты для нового пользователя"
 
 #: ../templates/default/ldap/user/import.html:85
 msgid "Account names"
@@ -981,7 +981,7 @@ msgstr "Адрес не может быть пустым"
 
 #: ../templates/default/ldap/user/import.html:89
 msgid "Username, Display name, Password"
-msgstr ""
+msgstr "Имя пользователя, отображаемое имя, пароль"
 
 #: ../templates/default/ldap/user/import.html:100
 msgid "Submit to preview"
@@ -998,7 +998,7 @@ msgstr "Почтовые пользователи"
 
 #: ../templates/default/ldap/user/list.html:110
 msgid "Job Title"
-msgstr ""
+msgstr "Занимаемая должность"
 
 #: ../templates/default/ldap/user/profile.html:128
 #: ../templates/default/ldap/user/profile.html:456
@@ -1013,7 +1013,7 @@ msgstr ":"
 
 #: ../templates/default/ldap/user/profile.html:150
 msgid "Member of Groups"
-msgstr ""
+msgstr "Член групп"
 
 #: ../templates/default/ldap/user/profile.html:151
 msgid "Forwarding"
@@ -1071,7 +1071,7 @@ msgstr "Включить этот аккаунт"
 
 #: ../templates/default/ldap/user/profile.html:325
 msgid "You should install iRedAPD to make this feature work as expected."
-msgstr ""
+msgstr "Вы должны установить iRedAPD, чтобы заставить этот функционал работать."
 
 #: ../templates/default/ldap/user/profile.html:325
 msgid "Install iRedAPD"
@@ -1101,27 +1101,27 @@ msgstr ""
 
 #: ../templates/default/ldap/user/profile.html:334
 msgid "Whitelist has higher priority than blacklist."
-msgstr ""
+msgstr "Белый список имеет больший приоритет, чем черный"
 
 #: ../templates/default/ldap/user/profile.html:341
 msgid "Whitelisted Senders"
-msgstr ""
+msgstr "Белый список отправителей"
 
 #: ../templates/default/ldap/user/profile.html:342
 msgid "Email comes from whitelisted senders will be bypassed directly."
-msgstr ""
+msgstr "Почта из белого списка будет доставлена без проверок"
 
 #: ../templates/default/ldap/user/profile.html:350
 msgid "Blacklisted Senders"
-msgstr ""
+msgstr "Помещенные в черный список Отправители"
 
 #: ../templates/default/ldap/user/profile.html:351
 msgid "Email comes from blacklisted senders will be rejected immediately."
-msgstr ""
+msgstr "Почта из черного списка будет отклонена"
 
 #: ../templates/default/ldap/user/profile.html:358
 msgid "Whitelisted Recipients"
-msgstr ""
+msgstr "Белый список получателей"
 
 #: ../templates/default/ldap/user/profile.html:359
 #, python-format
@@ -1148,7 +1148,7 @@ msgstr "Путь до почтового ящика"
 #: ../templates/default/ldap/user/profile.html:456
 #, python-format
 msgid "or leave it empty to use <a href=\"%s\">domain setting</a>."
-msgstr ""
+msgstr "или оставьте пустым для использования настроек <a href=\"%s\">домена</a>."
 
 #: ../templates/default/macros.html:68
 msgid "Account is active."
@@ -1194,11 +1194,11 @@ msgstr "ID пользователя"
 
 #: ../templates/default/macros.html:170
 msgid "Job Title/Responsibility"
-msgstr ""
+msgstr "Занимаемая должность"
 
 #: ../templates/default/macros.html:177
 msgid "Mobile"
-msgstr ""
+msgstr "Мобильный телефон"
 
 #: ../templates/default/macros.html:185 ../templates/default/macros.html:191
 msgid "Telephone Number"
@@ -1340,7 +1340,7 @@ msgstr "Разрешить почту через POP3"
 
 #: ../templates/default/macros.html:392
 msgid "Fetching mails via IMAP over TLS/SSL."
-msgstr ""
+msgstr "Получать почту через IMAP поверх TLS/SSL."
 
 #: ../templates/default/macros.html:393
 msgid "Sending mails via SMTP."
@@ -1348,7 +1348,7 @@ msgstr "Отсылать почту через SMTP"
 
 #: ../templates/default/macros.html:394
 msgid "Receiving mails for this account on mail server."
-msgstr ""
+msgstr "Принимаемая почта для этого аккаунта на сервере."
 
 #: ../templates/default/macros.html:395
 msgid "Forwarding mails to other addresses."
@@ -1368,11 +1368,11 @@ msgstr "Настраиваемый почтовый фильтр через TLS/
 
 #: ../templates/default/macros.html:399
 msgid "BCC incoming mails to other address."
-msgstr ""
+msgstr "BCC входящую направлять на другой адрес"
 
 #: ../templates/default/macros.html:400
 msgid "BCC outgoing mails to other address."
-msgstr ""
+msgstr "BCC исходящую направлять на другой адрес."
 
 #: ../templates/default/macros.html:401 ../templates/default/macros.html:405
 #: ../templates/default/macros.html:409
@@ -1408,7 +1408,7 @@ msgstr "(Глобальный админ)"
 #: ../templates/default/ldap/admin/create.html:41
 #: ../templates/default/ldap/admin/list.html:71
 msgid "Add admin"
-msgstr ""
+msgstr "Добавить админа"
 
 #: ../templates/default/macros.html:466 ../templates/default/macros.html:469
 msgid "MTA transport"
@@ -1449,7 +1449,7 @@ msgstr "Новый пароль"
 
 #: ../templates/default/macros.html:485
 msgid "Need a random password?"
-msgstr ""
+msgstr "Нужен случайный пароль ?"
 
 #: ../templates/default/macros.html:488
 #, python-format
@@ -1457,6 +1457,8 @@ msgid ""
 "At least <strong>%s</strong> characters, but no more than "
 "<strong>%s</strong>."
 msgstr ""
+"По крайней мере <strong>%s</strong> символов, но не более чем "
+"<strong>%s</strong>."
 
 #: ../templates/default/macros.html:490
 #, python-format
@@ -1478,7 +1480,7 @@ msgstr "Введите пароль точно также как и раньше
 
 #: ../templates/default/macros.html:513
 msgid "Mailbox Quota"
-msgstr ""
+msgstr "Квота ящика"
 
 #: ../templates/default/macros.html:519
 msgid "Available quota:"
@@ -1497,7 +1499,7 @@ msgstr "0 означает Неограничено"
 
 #: ../templates/default/macros.html:534
 msgid "BCC incoming emails to"
-msgstr ""
+msgstr "BCC входящую почту направлять в"
 
 #: ../templates/default/macros.html:535 ../templates/default/macros.html:544
 msgid "Multiple addresses are <strong>NOT</strong> supported."
@@ -1505,7 +1507,7 @@ msgstr "Несколько адресов не поддерживаются"
 
 #: ../templates/default/macros.html:543
 msgid "BCC outgoing emails to"
-msgstr ""
+msgstr "BCC исходящую почту направлять в"
 
 #: ../templates/default/macros.html:587
 msgid "Email address of alias account"
@@ -1544,7 +1546,7 @@ msgstr "Только <a href=\"%s\"> модераторы </a> могут сла
 #: ../templates/default/macros.html:673
 #, python-format
 msgid "<a href=\"%s\">Domain and sub-domain users</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Пользователи домена и субдомена</a>"
 
 #: ../templates/default/macros.html:675
 #, python-format
@@ -1583,7 +1585,7 @@ msgstr "Алиасы"
 
 #: ../templates/default/macros.html:699
 msgid "Add:"
-msgstr ""
+msgstr "Добавить:"
 
 #: ../templates/default/macros.html:701
 #: ../templates/default/ldap/dashboard.html:40
@@ -1680,7 +1682,7 @@ msgstr "Максимальное кол-во пользователей"
 
 #: ../templates/default/macros/policyd.html:39
 msgid "Quota size of all outgoing emails"
-msgstr ""
+msgstr "Размер квоты для всех исходящих писем"
 
 #: ../templates/default/macros/policyd.html:44
 #: ../templates/default/macros/policyd.html:104
@@ -1689,15 +1691,15 @@ msgstr "Текущая квота:"
 
 #: ../templates/default/macros/policyd.html:55
 msgid "1 Minute"
-msgstr ""
+msgstr "1 минута"
 
 #: ../templates/default/macros/policyd.html:55
 msgid "1 Hour"
-msgstr ""
+msgstr "1 час"
 
 #: ../templates/default/macros/policyd.html:55
 msgid "1 Day"
-msgstr ""
+msgstr "1 день"
 
 #: ../templates/default/macros/policyd.html:58
 msgid "Time Unit"
@@ -1705,7 +1707,7 @@ msgstr "Активировать аккаунт"
 
 #: ../templates/default/macros/policyd.html:75
 msgid "Seconds"
-msgstr ""
+msgstr "Секунд"
 
 #: ../templates/default/macros/policyd.html:75
 #: ../templates/default/macros/policyd.html:104
@@ -1714,7 +1716,7 @@ msgstr ""
 
 #: ../templates/default/macros/policyd.html:87
 msgid "Max size of single outgoing email"
-msgstr ""
+msgstr "Макс. размер одного исходящего письма"
 
 #: ../templates/default/macros/policyd.html:111
 #, python-format
@@ -1831,7 +1833,7 @@ msgstr "Изменение профиля прошло с ошибкой"
 
 #: ../templates/default/msgHandlers.html:117
 msgid "Domain name or username is missed."
-msgstr ""
+msgstr "Имя домена или пользователя не указано"
 
 #: ../templates/default/msgHandlers.html:119
 #: ../templates/default/msgHandlers.html:191
@@ -1844,6 +1846,8 @@ msgid ""
 "Domain quota size exceeded. Please contact your administrator or service "
 "provider to increase it."
 msgstr ""
+"Размер домена превысил квоты. Пожалуйста, свяжись со своим администратором"
+"для увеличения квоты"
 
 #: ../templates/default/msgHandlers.html:125
 #: ../templates/default/msgHandlers.html:170
@@ -1984,11 +1988,11 @@ msgstr "Адрес не может быть пустым"
 
 #: ../templates/default/msgHandlers.html:286
 msgid "Records are added."
-msgstr ""
+msgstr "Записей добавлено"
 
 #: ../templates/default/mysql/dashboard.html:48
 msgid "Import"
-msgstr ""
+msgstr "Импорт"
 
 #: ../templates/default/mysql/dashboard.html:66
 msgid "iRedAdmin version"
@@ -2056,7 +2060,7 @@ msgstr "Добавить черный список"
 #: ../templates/default/policyd/blacklist/create.html:46
 #: ../templates/default/policyd/whitelist/create.html:46
 msgid "IP address format:"
-msgstr ""
+msgstr "IP адрес:"
 
 #: ../templates/default/policyd/blacklist/create.html:46
 #: ../templates/default/policyd/whitelist/create.html:46
@@ -2069,58 +2073,60 @@ msgstr ""
 #: ../templates/default/policyd/blacklist/create.html:47
 #: ../templates/default/policyd/whitelist/create.html:47
 msgid "Sender address format:"
-msgstr "Адрес BCC для отправителя"
+msgstr "Формат адреса отправителя"
 
 #: ../templates/default/policyd/blacklist/create.html:47
 #: ../templates/default/policyd/whitelist/create.html:47
 #, python-format
 msgid "%s for a single user, %s for entire domain."
-msgstr ""
+msgstr "%s один пользователь, %s весь домен."
 
 #: ../templates/default/policyd/blacklist/create.html:48
 #: ../templates/default/policyd/whitelist/create.html:48
 msgid "DNS name format:"
-msgstr ""
+msgstr "DNS формат:"
 
 #: ../templates/default/policyd/blacklist/create.html:48
 #: ../templates/default/policyd/whitelist/create.html:48
 #, python-format
 msgid "%s for single domain, %s for all sub domains."
-msgstr ""
+msgstr "%s для одного домена, %s для всех субдоменов"
 
 #: ../templates/default/policyd/blacklist/create.html:48
 #: ../templates/default/policyd/whitelist/create.html:48
 msgid "Note"
-msgstr ""
+msgstr "Примечание"
 
 #: ../templates/default/policyd/blacklist/create.html:48
 #: ../templates/default/policyd/whitelist/create.html:48
 msgid "The forward and reverse DNS must match otherwise it will not work."
-msgstr ""
+msgstr "Прямой и обратный DNS должны соответствовать, иначе это не будет работать"
 
 #: ../templates/default/policyd/blacklist/create.html:56
 msgid "Blacklist records"
-msgstr "Разрешить BCC получателя"
+msgstr "Записи черного списка"
 
 #: ../templates/default/policyd/blacklist/create.html:58
 #: ../templates/default/policyd/blacklist/create.html:76
 #: ../templates/default/policyd/whitelist/create.html:58
 msgid "One record one line."
-msgstr "Не выбран аккаунт"
+msgstr "Одна запись на одну строку"
 
 #: ../templates/default/policyd/blacklist/create.html:67
 msgid "HELO identity format"
-msgstr ""
+msgstr "HELO формат"
 
 #: ../templates/default/policyd/blacklist/create.html:67
 msgid ""
 "Could be a FQDN (Fully Qualified Domain Name) or IP address which "
 "enclosed in square brackets, for example <u>[1.2.3.4]</u>"
 msgstr ""
+"Должно быть доменное имя или IP адрес, указанный "
+"в квадратных скобках, пример <u>[1.2.3.4]</u>"
 
 #: ../templates/default/policyd/blacklist/create.html:74
 msgid "Blacklist HELO records"
-msgstr ""
+msgstr "Черный список HELO записей"
 
 #: ../templates/default/policyd/wblist.html:67
 msgid "View"
@@ -2136,7 +2142,7 @@ msgstr "Отсыльщик"
 
 #: ../templates/default/policyd/wblist.html:69
 msgid "DNS Name"
-msgstr "Имя пользователя"
+msgstr "DNS имя"
 
 #: ../templates/default/policyd/wblist.html:71
 msgid "HELO"

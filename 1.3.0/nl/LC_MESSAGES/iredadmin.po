@@ -60,7 +60,7 @@ msgstr "Dashboard"
 #: ../templates/default/layout.html:59
 #: ../templates/default/ldap/domain/list.html:46
 msgid "Domains and Accounts"
-msgstr "Schakel account uit"
+msgstr "Domeinen en Accounts"
 
 #: ../templates/default/layout.html:67
 #: ../templates/default/ldap/admin/profile.html:58
@@ -91,11 +91,11 @@ msgstr "Account weergave naam of e-mail"
 
 #: ../templates/default/layout.html:100
 msgid "News & Announments"
-msgstr ""
+msgstr "Nieuws & Mededelingen"
 
 #: ../templates/default/layout.html:101
 msgid "Support"
-msgstr ""
+msgstr "Ondersteuning"
 
 #: ../templates/default/layout.html:103
 msgid "Contact webmaster"
@@ -126,7 +126,7 @@ msgstr "Globale beheerder"
 #: ../templates/default/ldap/maillist/profile.html:62
 #: ../templates/default/ldap/user/profile.html:132
 msgid "Export:"
-msgstr ""
+msgstr "Exporteer:"
 
 #: ../templates/default/ldap/admin/profile.html:52
 #: ../templates/default/ldap/alias/profile.html:50
@@ -134,14 +134,14 @@ msgstr ""
 #: ../templates/default/ldap/maillist/profile.html:63
 #: ../templates/default/ldap/user/profile.html:133
 msgid "Export account in LDIF format"
-msgstr ""
+msgstr "Exporteer het account in LDIF formaat"
 
 #: ../templates/default/ldap/admin/profile.html:56
 #: ../templates/default/ldap/alias/profile.html:54
 #: ../templates/default/ldap/maillist/profile.html:67
 #: ../templates/default/ldap/user/profile.html:138
 msgid "Profile"
-msgstr "Mobiel"
+msgstr "Profiel"
 
 #: ../templates/default/ldap/admin/profile.html:62
 #: ../templates/default/ldap/alias/profile.html:55
@@ -196,7 +196,7 @@ msgstr "Wijzigingen opslaan"
 #: ../templates/default/ldap/alias/create.html:37
 #: ../templates/default/ldap/alias/list.html:81
 msgid "Add alias"
-msgstr ""
+msgstr "Alias toevoegen"
 
 #: ../templates/default/ldap/alias/create.html:60
 #, python-format
@@ -293,7 +293,7 @@ msgstr "Beschikbare handelingen"
 #: ../templates/default/policyd/blacklist/create.html:85
 #: ../templates/default/policyd/whitelist/create.html:67
 msgid "Add"
-msgstr ""
+msgstr "Toevoegen"
 
 #: ../templates/default/ldap/dashboard.html:64
 #: ../templates/default/ldap/search.html:37
@@ -308,7 +308,7 @@ msgstr "Systeem informatie"
 
 #: ../templates/default/ldap/dashboard.html:83
 msgid "iRedAdmin-Pro version"
-msgstr "iRedAdmin versie"
+msgstr "iRedAdmin-Pro versie"
 
 #: ../templates/default/ldap/dashboard.html:88
 #: ../templates/default/mysql/dashboard.html:71
@@ -320,7 +320,7 @@ msgstr "Update beschikbaar: v%s, <a href=\"%s\">release note</a>."
 #: ../templates/default/mysql/dashboard.html:74
 #, python-format
 msgid "Error while check new version: %s"
-msgstr "Error tijdens het controleren op nieuwe versie: %s"
+msgstr "Fout tijdens het controleren op nieuwe versie: %s"
 
 #: ../templates/default/ldap/dashboard.html:97
 #: ../templates/default/mysql/dashboard.html:80
@@ -365,7 +365,7 @@ msgstr "E-mail lijsten"
 
 #: ../templates/default/ldap/domain/list.html:151
 msgid "Change domain quota."
-msgstr ""
+msgstr "Verander domein quota"
 
 #: ../templates/default/ldap/domain/list.html:164
 msgid "List all mail users."
@@ -420,7 +420,7 @@ msgstr "Services"
 #: ../templates/default/ldap/domain/profile.html:173
 #: ../templates/default/ldap/user/profile.html:155
 msgid "Throttle"
-msgstr ""
+msgstr "Limieten"
 
 #: ../templates/default/ldap/domain/profile.html:176
 #: ../templates/default/ldap/user/profile.html:162
@@ -437,10 +437,12 @@ msgid ""
 "Emails sent to <em><strong>user@[ALIAS_DOMAIN]</strong></em> will be "
 "delivered to <em><strong>user@%s</strong></em>."
 msgstr ""
+"E-mails verzonden naar <em><strong>gebruiker@[ALIAS_DOMAIN]</strong></em> "
+"zullen bezorgd worden bij <em><strong>gebruiker@%s</strong></em>."
 
 #: ../templates/default/ldap/domain/profile.html:213
 msgid "Alias domains"
-msgstr "E-mail domeinen"
+msgstr "Alias domeinen"
 
 #: ../templates/default/ldap/domain/profile.html:246
 msgid "If no admin assigned for domain, you can also manage it with global admin."
@@ -458,6 +460,8 @@ msgid ""
 "Don't forget to enable BCC services in <a href='%s'>Services</a> profile "
 "page."
 msgstr ""
+"Vergeet niet om BCC services in te schakelen op de <a href='%s'>Services</a>"
+" profiel pagina"
 
 #: ../templates/default/ldap/domain/profile.html:278
 msgid ""
@@ -527,7 +531,7 @@ msgstr "Hoe voeg je automatisch de disclaimer text toe vanuit LDAP/MySQL."
 
 #: ../templates/default/ldap/domain/profile.html:344
 msgid "Content of disclaimer will be appended to outgoing emails."
-msgstr "Hoe schakel je een disclamer in op uitgaande e-mails."
+msgstr "De inhoud van de disclaimer zal toegevoegd worden aan uitgaande e-mails."
 
 #: ../templates/default/ldap/domain/profile.html:344
 msgid "Plain text only."
@@ -536,7 +540,7 @@ msgstr "Enkel kale tekst."
 #: ../templates/default/ldap/domain/profile.html:359
 #: ../templates/default/ldap/user/profile.html:376
 msgid "Set value to 0 or leave it empty for unlimited."
-msgstr "Voer 0 in voor ongelimiteerd"
+msgstr "Voer 0 in of laat het leeg voor ongelimiteerd"
 
 #: ../templates/default/ldap/domain/profile.html:404
 msgid "Default mail storage base directory"
@@ -739,7 +743,7 @@ msgstr "Voeg toe aan lijst"
 #: ../templates/default/ldap/maillist/profile.html:246
 #: ../templates/default/ldap/maillist/profile.html:355
 msgid "One mail address one line."
-msgstr "Een e-mail adres pet lijn"
+msgstr "Een e-mail adres per lijn"
 
 #: ../templates/default/ldap/maillist/profile.html:271
 msgid "Internal moderators"
@@ -946,7 +950,7 @@ msgstr "Uw zoekopdracht leverde niets op."
 #: ../templates/default/ldap/user/create.html:40
 #: ../templates/default/ldap/user/list.html:96
 msgid "Add user"
-msgstr ""
+msgstr "Gebruiker toevoegen"
 
 #: ../templates/default/ldap/user/create.html:92
 #, python-format
@@ -955,7 +959,7 @@ msgstr "U kunt geen nieuwe e-mail alias meer aanmaken onder domein %s."
 
 #: ../templates/default/ldap/user/create.html:99
 msgid "Increase it now?"
-msgstr ""
+msgstr "Nu verhogen?"
 
 #: ../templates/default/ldap/user/create.html:105
 #, python-format
@@ -1069,12 +1073,12 @@ msgstr "E-mail doorstuur adres"
 #: ../templates/default/ldap/user/profile.html:300
 #, python-format
 msgid "Emails sent to alias accounts will be delivered to user %s."
-msgstr ""
+msgstr "E-mails verzonden naar alias accounts zullen bezorgd worden bij gebruiker %s."
 
 #: ../templates/default/ldap/user/profile.html:301
 #, python-format
 msgid "Email address of alias account must end with domain name(s): %s."
-msgstr ""
+msgstr "Het e-mail adres van de alias account moet eindigen met domeinnaam: %s."
 
 #: ../templates/default/ldap/user/profile.html:310
 msgid "Enable alias account"
@@ -1178,7 +1182,7 @@ msgstr "Account is active"
 
 #: ../templates/default/macros.html:70
 msgid "Account is disabled."
-msgstr "Accoutn is uitgeschakeld"
+msgstr "Account is uitgeschakeld"
 
 #: ../templates/default/macros.html:76
 msgid "Is a global admin."
@@ -1252,7 +1256,7 @@ msgstr "Maximale qoata grootte"
 
 #: ../templates/default/macros.html:266
 msgid "Max quota size (in MB)"
-msgstr "Maximale quoat grootte (in MB)"
+msgstr "Maximale quota grootte (in MB)"
 
 #: ../templates/default/macros.html:268
 #, python-format
@@ -1276,7 +1280,7 @@ msgstr "Huidig aantal: <strong>%s</strong>."
 
 #: ../templates/default/macros.html:282
 msgid "Max number of mail lists"
-msgstr "Maxinmaal aantal e-mail lijsten"
+msgstr "Maximaal aantal e-mail lijsten"
 
 #: ../templates/default/macros.html:290
 msgid "Max number of mail aliases"
@@ -1297,7 +1301,7 @@ msgstr "Een aantal voorbeelden van e-mail relay instellingen"
 #: ../templates/default/macros.html:317
 #, python-format
 msgid "(You can find more examples <a target=\"_blank\" href=\"%s\">here</a>):"
-msgstr "(U kunt < target=\"_blank\" href=\"%s\">hier</a? meer voorbeelden vinden):"
+msgstr "(U kunt <a target=\"_blank\" href=\"%s\">hier</a> meer voorbeelden vinden):"
 
 #: ../templates/default/macros.html:322
 msgid "Destination"
@@ -1342,11 +1346,11 @@ msgstr "Domein beheerder"
 
 #: ../templates/default/macros.html:383
 msgid "BCC received mails to other addresses."
-msgstr ""
+msgstr "BCC ontvangen e-mails naar andere adressen"
 
 #: ../templates/default/macros.html:384
 msgid "BCC outgoing mails to other addresses."
-msgstr ""
+msgstr "BCC verzonden e-mails naar andere adressen"
 
 #: ../templates/default/macros.html:389
 msgid "Fetching mails via POP3."
@@ -1362,7 +1366,7 @@ msgstr "Haal e-mails op via POP3"
 
 #: ../templates/default/macros.html:392
 msgid "Fetching mails via IMAP over TLS/SSL."
-msgstr ""
+msgstr "Haal e-mails op via IMAP over TLS/SSL"
 
 #: ../templates/default/macros.html:393
 msgid "Sending mails via SMTP."
@@ -1370,7 +1374,7 @@ msgstr "Verzenden e-mails via SMTP"
 
 #: ../templates/default/macros.html:394
 msgid "Receiving mails for this account on mail server."
-msgstr ""
+msgstr "E-mails voor dit account aan het ontvangen op de mailserver"
 
 #: ../templates/default/macros.html:395
 msgid "Forwarding mails to other addresses."
@@ -1390,16 +1394,16 @@ msgstr "Personaliseer e-mail filter regel over TLS/SSL."
 
 #: ../templates/default/macros.html:399
 msgid "BCC incoming mails to other address."
-msgstr ""
+msgstr "BCC inkomende e-mails naar andere adressen."
 
 #: ../templates/default/macros.html:400
 msgid "BCC outgoing mails to other address."
-msgstr ""
+msgstr "BCC uitgaande e-mails naar andere adressen."
 
 #: ../templates/default/macros.html:401 ../templates/default/macros.html:405
 #: ../templates/default/macros.html:409
 msgid "Display mail address in global LDAP address book."
-msgstr "Geef e-mail adres woor in het globale LDAP adres boek"
+msgstr "Geef e-mail adres weer in het globale LDAP adres boek"
 
 #: ../templates/default/macros.html:414
 msgid "Enabled Services"
@@ -1430,7 +1434,7 @@ msgstr "(Globale beheerder)"
 #: ../templates/default/ldap/admin/create.html:41
 #: ../templates/default/ldap/admin/list.html:71
 msgid "Add admin"
-msgstr ""
+msgstr "Admin toevoegen"
 
 #: ../templates/default/macros.html:466 ../templates/default/macros.html:469
 msgid "MTA transport"
@@ -1498,7 +1502,7 @@ msgstr "Bevestig nieuw wachtwoord"
 
 #: ../templates/default/macros.html:499
 msgid "Re-enter your password exactly as before."
-msgstr "Voor het wachtwoord nogmaals in."
+msgstr "Voer het wachtwoord nogmaals in."
 
 #: ../templates/default/macros.html:513
 msgid "Mailbox Quota"
@@ -1521,7 +1525,7 @@ msgstr "Voer 0 in voor ongelimiteerd"
 
 #: ../templates/default/macros.html:534
 msgid "BCC incoming emails to"
-msgstr ""
+msgstr "BCC inkomende e-mails naar"
 
 #: ../templates/default/macros.html:535 ../templates/default/macros.html:544
 msgid "Multiple addresses are <strong>NOT</strong> supported."
@@ -1529,7 +1533,7 @@ msgstr "Meerdere adressen wordt <strong>NIET</strong> ondersteund."
 
 #: ../templates/default/macros.html:543
 msgid "BCC outgoing emails to"
-msgstr ""
+msgstr "BCC uitgaande e-mails naar"
 
 #: ../templates/default/macros.html:587
 msgid "Email address of alias account"
@@ -1545,7 +1549,7 @@ msgstr "Beheerder domeinen"
 #: ../templates/default/ldap/domain/list.html:78
 #: ../templates/default/mysql/domain_list.html:50
 msgid "Add domain"
-msgstr "Selecteer een domein"
+msgstr "Domein toevoegen"
 
 #: ../templates/default/macros.html:654
 msgid "Add new alias members"
@@ -1607,7 +1611,7 @@ msgstr "Aliassen"
 
 #: ../templates/default/macros.html:699
 msgid "Add:"
-msgstr ""
+msgstr "Toevoegen:"
 
 #: ../templates/default/macros.html:701
 #: ../templates/default/ldap/dashboard.html:40
@@ -1704,7 +1708,7 @@ msgstr "Maximaal aantal e-mail gebruikers"
 
 #: ../templates/default/macros/policyd.html:39
 msgid "Quota size of all outgoing emails"
-msgstr ""
+msgstr "Quota grootte voor alle uitgaande e-mails"
 
 #: ../templates/default/macros/policyd.html:44
 #: ../templates/default/macros/policyd.html:104
@@ -1713,15 +1717,15 @@ msgstr "Huidige:"
 
 #: ../templates/default/macros/policyd.html:55
 msgid "1 Minute"
-msgstr ""
+msgstr "1 Minuut"
 
 #: ../templates/default/macros/policyd.html:55
 msgid "1 Hour"
-msgstr ""
+msgstr "1 Uur"
 
 #: ../templates/default/macros/policyd.html:55
 msgid "1 Day"
-msgstr ""
+msgstr "1 Dag"
 
 #: ../templates/default/macros/policyd.html:58
 msgid "Time Unit"
@@ -1729,16 +1733,16 @@ msgstr "Active account"
 
 #: ../templates/default/macros/policyd.html:75
 msgid "Seconds"
-msgstr ""
+msgstr "Seconden"
 
 #: ../templates/default/macros/policyd.html:75
 #: ../templates/default/macros/policyd.html:104
 msgid "Custom:"
-msgstr ""
+msgstr "Aangepast:"
 
 #: ../templates/default/macros/policyd.html:87
 msgid "Max size of single outgoing email"
-msgstr ""
+msgstr "Maximale grootte van ??n uitgaande e-mail"
 
 #: ../templates/default/macros/policyd.html:111
 #, python-format
@@ -1872,6 +1876,8 @@ msgid ""
 "Domain quota size exceeded. Please contact your administrator or service "
 "provider to increase it."
 msgstr ""
+"Domein quota grootte overschreden. Gelieve cibtabt io te nemen met de beheerder "
+"of internet provider om het te verhogen"
 
 #: ../templates/default/msgHandlers.html:125
 #: ../templates/default/msgHandlers.html:170
@@ -2012,11 +2018,11 @@ msgstr "Leeg adres is niet toegestaan"
 
 #: ../templates/default/msgHandlers.html:286
 msgid "Records are added."
-msgstr ""
+msgstr "Gegevens zijn toegevoegd"
 
 #: ../templates/default/mysql/dashboard.html:48
 msgid "Import"
-msgstr ""
+msgstr "Importeer"
 
 #: ../templates/default/mysql/dashboard.html:66
 msgid "iRedAdmin version"
@@ -2084,7 +2090,7 @@ msgstr "Voeg nieuwe blacklist toe"
 #: ../templates/default/policyd/blacklist/create.html:46
 #: ../templates/default/policyd/whitelist/create.html:46
 msgid "IP address format:"
-msgstr ""
+msgstr "IP adres formaat:"
 
 #: ../templates/default/policyd/blacklist/create.html:46
 #: ../templates/default/policyd/whitelist/create.html:46
@@ -2093,6 +2099,7 @@ msgid ""
 "%s for single IP address, or filling %% in octet(s) for subnet. For "
 "example, %s"
 msgstr ""
+"%s voor een IP adres, of vul %% in octalen voor subnet. Bijvoorbeeld, %s"
 
 #: ../templates/default/policyd/blacklist/create.html:47
 #: ../templates/default/policyd/whitelist/create.html:47
@@ -2103,28 +2110,28 @@ msgstr "Afzender BCC adres"
 #: ../templates/default/policyd/whitelist/create.html:47
 #, python-format
 msgid "%s for a single user, %s for entire domain."
-msgstr ""
+msgstr "%s voor een gebruiker, %s voor het gehele domein."
 
 #: ../templates/default/policyd/blacklist/create.html:48
 #: ../templates/default/policyd/whitelist/create.html:48
 msgid "DNS name format:"
-msgstr ""
+msgstr "DNS naam opbouw:"
 
 #: ../templates/default/policyd/blacklist/create.html:48
 #: ../templates/default/policyd/whitelist/create.html:48
 #, python-format
 msgid "%s for single domain, %s for all sub domains."
-msgstr ""
+msgstr "%s voor een domein, %s voor alle sub-domeinen"
 
 #: ../templates/default/policyd/blacklist/create.html:48
 #: ../templates/default/policyd/whitelist/create.html:48
 msgid "Note"
-msgstr ""
+msgstr "Notitie"
 
 #: ../templates/default/policyd/blacklist/create.html:48
 #: ../templates/default/policyd/whitelist/create.html:48
 msgid "The forward and reverse DNS must match otherwise it will not work."
-msgstr ""
+msgstr "De forward- en reverse DNS moeten overeen komen, ander zal het niet werken"
 
 #: ../templates/default/policyd/blacklist/create.html:56
 msgid "Blacklist records"
@@ -2138,17 +2145,19 @@ msgstr "Een account per regel."
 
 #: ../templates/default/policyd/blacklist/create.html:67
 msgid "HELO identity format"
-msgstr ""
+msgstr "HELO identiteit opbouw"
 
 #: ../templates/default/policyd/blacklist/create.html:67
 msgid ""
 "Could be a FQDN (Fully Qualified Domain Name) or IP address which "
 "enclosed in square brackets, for example <u>[1.2.3.4]</u>"
 msgstr ""
+"Kan een FQDN (Volledige domein naam) of een IP adres binnen "
+"blokhaken zijn, bijvoorbeel <u>[1.2.3.4]</u>"
 
 #: ../templates/default/policyd/blacklist/create.html:74
 msgid "Blacklist HELO records"
-msgstr ""
+msgstr "Blacklist HELO ontvangers"
 
 #: ../templates/default/policyd/wblist.html:67
 msgid "View"
@@ -2164,7 +2173,7 @@ msgstr "Afzender"
 
 #: ../templates/default/policyd/wblist.html:69
 msgid "DNS Name"
-msgstr "Gebruikersnaam"
+msgstr "DNS naam"
 
 #: ../templates/default/policyd/wblist.html:71
 msgid "HELO"
