@@ -1,6 +1,7 @@
 # German (Germany) translations for iRedAdmin.
 # Copyright (C) 2010 ORGANIZATION
 # This file is distributed under the same license as the iRedAdmin project.
+# Johannes Schulz <schulz@schwaar.com>, 2010.
 # Bronko <caparcona@web.de>, 2010.
 #
 msgid ""
@@ -8,7 +9,7 @@ msgstr ""
 "Project-Id-Version: iRedAdmin-Pro-1.3.0\n"
 "Report-Msgid-Bugs-To: michaelbibby@gmail.com\n"
 "POT-Creation-Date: 2010-02-05 00:01+0800\n"
-"PO-Revision-Date: 2010-09-15 10:10+0800\n"
+"PO-Revision-Date: 2010-10-06 16:55+0200\n"
 "Last-Translator: Bronko <caparcona@web.de>\n"
 "Language-Team: de_DE <LL@li.org>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
@@ -60,7 +61,7 @@ msgstr "Übersicht"
 #: ../templates/default/layout.html:59
 #: ../templates/default/ldap/domain/list.html:46
 msgid "Domains and Accounts"
-msgstr "Konto deaktivieren"
+msgstr "Domänen und Konten"
 
 #: ../templates/default/layout.html:67
 #: ../templates/default/ldap/admin/profile.html:58
@@ -81,21 +82,21 @@ msgstr "Konto anlegen"
 
 #: ../templates/default/layout.html:74
 msgid "Search name or email"
-msgstr ""
+msgstr "Suche nach Namen oder Mail-Adresse"
 
 #: ../templates/default/layout.html:74
 #: ../templates/default/ldap/dashboard.html:66
 #: ../templates/default/ldap/search.html:50
 msgid "Account display name or email"
-msgstr ""
+msgstr "Anzeige des Namens oder der Mail-Adresse des Kontos"
 
 #: ../templates/default/layout.html:100
 msgid "News & Announments"
-msgstr ""
+msgstr "Neuigkeiten und Ankündigungen"
 
 #: ../templates/default/layout.html:101
 msgid "Support"
-msgstr ""
+msgstr "Support"
 
 #: ../templates/default/layout.html:103
 msgid "Contact webmaster"
@@ -126,7 +127,7 @@ msgstr "Globaler Administrator"
 #: ../templates/default/ldap/maillist/profile.html:62
 #: ../templates/default/ldap/user/profile.html:132
 msgid "Export:"
-msgstr ""
+msgstr "Export:"
 
 #: ../templates/default/ldap/admin/profile.html:52
 #: ../templates/default/ldap/alias/profile.html:50
@@ -134,14 +135,14 @@ msgstr ""
 #: ../templates/default/ldap/maillist/profile.html:63
 #: ../templates/default/ldap/user/profile.html:133
 msgid "Export account in LDIF format"
-msgstr ""
+msgstr "Konto im LDIF-Format exportieren"
 
 #: ../templates/default/ldap/admin/profile.html:56
 #: ../templates/default/ldap/alias/profile.html:54
 #: ../templates/default/ldap/maillist/profile.html:67
 #: ../templates/default/ldap/user/profile.html:138
 msgid "Profile"
-msgstr ""
+msgstr "Profil"
 
 #: ../templates/default/ldap/admin/profile.html:62
 #: ../templates/default/ldap/alias/profile.html:55
@@ -176,7 +177,7 @@ msgstr "Allgemein"
 #: ../templates/default/ldap/maillist/profile.html:94
 #: ../templates/default/ldap/user/profile.html:174
 msgid "Delete this account"
-msgstr "Dieses Konto aktivieren"
+msgstr "Dieses Konto löschen"
 
 #: ../templates/default/ldap/admin/profile.html:86
 #: ../templates/default/ldap/alias/profile.html:79
@@ -196,42 +197,46 @@ msgstr "Änderungen speichern"
 #: ../templates/default/ldap/alias/create.html:37
 #: ../templates/default/ldap/alias/list.html:81
 msgid "Add alias"
-msgstr ""
+msgstr "Alias hinzufügen"
 
 #: ../templates/default/ldap/alias/create.html:60
 #, python-format
 msgid "You can't create more mail aliases under domain %s."
-msgstr "Zeige Mail Liste der Domäne:"
+msgstr "Sie können keine weiteren Aliase in der Domäne %s anlegen."
 
 #: ../templates/default/ldap/alias/create.html:60
 #: ../templates/default/ldap/maillist/create.html:60
 #: ../templates/default/ldap/user/create.html:94
 #, python-format
 msgid "Already exceed max number of account limit (%s)."
-msgstr ""
+msgstr "Die maximale Anzahl der Konten (%s) ist überschritten."
 
 #: ../templates/default/ldap/alias/create.html:65
 #: ../templates/default/ldap/maillist/create.html:65
 #, python-format
 msgid "You can create <strong>%d</strong> more mail list(s) under domain %s."
 msgstr ""
+"Sie können keine <strong>%d</strong> weitere(n) Mailing Liste(n) in der "
+"Domäne %s anlegen."
 
 #: ../templates/default/ldap/alias/create.html:76
 msgid ""
-"It's better to use mail list instead of alias, since we have mail deliver"
-" restriction for mail list."
+"It's better to use mail list instead of alias, since we have mail deliver "
+"restriction for mail list."
 msgstr ""
+"Verwenden Sie Mailing Listen statt Aliasen: sie können Beschränkungen nur "
+"für Mailing Listen festlegen."
 
 #: ../templates/default/ldap/alias/create.html:76
 #: ../templates/default/ldap/user/profile.html:325
 msgid "TIP"
-msgstr ""
+msgstr "Hinweis"
 
 #: ../templates/default/ldap/alias/list.html:38
 #: ../templates/default/ldap/alias/profile.html:56
 #: ../templates/default/mysql/domain_list.html:73
 msgid "Mail Aliases"
-msgstr "Mail Adresse"
+msgstr "Aliase"
 
 #: ../templates/default/ldap/alias/list.html:45
 #: ../templates/default/ldap/maillist/list.html:47
@@ -291,13 +296,13 @@ msgstr "Verfügbare Optionen"
 #: ../templates/default/policyd/blacklist/create.html:85
 #: ../templates/default/policyd/whitelist/create.html:67
 msgid "Add"
-msgstr ""
+msgstr "Hinzufügen"
 
 #: ../templates/default/ldap/dashboard.html:64
 #: ../templates/default/ldap/search.html:37
 #: ../templates/default/ldap/search.html:48
 msgid "Search"
-msgstr "Benutzer"
+msgstr "Suche"
 
 #: ../templates/default/ldap/dashboard.html:77
 #: ../templates/default/mysql/dashboard.html:60
@@ -318,7 +323,7 @@ msgstr "Update verfügbar: v%s, <a href=\"%s\">release note</a>."
 #: ../templates/default/mysql/dashboard.html:74
 #, python-format
 msgid "Error while check new version: %s"
-msgstr "Fehler bei Update Prüfung: %s"
+msgstr "Fehler bei der Update Prüfung: %s"
 
 #: ../templates/default/ldap/dashboard.html:97
 #: ../templates/default/mysql/dashboard.html:80
@@ -339,7 +344,7 @@ msgstr "%s Tage, %s Stunden, %s Minuten."
 #: ../templates/default/ldap/dashboard.html:109
 #: ../templates/default/mysql/dashboard.html:92
 msgid "Server load"
-msgstr "Server load"
+msgstr "Server Last"
 
 #: ../templates/default/ldap/dashboard.html:119
 #: ../templates/default/mysql/dashboard.html:102
@@ -359,11 +364,11 @@ msgstr "Alle kontrollierten Domänen."
 
 #: ../templates/default/ldap/domain/list.html:94
 msgid "Lists"
-msgstr "Mail Liste"
+msgstr "Mailing Liste"
 
 #: ../templates/default/ldap/domain/list.html:151
 msgid "Change domain quota."
-msgstr ""
+msgstr "Domänen Quota ändern."
 
 #: ../templates/default/ldap/domain/list.html:164
 msgid "List all mail users."
@@ -371,26 +376,27 @@ msgstr "Alle Mail Benutzer zeigen."
 
 #: ../templates/default/ldap/domain/list.html:172
 msgid "List all mail lists."
-msgstr "Alle Mail Listen zeigen."
+msgstr "Alle Mailing Listen zeigen."
 
 #: ../templates/default/ldap/domain/list.html:180
 msgid "List all mail aliases."
-msgstr "Alle Mail Aliasse zeigen."
+msgstr "Alle Aliase zeigen."
 
 #: ../templates/default/ldap/domain/list.html:205
 #: ../templates/default/mysql/domain_list.html:103
 msgid "Are you sure want to delete selected domain(s) and accounts under it?"
-msgstr "Sind Sie sicher alle ausgewählten Domänen und derer Konten zu löschen?"
+msgstr ""
+"Sind Sie sicher, alle ausgewählten Domänen und deren Konten zu löschen?"
 
 #: ../templates/default/ldap/domain/list.html:206
 #: ../templates/default/mysql/domain_list.html:104
 msgid "Are you sure want to disable selected domain(s)?"
-msgstr "Sind Sie sicher alle markierten Domänen zu deaktivieren?"
+msgstr "Sind Sie sicher, alle markierten Domänen zu deaktivieren?"
 
 #: ../templates/default/ldap/domain/list.html:207
 #: ../templates/default/mysql/domain_list.html:105
 msgid "Are you sure want to enable selected domain(s)?"
-msgstr "Sind Sie sicher alle markierten Domänen zu aktivieren?"
+msgstr "Sind Sie sicher, alle markierten Domänen zu aktivieren?"
 
 #: ../templates/default/ldap/domain/profile.html:160
 msgid "BCC"
@@ -402,7 +408,7 @@ msgstr "Relay"
 
 #: ../templates/default/ldap/domain/profile.html:162
 msgid "Catch-all"
-msgstr ""
+msgstr "Auffangadresse"
 
 #: ../templates/default/ldap/domain/profile.html:165
 #: ../templates/default/ldap/domain/profile.html:342
@@ -416,16 +422,16 @@ msgstr "Services"
 #: ../templates/default/ldap/domain/profile.html:173
 #: ../templates/default/ldap/user/profile.html:155
 msgid "Throttle"
-msgstr ""
+msgstr "Drosselung"
 
 #: ../templates/default/ldap/domain/profile.html:176
 #: ../templates/default/ldap/user/profile.html:162
 msgid "Advanced"
-msgstr ""
+msgstr "Erweitert"
 
 #: ../templates/default/ldap/domain/profile.html:205
 msgid "Enable domain alias"
-msgstr "Neue Mail Liste anlegen."
+msgstr "Neues Domänen Alias anlegen."
 
 #: ../templates/default/ldap/domain/profile.html:205
 #, python-format
@@ -433,13 +439,16 @@ msgid ""
 "Emails sent to <em><strong>user@[ALIAS_DOMAIN]</strong></em> will be "
 "delivered to <em><strong>user@%s</strong></em>."
 msgstr ""
+"Mail, die an <em><strong>user@[ALIAS_DOMAIN]</strong></em> adressiert wird,"
+"wird an <em><strong>user@%s</strong></em> gesendet."
 
 #: ../templates/default/ldap/domain/profile.html:213
 msgid "Alias domains"
-msgstr "Mail Domänen"
+msgstr "Alias Domänen"
 
 #: ../templates/default/ldap/domain/profile.html:246
-msgid "If no admin assigned for domain, you can also manage it with global admin."
+msgid ""
+"If no admin assigned for domain, you can also manage it with global admin."
 msgstr ""
 "Falls kein Domänen Administrator angelegt wird, kann der globale "
 "Administrator genutzt werden."
@@ -454,45 +463,48 @@ msgid ""
 "Don't forget to enable BCC services in <a href='%s'>Services</a> profile "
 "page."
 msgstr ""
+"Vergessen Sie bitte nicht, BCC in <a href='%s'>Services</a> Profil zu "
+"aktivieren."
 
 #: ../templates/default/ldap/domain/profile.html:278
 msgid ""
 "Per-user relay setting will override per-domain relay setting you set in "
 "this page."
 msgstr ""
-"Die hier gesetzten Benutzer Relay-Einstellungen überschreiben die Domänen"
-" Relay-Einstellungen"
+"Die Einstellung der Weiterleitungen der Konten überschreiben die "
+"Weiterleitungder Domänen, die Sie hier einstellen."
 
 #: ../templates/default/ldap/domain/profile.html:286
 msgid "Relay Setting"
-msgstr "Weiterleiten zu"
+msgstr "Einstellung der Weiterleitungen"
 
 #: ../templates/default/ldap/domain/profile.html:287
 #: ../templates/default/ldap/user/profile.html:456
 msgid "Samples"
-msgstr ""
+msgstr "Beispiele"
 
 #: ../templates/default/ldap/domain/profile.html:303
 msgid ""
-"Emails delivered to non-exist mail accounts will be forwarded to catch-"
-"all address(es)."
+"Emails delivered to non-exist mail accounts will be forwarded to catch-all "
+"address(es)."
 msgstr ""
+"Mails an unbekannte Adressen werden an die Auffangadresse weitergeleitet."
 
 #: ../templates/default/ldap/domain/profile.html:304
 msgid "Be careful: Catch-all address may receive many spam emails."
-msgstr ""
+msgstr "Achtung: die Auffangadresse könnte viele Spam-Mails erhalten."
 
 #: ../templates/default/ldap/domain/profile.html:312
 msgid "Enable catch-all address"
-msgstr ""
+msgstr "Auffangadresse aktivieren"
 
 #: ../templates/default/ldap/domain/profile.html:316
 msgid "Catch-all address"
-msgstr "Mail Adresse"
+msgstr "Auffangadresse"
 
 #: ../templates/default/ldap/domain/profile.html:316
 msgid "Multiple addresses MUST be seperated by comma (,)."
-msgstr ""
+msgstr "Mehrere Adressen müssen dorch Komma (,) getrennt werden."
 
 #: ../templates/default/ldap/domain/profile.html:328
 msgid "NOTE:"
@@ -500,11 +512,11 @@ msgstr "Hinweis:"
 
 #: ../templates/default/ldap/domain/profile.html:328
 msgid ""
-"Please make sure you have enable signing disclaimer on outgoing mails and"
-" have crontab job to dump disclaimer text automaticly."
+"Please make sure you have enable signing disclaimer on outgoing mails and "
+"have crontab job to dump disclaimer text automaticly."
 msgstr ""
-"Bitte bei Aktivierung der Haftungsausschluß Signatur ausgehender Mails an"
-" den crontab job zur Sicherung des selbigen denken."
+"Bitte bei Aktivierung der Haftungsausschluß Signatur ausgehender Mails an "
+"den crontab job zur Sicherung des selbigen denken."
 
 #: ../templates/default/ldap/domain/profile.html:328
 msgid "Reference:"
@@ -512,7 +524,8 @@ msgstr "Quelle:"
 
 #: ../templates/default/ldap/domain/profile.html:330
 msgid "How to enable signing disclaimer on outgoing mails."
-msgstr "Wie aktiviert man den Haftungsausschluß als Signatur ausgehender Mails."
+msgstr ""
+"Wie aktiviert man den Haftungsausschluß als Signatur ausgehender Mails."
 
 #: ../templates/default/ldap/domain/profile.html:331
 msgid "How to dump disclaimer text from LDAP/MySQL automaticly."
@@ -522,7 +535,8 @@ msgstr ""
 
 #: ../templates/default/ldap/domain/profile.html:344
 msgid "Content of disclaimer will be appended to outgoing emails."
-msgstr "Wie aktiviert man den Haftungsausschluß als Signatur ausgehender Mails."
+msgstr ""
+"Wie aktiviert man den Haftungsausschluß als Signatur ausgehender Mails."
 
 #: ../templates/default/ldap/domain/profile.html:344
 msgid "Plain text only."
@@ -531,7 +545,7 @@ msgstr "Nur Reintext."
 #: ../templates/default/ldap/domain/profile.html:359
 #: ../templates/default/ldap/user/profile.html:376
 msgid "Set value to 0 or leave it empty for unlimited."
-msgstr "Tipp: 0 bedeutet unbegrenzt."
+msgstr "Tipp: 0 oder leer bedeutet unbegrenzt."
 
 #: ../templates/default/ldap/domain/profile.html:404
 msgid "Default mail storage base directory"
@@ -539,57 +553,57 @@ msgstr "Pfad zum Basisverzeichnis"
 
 #: ../templates/default/ldap/domain/profile.html:404
 msgid "Sample:"
-msgstr ""
+msgstr "Beispiel:"
 
 #: ../templates/default/ldap/domain/profile.html:405
 msgid "Leave it empty to use default setting."
-msgstr "Für Standardtransport freilassen."
+msgstr "Für Standardeinstellung freilassen."
 
 #: ../templates/default/ldap/domain/profile.html:416
 msgid "Domain quota size"
-msgstr "Maximales Kontingent"
+msgstr "Maximale Quota der Domäne"
 
 #: ../templates/default/ldap/domain/profile.html:432
 msgid "Number of max mail users"
-msgstr "Maximale Mail Benutzer Anzahl"
+msgstr "Maximale Anzahl an Benutzern"
 
 #: ../templates/default/ldap/domain/profile.html:433
 #: ../templates/default/ldap/domain/profile.html:440
 #: ../templates/default/ldap/domain/profile.html:447
 #, python-format
 msgid "%s account(s) exist."
-msgstr "Kein Konto ausgewählt."
+msgstr "%s Konten existieren."
 
 #: ../templates/default/ldap/domain/profile.html:439
 msgid "Number of max mail lists"
-msgstr "Maximale Mail Listen Anzahl"
+msgstr "Maximale Anzahl Mailing Listen"
 
 #: ../templates/default/ldap/domain/profile.html:446
 msgid "Number of max mail aliases"
-msgstr "Maximale Mail Aliasse Anzahl"
+msgstr "Maximale Anzahl an Aliasen"
 
 #: ../templates/default/ldap/domain/profile.html:456
 msgid "Minimal password length"
-msgstr ""
+msgstr "Minimale Länge des Passworts"
 
 #: ../templates/default/ldap/domain/profile.html:461
 msgid "Maximal password length"
-msgstr ""
+msgstr "Maximale Länge des Passworts"
 
 #: ../templates/default/ldap/domain/profile.html:470
 msgid "Default quota of new user"
-msgstr "Neuen Benutzer anlegen"
+msgstr "Standard Quota für neue Benutzer"
 
 #: ../templates/default/ldap/domain/profile.html:479
 msgid "Default mail group(s) of new user"
-msgstr ""
+msgstr "Standard Mail Gruppen neuer Benutzer"
 
 #: ../templates/default/ldap/domain/profile.html:499
 #: ../templates/default/ldap/maillist/create.html:37
 #: ../templates/default/ldap/maillist/list.html:84
 #: ../templates/default/ldap/user/profile.html:237
 msgid "Add mail list"
-msgstr "Alle Mail Listen zeigen."
+msgstr "Mailing Listen hinzufügen"
 
 #: ../templates/default/ldap/login.html:27
 #: ../templates/default/ldap/login.html:49
@@ -600,7 +614,7 @@ msgstr "Anmeldung zur Domänen und Benutzer Verwaltung"
 
 #: ../templates/default/ldap/login.html:69
 msgid "Must be a valid email address"
-msgstr "Benutzer muß eine gültige E-Mail Adresse sein."
+msgstr "Das muss eine gültige Mail Adresse sein."
 
 #: ../templates/default/ldap/login.html:69
 #: ../templates/default/mysql/login.html:69
@@ -612,7 +626,7 @@ msgstr "Benutzername"
 #: ../templates/default/ldap/user/profile.html:161
 #: ../templates/default/mysql/login.html:76
 msgid "Password"
-msgstr "Paßwort"
+msgstr "Passwort"
 
 #: ../templates/default/ldap/login.html:84
 msgid "Log me in automatically each time I visit"
@@ -631,7 +645,7 @@ msgstr "Anmelden"
 #: ../templates/default/ldap/maillist/create.html:60
 #, python-format
 msgid "You can't create more mail lists under domain %s."
-msgstr "Zeige Mail Liste der Domäne:"
+msgstr "Sie können keine weiteren Mailing Listen in der Domäne %s anlagen."
 
 #: ../templates/default/ldap/maillist/profile.html:82
 msgid "Moderators"
@@ -639,40 +653,46 @@ msgstr "Moderatoren"
 
 #: ../templates/default/ldap/maillist/profile.html:126
 msgid "Everyone can send mail to this address."
-msgstr ""
+msgstr "Die ganze Welt kann Mails an diese Adresse senden."
 
 #: ../templates/default/ldap/maillist/profile.html:132
 msgid "Domain users only"
-msgstr "Keine Domäne unter Kontrolle."
+msgstr "Nur Benutzer dieser Domäne."
 
 #: ../templates/default/ldap/maillist/profile.html:132
 #, python-format
 msgid ""
-"Only <a href=\"%s\">users under domain <strong>%s</strong></a> can send "
-"mail to this address."
-msgstr "Beschrã­«t auf alle Mitglieder der Domã­¥ <strong>%s</strong>."
+"Only <a href=\"%s\">users under domain <strong>%s</strong></a> can send mail "
+"to this address."
+msgstr ""
+"Nur <a href=\"%s\">Mitglieder der Domäne <strong>%s</strong></a> können "
+"Mails an diese Adresse senden."
 
 #: ../templates/default/ldap/maillist/profile.html:138
 msgid "Domain and sub-domain users only"
-msgstr ""
+msgstr "Nur Benutzer der Domäne und deren Subdomänen."
 
 #: ../templates/default/ldap/maillist/profile.html:138
 #, python-format
 msgid ""
 "Only <a href=\"%s\">users under domain <strong>%s</strong></a> or sub "
 "domains can send mail to this address."
-msgstr "Beschrã­«t auf alle Mitglieder der Domã­¥ <strong>%s</strong>."
+msgstr ""
+"Nur <a href=\"%s\">Mitglieder der Domäne <strong>%s</strong></a> und deren "
+"Subdomänen können Mails an diese Adresse senden."
 
 #: ../templates/default/ldap/maillist/profile.html:143
 msgid "Members only"
-msgstr "Mitglieder"
+msgstr "Nur für Mitglieder"
 
 #: ../templates/default/ldap/maillist/profile.html:143
 #, python-format
 msgid ""
 "Only <a href=\"%s\">members</a> of this mail list can send mail to this "
 "address."
-msgstr "Beschränkt auf <a href=\"%s\">Mitglieder</a> dieser Mail Liste."
+msgstr ""
+"Nur <a href=\"%s\">Mitglieder</a> dieser Mailing Liste können Mails an diese "
+"Adresse senden."
 
 #: ../templates/default/ldap/maillist/profile.html:148
 msgid "Moderators only"
@@ -682,21 +702,24 @@ msgstr "Moderatoren"
 #, python-format
 msgid "Only <a href=\"%s\">moderators</a> can send mail to this address."
 msgstr ""
+"Nur <a href=\"%s\">Moderatoren</a>können Mails an diese Adresse senden."
 
 #: ../templates/default/ldap/maillist/profile.html:153
 msgid "Members and moderators only"
-msgstr "Moderatoren"
+msgstr "Mitglieder und Moderatoren"
 
 #: ../templates/default/ldap/maillist/profile.html:153
 #, python-format
 msgid ""
-"Only <a href=\"%s\">members</a> and <a href=\"%s\">moderators</a> can "
-"send mail to this address."
-msgstr "Beschränkt auf <a href=\"%s\">Mitglieder</a> dieser Mail Liste."
+"Only <a href=\"%s\">members</a> and <a href=\"%s\">moderators</a> can send "
+"mail to this address."
+msgstr ""
+"Nur <a href=\"%s\">Mitglieder</a> dieser Mailing Liste und <a href=\"%s"
+"\">Moderatoren</a> können Mails an diese Adresse senden."
 
 #: ../templates/default/ldap/maillist/profile.html:161
 msgid "Internal members"
-msgstr "Interne Mitglieder hinzufügen"
+msgstr "Interne Mitglieder"
 
 #: ../templates/default/ldap/maillist/profile.html:162
 msgid "Add internal members"
@@ -705,7 +728,7 @@ msgstr "Interne Mitglieder hinzufügen"
 #: ../templates/default/ldap/maillist/profile.html:163
 #: ../templates/default/ldap/maillist/profile.html:244
 msgid "External members"
-msgstr "Interne Mitglieder hinzufügen"
+msgstr "Externe Mitglieder"
 
 #: ../templates/default/ldap/maillist/profile.html:170
 #: ../templates/default/ldap/maillist/profile.html:280
@@ -730,7 +753,7 @@ msgstr "Eine Mail Adresse pro Zeile"
 
 #: ../templates/default/ldap/maillist/profile.html:271
 msgid "Internal moderators"
-msgstr "Interne Moderatoren hinzufügen"
+msgstr "Interne Moderatoren"
 
 #: ../templates/default/ldap/maillist/profile.html:272
 msgid "Add internal moderators"
@@ -739,28 +762,28 @@ msgstr "Interne Moderatoren hinzufügen"
 #: ../templates/default/ldap/maillist/profile.html:273
 #: ../templates/default/ldap/maillist/profile.html:353
 msgid "External moderators"
-msgstr "Interne Moderatoren hinzufügen"
+msgstr "Externe Moderatoren"
 
 #: ../templates/default/ldap/search.html:40
 msgid "Search accounts in all domains under your control:"
-msgstr "Alle kontrollierten Domänen."
+msgstr "Alle verwalteten Domänen durchsuchen:"
 
 #: ../templates/default/ldap/search.html:51
 #: ../templates/default/ldap/maillist/profile.html:262
 #: ../templates/default/ldap/maillist/profile.html:371
 #: ../templates/default/panel/log.html:77
 msgid "Submit"
-msgstr ""
+msgstr "Absenden"
 
 #: ../templates/default/ldap/search.html:60
 #: ../templates/default/ldap/search.html:265
 msgid "Search results."
-msgstr ""
+msgstr "Suchergebnisse."
 
 #: ../templates/default/ldap/search.html:68
 #, python-format
 msgid "%d user(s) found."
-msgstr ""
+msgstr "%d Benutzer gefunden."
 
 #: ../templates/default/ldap/search.html:78
 #: ../templates/default/ldap/search.html:151
@@ -785,7 +808,7 @@ msgstr "Mail Adresse"
 #: ../templates/default/ldap/maillist/profile.html:296
 #: ../templates/default/ldap/user/list.html:111
 msgid "Quota"
-msgstr "Kontingent"
+msgstr "Quota"
 
 #: ../templates/default/ldap/search.html:81
 #: ../templates/default/ldap/search.html:153
@@ -857,7 +880,7 @@ msgstr "Entfernen"
 #: ../templates/default/ldap/maillist/list.html:142
 #: ../templates/default/ldap/user/list.html:167
 msgid "Are you sure want to delete selected account(s)?"
-msgstr "Sind Sie sicher die gewählten Konten zu löschen?"
+msgstr "Sind Sie sicher, die gewählten Konten zu löschen?"
 
 #: ../templates/default/ldap/search.html:127
 #: ../templates/default/ldap/search.html:193
@@ -879,7 +902,7 @@ msgstr "Deaktivieren"
 #: ../templates/default/ldap/maillist/list.html:143
 #: ../templates/default/ldap/user/list.html:168
 msgid "Are you sure want to disable selected account(s)?"
-msgstr "Sind Sie sicher die gewählten Konten zu deaktivieren?"
+msgstr "Sind Sie sicher, die gewählten Konten zu deaktivieren?"
 
 #: ../templates/default/ldap/search.html:128
 #: ../templates/default/ldap/search.html:194
@@ -901,53 +924,54 @@ msgstr "Aktivieren"
 #: ../templates/default/ldap/maillist/list.html:144
 #: ../templates/default/ldap/user/list.html:169
 msgid "Are you sure want to enable selected account(s)?"
-msgstr "Sind Sie sicher die gewählten Konten zu aktivieren?"
+msgstr "Sind Sie sicher, die gewählten Konten zu aktivieren?"
 
 #: ../templates/default/ldap/search.html:141
 #, python-format
 msgid "%d mail list(s) found."
-msgstr ""
+msgstr "%d Mailing Listen gefunden."
 
 #: ../templates/default/ldap/search.html:152
 #: ../templates/default/ldap/maillist/list.html:97
 #: ../templates/default/ldap/maillist/profile.html:121
 msgid "Mail Deliver Restriction"
-msgstr ""
+msgstr "Zustellungsbeschränkungen"
 
 #: ../templates/default/ldap/search.html:178
 #: ../templates/default/ldap/search.html:240
 #: ../templates/default/ldap/alias/list.html:120
 #: ../templates/default/ldap/maillist/list.html:124
 msgid "View members"
-msgstr "Mitglieder hinzufügen"
+msgstr "Mitglieder ansehen"
 
 #: ../templates/default/ldap/search.html:205
 #, python-format
 msgid "%d mail alias(es) found."
-msgstr "Alle Mail Aliasse zeigen."
+msgstr "%d Aliase gefunden."
 
 #: ../templates/default/ldap/search.html:269
 msgid "Your search returned no hits."
-msgstr ""
+msgstr "Es gibt keine Suchergebnisse."
 
 #: ../templates/default/ldap/user/create.html:40
 #: ../templates/default/ldap/user/list.html:96
 msgid "Add user"
-msgstr ""
+msgstr "Benutzer hinzufügen"
 
 #: ../templates/default/ldap/user/create.html:92
 #, python-format
 msgid "You can NOT create more users under domain %s."
-msgstr "Zeige Mail Liste der Domäne:"
+msgstr "Sie können keine weiteren Benutzer in der Domäne %s anlegen."
 
 #: ../templates/default/ldap/user/create.html:99
 msgid "Increase it now?"
-msgstr ""
+msgstr "Den Wert jetzt erhöhen ?"
 
 #: ../templates/default/ldap/user/create.html:105
 #, python-format
 msgid "You can create <strong>%d</strong> more mail user(s) under domain %s."
 msgstr ""
+"Sie können weitere <strong>%d</strong> Benutzer in der Domäne %s anlegen."
 
 #: ../templates/default/ldap/user/import.html:37
 msgid "Import users"
@@ -955,15 +979,15 @@ msgstr "Benutzer importieren"
 
 #: ../templates/default/ldap/user/import.html:62
 msgid "Import users under domain"
-msgstr "Benutzer unter Domäne importieren"
+msgstr "Benutzer in die Domäne importieren"
 
 #: ../templates/default/ldap/user/import.html:73
 msgid "Password for all accounts"
-msgstr "Paßwort für alle Konten festlegen."
+msgstr "Passwort für alle Konten festlegen."
 
 #: ../templates/default/ldap/user/import.html:78
 msgid "Mailbox quota for new user"
-msgstr ""
+msgstr "Quota für neue Benutzer"
 
 #: ../templates/default/ldap/user/import.html:85
 msgid "Account names"
@@ -971,15 +995,15 @@ msgstr "Kontoname"
 
 #: ../templates/default/ldap/user/import.html:87
 msgid "One account one line."
-msgstr "Kein Konto ausgewählt."
+msgstr "Eine Zeile pro Konto."
 
 #: ../templates/default/ldap/user/import.html:87
 msgid "Multi-byte characters in username is not allowed."
-msgstr "Leere Adresse wird nicht unterstützt."
+msgstr "Multi-Byte - Zeichen sind im Benutzernamen nicht erlaubt."
 
 #: ../templates/default/ldap/user/import.html:89
 msgid "Username, Display name, Password"
-msgstr ""
+msgstr "Benutzername, angezeigter Name, Passwort"
 
 #: ../templates/default/ldap/user/import.html:100
 msgid "Submit to preview"
@@ -996,12 +1020,12 @@ msgstr "Mail Benutzer"
 
 #: ../templates/default/ldap/user/list.html:110
 msgid "Job Title"
-msgstr ""
+msgstr "Position"
 
 #: ../templates/default/ldap/user/profile.html:128
 #: ../templates/default/ldap/user/profile.html:456
 msgid ","
-msgstr ""
+msgstr ","
 
 #: ../templates/default/ldap/user/profile.html:128
 #: ../templates/default/policyd/blacklist/create.html:48
@@ -1011,7 +1035,7 @@ msgstr ":"
 
 #: ../templates/default/ldap/user/profile.html:150
 msgid "Member of Groups"
-msgstr ""
+msgstr "Mitglied folgender Gruppen"
 
 #: ../templates/default/ldap/user/profile.html:151
 msgid "Forwarding"
@@ -1019,31 +1043,31 @@ msgstr "Weiterleitung"
 
 #: ../templates/default/ldap/user/profile.html:159
 msgid "White/Blacklist"
-msgstr "Einschließende Liste"
+msgstr "Einschließende/Ausschließende Liste"
 
 #: ../templates/default/ldap/user/profile.html:209
 msgid "Member of Mail Lists"
-msgstr "Mitglieder der Mail Liste"
+msgstr "Mitglied der Mailing Liste"
 
 #: ../templates/default/ldap/user/profile.html:231
 msgid "Warning:"
-msgstr "Weiterleitung"
+msgstr "Warnung:"
 
 #: ../templates/default/ldap/user/profile.html:231
 msgid "Account NOT exists."
-msgstr "Kontoname"
+msgstr "Konto existiert NICHT."
 
 #: ../templates/default/ldap/user/profile.html:243
 msgid "Member of Mail Aliases"
-msgstr "Maximale Mail Aliasse Anzahl"
+msgstr "Mitglied folgender Aliase"
 
 #: ../templates/default/ldap/user/profile.html:270
 msgid "Add mail alias"
-msgstr "Neue Mail Liste anlegen."
+msgstr "Neues Alias anlegen."
 
 #: ../templates/default/ldap/user/profile.html:280
 msgid "Enable mail forwarding"
-msgstr "Mail Weiterleitung aktivieren"
+msgstr "Weiterleitung aktivieren"
 
 #: ../templates/default/ldap/user/profile.html:284
 msgid "Save a copy in mailbox"
@@ -1051,17 +1075,18 @@ msgstr "Kopie speichern in Mailbox"
 
 #: ../templates/default/ldap/user/profile.html:294
 msgid "Mail forwarding address"
-msgstr "Mail Weiterleitungs Adresse"
+msgstr "Weiterleitungs Adresse"
 
 #: ../templates/default/ldap/user/profile.html:300
 #, python-format
 msgid "Emails sent to alias accounts will be delivered to user %s."
 msgstr ""
+"Mails, die an das Alias adressiert sind, werden an Benutzer %s gesendet."
 
 #: ../templates/default/ldap/user/profile.html:301
 #, python-format
 msgid "Email address of alias account must end with domain name(s): %s."
-msgstr ""
+msgstr "Die Mail-Adresse des Aliases muss mit der Domäne %s enden."
 
 #: ../templates/default/ldap/user/profile.html:310
 msgid "Enable alias account"
@@ -1069,84 +1094,98 @@ msgstr "Dieses Konto aktivieren"
 
 #: ../templates/default/ldap/user/profile.html:325
 msgid "You should install iRedAPD to make this feature work as expected."
-msgstr ""
+msgstr "Sie sollten iRedAPD installieren, damit dieses Merkmal funktioniert."
 
 #: ../templates/default/ldap/user/profile.html:325
 msgid "Install iRedAPD"
-msgstr ""
+msgstr "iRedAPD installieren"
 
 #: ../templates/default/ldap/user/profile.html:330
 msgid ""
-"To bypass or block a <strong>single user</strong>, use full email "
-"address. e.g. <strong>user@domain.ltd</strong>"
+"To bypass or block a <strong>single user</strong>, use full email address. e."
+"g. <strong>user@domain.ltd</strong>"
 msgstr ""
+"Um einen <strong>einzelnen Benutzer</strong> auszuschließen, geben Sie die "
+"vollständige Mail-Adresse (<strong>user@domain.ltd</strong>) an."
 
 #: ../templates/default/ldap/user/profile.html:331
 msgid ""
 "To bypass or block <strong>whole domain</strong>, use @domain.ltd. e.g. "
 "<strong>@domain.ltd</strong>"
 msgstr ""
+"Um eine <strong>ganze Domäne</strong> auszuschließen, geben Sie einen "
+"Klammeraffen und die Domäne (<strong>@domain.ltd</strong>) an."
 
 #: ../templates/default/ldap/user/profile.html:332
 msgid ""
-"To bypass or block a <strong>domain and its sub-domains</strong>, use "
-"@.domain.ltd. e.g. <strong>@.domain.ltd</strong>"
+"To bypass or block a <strong>domain and its sub-domains</strong>, use @."
+"domain.ltd. e.g. <strong>@.domain.ltd</strong>"
 msgstr ""
+"Um eine <strong>Domäne und deren Subdomänen</strong> auszuschließen, geben "
+"Sie einen Klammeraffen, einen Punkt und die Domäne (<strong>@.domain.ltd</"
+"strong>) an."
 
 #: ../templates/default/ldap/user/profile.html:333
-msgid "Use <strong>@.</strong> to bypass or block <strong>all accounts</strong>."
+msgid ""
+"Use <strong>@.</strong> to bypass or block <strong>all accounts</strong>."
 msgstr ""
+"Um <strong>alles</strong> auszuschließen, geben Sie einen Klammeraffen und "
+"einen Punkt (<strong>@.</strong>) an."
 
 #: ../templates/default/ldap/user/profile.html:334
 msgid "Whitelist has higher priority than blacklist."
 msgstr ""
+"Die einschließende Liste hat eine höhere Priorität als die ausschließende "
+"Liste."
 
 #: ../templates/default/ldap/user/profile.html:341
 msgid "Whitelisted Senders"
-msgstr ""
+msgstr "Eingeschlossene Absender"
 
 #: ../templates/default/ldap/user/profile.html:342
 msgid "Email comes from whitelisted senders will be bypassed directly."
-msgstr ""
+msgstr "Mails von eingeschlossenen Absendern werden direkt zugestellt."
 
 #: ../templates/default/ldap/user/profile.html:350
 msgid "Blacklisted Senders"
-msgstr ""
+msgstr "Ausgeschlossene Absender"
 
 #: ../templates/default/ldap/user/profile.html:351
 msgid "Email comes from blacklisted senders will be rejected immediately."
-msgstr ""
+msgstr "Mails von ausgeschlossenen Absendern werden sofort verworfen."
 
 #: ../templates/default/ldap/user/profile.html:358
 msgid "Whitelisted Recipients"
-msgstr ""
+msgstr "Eingeschlossene Empfänger"
 
 #: ../templates/default/ldap/user/profile.html:359
 #, python-format
 msgid "User %s can send email to whitelisted recipients."
-msgstr "Beschrã­«t auf alle Mitglieder der Domã­¥ <strong>%s</strong>."
+msgstr "Benutzer %s kann Mails an eingeschlossene Empfänger senden."
 
 #: ../templates/default/ldap/user/profile.html:366
 msgid "Blacklisted Recipients"
-msgstr "Empfänger BCC aktivieren"
+msgstr "Ausgeschlossene Empfänger"
 
 #: ../templates/default/ldap/user/profile.html:367
 #, python-format
 msgid "User %s can NOT send email to blacklisted recipients."
-msgstr "Beschrã­«t auf alle Mitglieder der Domã­¥ <strong>%s</strong>."
+msgstr "Benutzer %s kann KEINE Mails an ausgeschlossene Empfänger senden."
 
 #: ../templates/default/ldap/user/profile.html:443
 msgid "Path to mailbox"
-msgstr "Pfad zur MailBox"
+msgstr "Pfad zur Mailbox"
 
 #: ../templates/default/ldap/user/profile.html:456
 #, python-format
 msgid "or leave it empty to use <a href=\"%s\">domain setting</a>."
 msgstr ""
+"oder Sie lassen es leer. Damit benutzen Sie die <a href=\"%s\">domänenweite "
+"Einstellung</a>."
 
 #: ../templates/default/macros.html:68
 msgid "Account is active."
-msgstr "Kein Konto ausgewählt."
+msgstr "Dieses Konto ist aktiv."
 
 #: ../templates/default/macros.html:70
 msgid "Account is disabled."
@@ -1154,11 +1193,11 @@ msgstr "Markierte Konten wurden deaktiviert."
 
 #: ../templates/default/macros.html:76
 msgid "Is a global admin."
-msgstr "Als globalen Administrator verwenden"
+msgstr "Das ist ein globaler Administrator."
 
 #: ../templates/default/macros.html:78
 msgid "Not a global admin."
-msgstr "Als globalen Administrator verwenden"
+msgstr "Das ist kein globaler Administrator."
 
 #: ../templates/default/macros.html:152
 msgid "Company/Organization"
@@ -1188,11 +1227,11 @@ msgstr "Benutzer ID"
 
 #: ../templates/default/macros.html:170
 msgid "Job Title/Responsibility"
-msgstr ""
+msgstr "Position"
 
 #: ../templates/default/macros.html:177
 msgid "Mobile"
-msgstr ""
+msgstr "Handy"
 
 #: ../templates/default/macros.html:185 ../templates/default/macros.html:191
 msgid "Telephone Number"
@@ -1220,16 +1259,16 @@ msgstr "Unbegrenzt"
 
 #: ../templates/default/macros.html:263
 msgid "Max quota size"
-msgstr "Maximales Kontingent"
+msgstr "Maximale Quota"
 
 #: ../templates/default/macros.html:266
 msgid "Max quota size (in MB)"
-msgstr "Maximales Kontingent (in MB)"
+msgstr "Maximale Quota (in MB)"
 
 #: ../templates/default/macros.html:268
 #, python-format
 msgid "Current quota size: <strong>%s</strong>."
-msgstr "Derzeitiges Kontingent: <strong>%s</strong>."
+msgstr "Derzeitiges Quota: <strong>%s</strong>."
 
 #: ../templates/default/macros.html:269 ../templates/default/macros.html:277
 #: ../templates/default/macros.html:285 ../templates/default/macros.html:293
@@ -1238,7 +1277,7 @@ msgstr "Tipp: 0 bedeutet unbegrenzt."
 
 #: ../templates/default/macros.html:274
 msgid "Max number of mail users"
-msgstr "Maximale Mail Benutzer Anzahl"
+msgstr "Maximale Anzahl an Mail Benutzern"
 
 #: ../templates/default/macros.html:276 ../templates/default/macros.html:284
 #: ../templates/default/macros.html:292
@@ -1248,11 +1287,11 @@ msgstr "Derzeitge Anzahl: <strong>%s</strong>."
 
 #: ../templates/default/macros.html:282
 msgid "Max number of mail lists"
-msgstr "Maximale Mail Listen Anzahl"
+msgstr "Maximale Anzahl an Mailing Listen"
 
 #: ../templates/default/macros.html:290
 msgid "Max number of mail aliases"
-msgstr "Maximale Mail Aliasse Anzahl"
+msgstr "Maximale Anzahl an Aliasen"
 
 #: ../templates/default/macros.html:306
 msgid "Enable this domain"
@@ -1264,12 +1303,13 @@ msgstr "Dieses Konto aktivieren"
 
 #: ../templates/default/macros.html:317
 msgid "Some examples of mail relay setting"
-msgstr "Einige Beispiele für Mail Weiterleitungen"
+msgstr "Einige Beispiele für Weiterleitungen"
 
 #: ../templates/default/macros.html:317
 #, python-format
 msgid "(You can find more examples <a target=\"_blank\" href=\"%s\">here</a>):"
-msgstr "(Mehr Beispiele <a target=\"_blank\" href=\"%s\">hier</a>):"
+msgstr ""
+"(Weitere Beispiele finden Sie <a target=\"_blank\" href=\"%s\">hier</a>):"
 
 #: ../templates/default/macros.html:322
 msgid "Destination"
@@ -1278,23 +1318,23 @@ msgstr "Ziel"
 #: ../templates/default/macros.html:323
 #: ../templates/default/ldap/user/profile.html:455
 msgid "Relay/Transport Setting"
-msgstr "Weiterleiten zu"
+msgstr "Einstellung von Weiterleitungen"
 
 #: ../templates/default/macros.html:329
 msgid ""
 "Relay all mails to host \"gateway.example.com\" <strong>with</strong> MX "
 "lookups."
 msgstr ""
-"Alle Mails zum host \"gateway.example.com\" <strong>mit</strong> MX "
-"lookups weiterleiten."
+"Alle Mails zum Host \"gateway.example.com\" <strong>mit</strong> MX "
+"Auflösung weiterleiten."
 
 #: ../templates/default/macros.html:334
 msgid ""
-"Relay all mails to host \"gateway.example.com\" <strong>without</strong> "
-"MX lookups."
+"Relay all mails to host \"gateway.example.com\" <strong>without</strong> MX "
+"lookups."
 msgstr ""
 "Alle Mails zum host \"gateway.example.com\" <strong>ohne</strong> MX "
-"lookups weiterleiten."
+"Auflösung weiterleiten."
 
 #: ../templates/default/macros.html:345 ../templates/default/macros.html:347
 msgid "Backup MX"
@@ -1302,55 +1342,55 @@ msgstr "Backup MX"
 
 #: ../templates/default/macros.html:351
 msgid "Enabled"
-msgstr "Aktivieren"
+msgstr "Aktiviert"
 
 #: ../templates/default/macros.html:355
 msgid "Disabled"
-msgstr "Deaktivieren"
+msgstr "Deaktiviert"
 
 #: ../templates/default/macros.html:382
 msgid "Domain alias."
-msgstr "Domänen Administratoren"
+msgstr "Domänen Alias"
 
 #: ../templates/default/macros.html:383
 msgid "BCC received mails to other addresses."
-msgstr ""
+msgstr "Als BBC empfangene Mails."
 
 #: ../templates/default/macros.html:384
 msgid "BCC outgoing mails to other addresses."
-msgstr ""
+msgstr "Auf BCC gesendate Mails."
 
 #: ../templates/default/macros.html:389
 msgid "Fetching mails via POP3."
-msgstr "Mails via POP3 abholen."
+msgstr "Mails mit POP3 abholen."
 
 #: ../templates/default/macros.html:390
 msgid "Fetching mails via POP3 over TLS/SSL."
-msgstr "Mails via POP3S (POP3 over TLS/SSL) abholen."
+msgstr "Mails mit \"POP3 over TLS/SSL\" abholen."
 
 #: ../templates/default/macros.html:391
 msgid "Fetching mails via IMAP."
-msgstr "Mails via POP3 abholen."
+msgstr "Mails mit IMAP abholen."
 
 #: ../templates/default/macros.html:392
 msgid "Fetching mails via IMAP over TLS/SSL."
-msgstr ""
+msgstr "Mails mit \"IMAP over TLS/SSL\" abholen."
 
 #: ../templates/default/macros.html:393
 msgid "Sending mails via SMTP."
-msgstr "Mails via SMTP versenden."
+msgstr "Mails mit SMTP versenden."
 
 #: ../templates/default/macros.html:394
 msgid "Receiving mails for this account on mail server."
-msgstr ""
+msgstr "Mails für dieses Konto am Mail-Server empfangen."
 
 #: ../templates/default/macros.html:395
 msgid "Forwarding mails to other addresses."
-msgstr "Mail Weiterleitungs Adresse"
+msgstr "Weiterleitungs Adresse"
 
 #: ../templates/default/macros.html:396
 msgid "Alias account."
-msgstr "Dieses Konto aktivieren"
+msgstr "Alias"
 
 #: ../templates/default/macros.html:397
 msgid "Customize mail filter rule."
@@ -1362,11 +1402,11 @@ msgstr "Persönliche Mail Filter über TLS/SSL setzen."
 
 #: ../templates/default/macros.html:399
 msgid "BCC incoming mails to other address."
-msgstr ""
+msgstr "Eingehende Mail mit BCC versehen."
 
 #: ../templates/default/macros.html:400
 msgid "BCC outgoing mails to other address."
-msgstr ""
+msgstr "Ausgedende Mails mit BCC versehen."
 
 #: ../templates/default/macros.html:401 ../templates/default/macros.html:405
 #: ../templates/default/macros.html:409
@@ -1375,15 +1415,15 @@ msgstr "Zeige Mail Adresse im globalen LDAP Adressbuch"
 
 #: ../templates/default/macros.html:414
 msgid "Enabled Services"
-msgstr "Mail Service."
+msgstr "aktivierte Dienste"
 
 #: ../templates/default/macros.html:419
 msgid "Mail service."
-msgstr "Mail Service."
+msgstr "Mail."
 
 #: ../templates/default/macros.html:419
 msgid "Check this box in order to enable other mail related services."
-msgstr "Markieren um alle Mail relevanten Services zu aktivieren."
+msgstr "Hier markieren, um alle Mail relevanten Services zu aktivieren."
 
 #: ../templates/default/macros.html:436
 msgid "Domain admin assignment"
@@ -1402,7 +1442,7 @@ msgstr "(Globaler Administrator)"
 #: ../templates/default/ldap/admin/create.html:41
 #: ../templates/default/ldap/admin/list.html:71
 msgid "Add admin"
-msgstr ""
+msgstr "Administrator hinzufügen"
 
 #: ../templates/default/macros.html:466 ../templates/default/macros.html:469
 msgid "MTA transport"
@@ -1419,10 +1459,11 @@ msgstr "Für Standardtransport freilassen."
 
 #: ../templates/default/macros.html:479
 msgid "Old password"
-msgstr "Altes Paßwort"
+msgstr "Altes Passwort"
 
 #: ../templates/default/macros.html:479 ../templates/default/macros.html:485
-#: ../templates/default/macros.html:499 ../templates/default/ldap/login.html:69
+#: ../templates/default/macros.html:499
+#: ../templates/default/ldap/login.html:69
 #: ../templates/default/ldap/login.html:76
 #: ../templates/default/ldap/admin/create.html:63
 #: ../templates/default/ldap/alias/create.html:84
@@ -1439,40 +1480,41 @@ msgstr "(Notwendig)"
 
 #: ../templates/default/macros.html:485
 msgid "New password"
-msgstr "Neues Paßwort"
+msgstr "Neues Passwort"
 
 #: ../templates/default/macros.html:485
 msgid "Need a random password?"
-msgstr ""
+msgstr "Zufälliges Passwort gefällig ?"
 
 #: ../templates/default/macros.html:488
 #, python-format
 msgid ""
-"At least <strong>%s</strong> characters, but no more than "
-"<strong>%s</strong>."
+"At least <strong>%s</strong> characters, but no more than <strong>%s</"
+"strong>."
 msgstr ""
+"Mindestens <strong>%s</strong> und höchstens <strong>%s</strong> Zeichen."
 
 #: ../templates/default/macros.html:490
 #, python-format
 msgid "At least <strong>%s</strong> characters."
-msgstr "Neues Paßwort muß wenigstens <strong>%s</strong> Zeichen enthalten."
+msgstr "Mindestens <strong>%s</strong> Zeichen."
 
 #: ../templates/default/macros.html:492
 #, python-format
 msgid "No more than <strong>%s</strong> characters."
-msgstr "Neues Paßwort muß wenigstens <strong>%s</strong> Zeichen enthalten."
+msgstr "Höchtens <strong>%s</strong> Zeichen."
 
 #: ../templates/default/macros.html:499
 msgid "Confirm new password"
-msgstr "Neues Paßwort bestätigen"
+msgstr "Neues Passwort bestätigen"
 
 #: ../templates/default/macros.html:499
 msgid "Re-enter your password exactly as before."
-msgstr "Paßwort exakt wiederholen."
+msgstr "Passwort exakt wiederholen."
 
 #: ../templates/default/macros.html:513
 msgid "Mailbox Quota"
-msgstr ""
+msgstr "Quota"
 
 #: ../templates/default/macros.html:519
 msgid "Available quota:"
@@ -1491,7 +1533,7 @@ msgstr "Tipp: 0 bedeutet unbegrenzt."
 
 #: ../templates/default/macros.html:534
 msgid "BCC incoming emails to"
-msgstr ""
+msgstr "Eingehende Mails BCC an"
 
 #: ../templates/default/macros.html:535 ../templates/default/macros.html:544
 msgid "Multiple addresses are <strong>NOT</strong> supported."
@@ -1499,7 +1541,7 @@ msgstr "Mehrere Adressen werden <strong>NICHT</strong> unterstützt."
 
 #: ../templates/default/macros.html:543
 msgid "BCC outgoing emails to"
-msgstr ""
+msgstr "Ausgehende Mails BCC an"
 
 #: ../templates/default/macros.html:587
 msgid "Email address of alias account"
@@ -1508,14 +1550,14 @@ msgstr "Eine Mail Adresse pro Zeile"
 #: ../templates/default/macros.html:624
 #: ../templates/default/ldap/admin/profile.html:71
 msgid "Managed Domains"
-msgstr "Domänen verwalten"
+msgstr "verwaltete Domänen"
 
 #: ../templates/default/macros.html:646
 #: ../templates/default/ldap/domain/create.html:30
 #: ../templates/default/ldap/domain/list.html:78
 #: ../templates/default/mysql/domain_list.html:50
 msgid "Add domain"
-msgstr "Domäne auswählen"
+msgstr "Domäne hinzufügen"
 
 #: ../templates/default/macros.html:654
 msgid "Add new alias members"
@@ -1528,32 +1570,32 @@ msgstr "Eine Mail Adresse pro Zeile"
 #: ../templates/default/macros.html:669 ../templates/default/macros.html:681
 #: ../templates/default/ldap/maillist/profile.html:126
 msgid "Unrestricted"
-msgstr "E-Mail ist uneingeschränkt."
+msgstr "unbeschränkt"
 
 #: ../templates/default/macros.html:671
 #, python-format
 msgid "<a href=\"%s\">Domain users</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Benutzer der Domäne</a>"
 
 #: ../templates/default/macros.html:673
 #, python-format
 msgid "<a href=\"%s\">Domain and sub-domain users</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Benutzer der Domäne und deren Subdomänen</a>"
 
 #: ../templates/default/macros.html:675
 #, python-format
 msgid "<a href=\"%s\">Members</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Mitglieder</a>"
 
 #: ../templates/default/macros.html:677
 #, python-format
 msgid "<a href=\"%s\">Moderators</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Moderatoren</a>"
 
 #: ../templates/default/macros.html:679
 #, python-format
 msgid "<a href=\"%s\">Members</a> and <a href=\"%s\">moderators</a>"
-msgstr ""
+msgstr "<a href=\"%s\">Mitglieder</a> und <a href=\"%s\">Moderatoren</a>"
 
 #: ../templates/default/macros.html:687
 #: ../templates/default/ldap/domain/list.html:93
@@ -1566,18 +1608,18 @@ msgstr "Benutzer"
 #: ../templates/default/ldap/maillist/list.html:40
 #: ../templates/default/ldap/maillist/profile.html:69
 msgid "Mail Lists"
-msgstr "Mail Liste"
+msgstr "Mailing Listen"
 
 #: ../templates/default/macros.html:689
 #: ../templates/default/ldap/domain/list.html:95
 #: ../templates/default/ldap/domain/profile.html:168
 #: ../templates/default/ldap/user/profile.html:152
 msgid "Aliases"
-msgstr "Aliasse"
+msgstr "Aliase"
 
 #: ../templates/default/macros.html:699
 msgid "Add:"
-msgstr ""
+msgstr "Hinzufügen:"
 
 #: ../templates/default/macros.html:701
 #: ../templates/default/ldap/dashboard.html:40
@@ -1605,7 +1647,7 @@ msgstr "Benutzer"
 #: ../templates/default/ldap/dashboard.html:44
 #: ../templates/default/mysql/dashboard.html:44
 msgid "Mail List"
-msgstr "Mail Liste"
+msgstr "Mailing Liste"
 
 #: ../templates/default/macros.html:706
 #: ../templates/default/ldap/dashboard.html:45
@@ -1633,7 +1675,7 @@ msgstr "Seiten:"
 
 #: ../templates/default/macros.html:816
 msgid "Events"
-msgstr "Alle Ereignisse"
+msgstr "Ereignisse"
 
 #: ../templates/default/macros.html:818
 msgid "Admin login"
@@ -1658,77 +1700,81 @@ msgstr "Administrator Log"
 
 #: ../templates/default/macros/policyd.html:5
 msgid "Enable sender throttling"
-msgstr "Absender BCC aktivieren"
+msgstr "Sender Drosselung"
 
 #: ../templates/default/macros/policyd.html:7
 msgid "Enable recipient throttling"
-msgstr "Empfänger BCC aktivieren"
+msgstr "Empfänger Drosselung"
 
 #: ../templates/default/macros/policyd.html:21
 msgid "Number of max outgoing emails"
-msgstr "Maximale Mail Benutzer Anzahl"
+msgstr "Maximale Anzahl ausgehender Mails"
 
 #: ../templates/default/macros/policyd.html:23
 msgid "Number of max incoming emails"
-msgstr "Maximale Mail Benutzer Anzahl"
+msgstr "Maximale Anzahl eingehender Mails"
 
 #: ../templates/default/macros/policyd.html:39
 msgid "Quota size of all outgoing emails"
-msgstr ""
+msgstr "Quota aller ausgehenden Mails"
 
 #: ../templates/default/macros/policyd.html:44
 #: ../templates/default/macros/policyd.html:104
 msgid "Current value:"
-msgstr "Derzeitiges Kontingent:"
+msgstr "Derzeitiger Wert:"
 
 #: ../templates/default/macros/policyd.html:55
 msgid "1 Minute"
-msgstr ""
+msgstr "1 Minute"
 
 #: ../templates/default/macros/policyd.html:55
 msgid "1 Hour"
-msgstr ""
+msgstr "1 Stunde"
 
 #: ../templates/default/macros/policyd.html:55
 msgid "1 Day"
-msgstr ""
+msgstr "1 Tag"
 
 #: ../templates/default/macros/policyd.html:58
 msgid "Time Unit"
-msgstr "Konto aktivieren"
+msgstr "Zeiteinheit"
 
 #: ../templates/default/macros/policyd.html:75
 msgid "Seconds"
-msgstr ""
+msgstr "Sekunden"
 
 #: ../templates/default/macros/policyd.html:75
 #: ../templates/default/macros/policyd.html:104
 msgid "Custom:"
-msgstr ""
+msgstr "eigener Wert:"
 
 #: ../templates/default/macros/policyd.html:87
 msgid "Max size of single outgoing email"
-msgstr ""
+msgstr "Maximale Größe einer einzelnen ausgehenden Mail"
 
 #: ../templates/default/macros/policyd.html:111
 #, python-format
 msgid "Override <a href=\"%s\">domain setting</a> of sender throttling"
 msgstr ""
+"Die <a href=\"%s\">domänenweite Einstelllung</a> der Sender Drosselung "
+"überschreiben"
 
 #: ../templates/default/macros/policyd.html:113
 #, python-format
 msgid "Override <a href=\"%s\">domain setting</a> of recipient throttling"
 msgstr ""
+"Die <a href=\"%s\">domänenweite Einstelllung</a> der Empfänger Drosselung "
+"überschreiben"
 
 #: ../templates/default/msgHandlers.html:46
 #: ../templates/default/mysql/msgHandlers.html:46
 msgid "Username or password is incorrect."
-msgstr "Benutzer oder Paßwort falsch."
+msgstr "Benutzer oder Passwort falsch."
 
 #: ../templates/default/msgHandlers.html:48
 #: ../templates/default/mysql/msgHandlers.html:48
 msgid "Username must be an valid email address."
-msgstr "Benutzer muß eine gültige E-Mail Adresse sein."
+msgstr "Benutzer muß eine gültige Mail Adresse sein."
 
 #: ../templates/default/msgHandlers.html:50
 #: ../templates/default/mysql/msgHandlers.html:50
@@ -1738,7 +1784,7 @@ msgstr "Anmeldung erforderlich"
 #: ../templates/default/msgHandlers.html:52
 #: ../templates/default/mysql/msgHandlers.html:52
 msgid "Empty password is not allowed."
-msgstr "Leere Adresse wird nicht unterstützt."
+msgstr "Leere Passwörter werden nicht unterstützt."
 
 #: ../templates/default/msgHandlers.html:72
 #: ../templates/default/msgHandlers.html:109
@@ -1748,22 +1794,22 @@ msgstr "Leere Adresse wird nicht unterstützt."
 #: ../templates/default/mysql/msgHandlers.html:105
 #: ../templates/default/mysql/msgHandlers.html:199
 msgid "Profile updated success."
-msgstr "Profil erfolgreich geändert."
+msgstr "Profil erfolgreich aktualisiert."
 
 #: ../templates/default/msgHandlers.html:74
 #: ../templates/default/mysql/msgHandlers.html:72
 msgid "Selected domains were deleted."
-msgstr "Markierte Domänen wurden gelöscht."
+msgstr "Die markierten Domänen wurden gelöscht."
 
 #: ../templates/default/msgHandlers.html:76
 #: ../templates/default/mysql/msgHandlers.html:74
 msgid "Selected domains were disabled."
-msgstr "Markierte Domänen wurden deaktiviert."
+msgstr "Die markierten Domänen wurden deaktiviert."
 
 #: ../templates/default/msgHandlers.html:78
 #: ../templates/default/mysql/msgHandlers.html:76
 msgid "Selected domains were enabled."
-msgstr "Markierte Domänen wurden aktiviert."
+msgstr "Die markierten Domänen wurden aktiviert."
 
 #: ../templates/default/msgHandlers.html:82
 #: ../templates/default/mysql/msgHandlers.html:80
@@ -1773,15 +1819,15 @@ msgstr "Ungültiger Domänen Name"
 #: ../templates/default/msgHandlers.html:84
 #: ../templates/default/mysql/msgHandlers.html:82
 msgid "Domain name is empty."
-msgstr "Domänen Name ist leer."
+msgstr "Der Name der Domäne ist leer."
 
 #: ../templates/default/msgHandlers.html:86
 msgid ""
-"Server-side size limit exceeded. Please increase \"sizelimit\" in your "
-"LDAP server."
+"Server-side size limit exceeded. Please increase \"sizelimit\" in your LDAP "
+"server."
 msgstr ""
-"Serverseitige Größenbeschränkung überschritten. Bitte das \"sizelimit\" "
-"im LDAP Server erhöhen."
+"Serverseitige Größenbeschränkung überschritten. Bitte das \"sizelimit\" im "
+"LDAP Server erhöhen."
 
 #: ../templates/default/msgHandlers.html:88
 #: ../templates/default/mysql/msgHandlers.html:84
@@ -1796,7 +1842,7 @@ msgstr "Domäne nicht gefunden."
 #: ../templates/default/msgHandlers.html:92
 #: ../templates/default/mysql/msgHandlers.html:88
 msgid "Incorrect profile type."
-msgstr "Falscher Richtlinien Typ"
+msgstr "Falscher Typ des Profils."
 
 #: ../templates/default/msgHandlers.html:94
 #: ../templates/default/mysql/msgHandlers.html:90
@@ -1812,7 +1858,7 @@ msgstr "Übermittelter Domänen Name ist falsch."
 #: ../templates/default/mysql/msgHandlers.html:225
 #: ../templates/default/mysql/msgHandlers.html:245
 msgid "No domain under control."
-msgstr "Keine Domäne unter Kontrolle."
+msgstr "Keine verwaltete Domänen."
 
 #: ../templates/default/msgHandlers.html:111
 #: ../templates/default/msgHandlers.html:213
@@ -1825,19 +1871,21 @@ msgstr "Profiländerung gescheitert."
 
 #: ../templates/default/msgHandlers.html:117
 msgid "Domain name or username is missed."
-msgstr ""
+msgstr "Der Name der Domäne oder der Benutzername fehlt."
 
 #: ../templates/default/msgHandlers.html:119
 #: ../templates/default/msgHandlers.html:191
 #: ../templates/default/mysql/msgHandlers.html:181
 msgid "Invalid mail address."
-msgstr "Ungültiger Domänen Name"
+msgstr "Ungültige Mail Adresse"
 
 #: ../templates/default/msgHandlers.html:121
 msgid ""
 "Domain quota size exceeded. Please contact your administrator or service "
 "provider to increase it."
 msgstr ""
+"Das Domänen Quota ist erreicht. Bitte setzen Sie sich mit IhremAdministrator "
+"in Verbindung, um es zu erhöhen."
 
 #: ../templates/default/msgHandlers.html:125
 #: ../templates/default/msgHandlers.html:170
@@ -1848,7 +1896,7 @@ msgstr ""
 #: ../templates/default/mysql/msgHandlers.html:216
 #: ../templates/default/mysql/msgHandlers.html:248
 msgid "Selected accounts were deleted."
-msgstr "Markierte Konten wurden gelöscht."
+msgstr "Die markierten Konten wurden gelöscht."
 
 #: ../templates/default/msgHandlers.html:127
 #: ../templates/default/msgHandlers.html:172
@@ -1859,7 +1907,7 @@ msgstr "Markierte Konten wurden gelöscht."
 #: ../templates/default/mysql/msgHandlers.html:218
 #: ../templates/default/mysql/msgHandlers.html:250
 msgid "Selected accounts were disabled."
-msgstr "Markierte Konten wurden deaktiviert."
+msgstr "Die markierten Konten wurden deaktiviert."
 
 #: ../templates/default/msgHandlers.html:129
 #: ../templates/default/msgHandlers.html:174
@@ -1870,53 +1918,53 @@ msgstr "Markierte Konten wurden deaktiviert."
 #: ../templates/default/mysql/msgHandlers.html:220
 #: ../templates/default/mysql/msgHandlers.html:252
 msgid "Selected accounts were enabled."
-msgstr "Markierte Konten wurden aktiviert."
+msgstr "Die markierten Konten wurden aktiviert."
 
 #: ../templates/default/msgHandlers.html:131
 #: ../templates/default/mysql/msgHandlers.html:121
 msgid "Invalid profile type."
-msgstr "Ungültiger Profil Typ: %s."
+msgstr "Ungültiger Profil Typ."
 
 #: ../templates/default/msgHandlers.html:135
 #: ../templates/default/msgHandlers.html:180
 #: ../templates/default/mysql/msgHandlers.html:125
 #: ../templates/default/mysql/msgHandlers.html:170
 msgid "Current password is incorrect."
-msgstr "Derzeitiges Paßwort ist falsch."
+msgstr "Das derzeitige Passwort ist falsch."
 
 #: ../templates/default/msgHandlers.html:137
 #: ../templates/default/msgHandlers.html:182
 #: ../templates/default/mysql/msgHandlers.html:127
 #: ../templates/default/mysql/msgHandlers.html:172
 msgid "New passwords are not match."
-msgstr "Das neue Paßwort stimmt nicht überein."
+msgstr "Die neuen Passworte stimmt nicht überein."
 
 #: ../templates/default/msgHandlers.html:139
 #: ../templates/default/msgHandlers.html:184
 #: ../templates/default/mysql/msgHandlers.html:129
 #: ../templates/default/mysql/msgHandlers.html:174
 msgid "Password is empty."
-msgstr "Paßwort ist leer."
+msgstr "Das Passwort ist leer."
 
 #: ../templates/default/msgHandlers.html:141
 #: ../templates/default/mysql/msgHandlers.html:131
 msgid "Password is too short."
-msgstr "Paßwort ist leer."
+msgstr "Das Passwort ist zu kurz."
 
 #: ../templates/default/msgHandlers.html:143
 #: ../templates/default/mysql/msgHandlers.html:133
 msgid "Password is too long."
-msgstr "Paßwort ist leer."
+msgstr "Das Passwort ist zu lang."
 
 #: ../templates/default/msgHandlers.html:162
 #: ../templates/default/mysql/msgHandlers.html:152
 #, python-format
 msgid ""
-"Account created success. Would you like to <a "
-"href=\"%s/create/admin\">add one more</a>?"
+"Account created success. Would you like to <a href=\"%s/create/admin\">add "
+"one more</a>?"
 msgstr ""
-"Konto erfolgreich angelegt. Möchten Sie einen weiteren <a "
-"href=\"%s/create/admin\"> anlegen?"
+"Konto erfolgreich angelegt. Möchten Sie <a href=\"%s/create/admin\"> einen "
+"weiteren anlegen</a>?"
 
 #: ../templates/default/msgHandlers.html:176
 #: ../templates/default/mysql/msgHandlers.html:166
@@ -1927,13 +1975,13 @@ msgstr "Kein Konto ausgewählt."
 #: ../templates/default/mysql/msgHandlers.html:176
 #, python-format
 msgid "New password must contain at least %s characters."
-msgstr "Neues Paßwort muß wenigstens %s Zeichen enthalten."
+msgstr "Das neue Passwort muß wenigstens %s Zeichen enthalten."
 
 #: ../templates/default/msgHandlers.html:188
 #: ../templates/default/mysql/msgHandlers.html:178
 #, python-format
 msgid "New password must NOT contain more than %s characters."
-msgstr "Neues Paßwort muß NICHT mehr als %s Zeichen enthalten."
+msgstr "Das neue Passwort darf höchstens %s Zeichen enthalten."
 
 #: ../templates/default/msgHandlers.html:217
 #: ../templates/default/msgHandlers.html:267
@@ -1964,7 +2012,7 @@ msgstr "Moderator erfolgreich entfernt."
 #: ../templates/default/mysql/msgHandlers.html:222
 #: ../templates/default/mysql/msgHandlers.html:241
 msgid "Account already exists, please choose another username."
-msgstr "Konto existiert bereits, bitte anderen Benutzernamen wählen."
+msgstr "Konto existiert bereits, bitte wählen Sie einen anderen Benutzernamen."
 
 #: ../templates/default/msgHandlers.html:239
 #: ../templates/default/mysql/msgHandlers.html:227
@@ -1978,11 +2026,11 @@ msgstr "Leere Adresse wird nicht unterstützt."
 
 #: ../templates/default/msgHandlers.html:286
 msgid "Records are added."
-msgstr ""
+msgstr "Die Datensätze werden hinzugefügt."
 
 #: ../templates/default/mysql/dashboard.html:48
 msgid "Import"
-msgstr ""
+msgstr "Import"
 
 #: ../templates/default/mysql/dashboard.html:66
 msgid "iRedAdmin version"
@@ -1994,11 +2042,11 @@ msgstr "Mail Domänen"
 
 #: ../templates/default/mysql/domain_list.html:74
 msgid "Created"
-msgstr "Anlegen"
+msgstr "Angelegt"
 
 #: ../templates/default/mysql/login.html:69
 msgid "Must be a valid domain admin email address."
-msgstr "Muß eine gültige Domänen Administrator E-Mail Adresse sein."
+msgstr "Muß eine gültige Domänen Administrator Mail Adresse sein."
 
 #: ../templates/default/mysql/login.html:84
 msgid "Log me in automatically each time I visit."
@@ -2006,17 +2054,17 @@ msgstr "Bei jedem Besuch automatisch anmelden."
 
 #: ../templates/default/mysql/msgHandlers.html:66
 msgid "Domain was created."
-msgstr "Domänen Name ist leer."
+msgstr "Die Domänen wurde angelegt."
 
 #: ../templates/default/mysql/msgHandlers.html:70
 #: ../templates/default/mysql/msgHandlers.html:154
 #: ../templates/default/mysql/msgHandlers.html:243
 msgid "Profile update success."
-msgstr "Profil Update erfolgreich."
+msgstr "Das Profil wurde erfolgreich aktualisiert."
 
 #: ../templates/default/panel/log.html:54
 msgid "Filter:"
-msgstr "Filter"
+msgstr "Filter:"
 
 #: ../templates/default/panel/log.html:56
 msgid "Domains"
@@ -2033,7 +2081,7 @@ msgstr "Zeit"
 
 #: ../templates/default/panel/log.html:109
 msgid "IP Address"
-msgstr "IP Adresse"
+msgstr "IP-Adresse"
 
 #: ../templates/default/panel/log.html:114
 msgid "Message"
@@ -2041,7 +2089,7 @@ msgstr "Nachricht"
 
 #: ../templates/default/panel/log.html:140
 msgid "Are you sure want to delete selected item(s)?"
-msgstr "Sind Sie sicher die gewählten Konten zu löschen?"
+msgstr "Sind Sie sicher, die gewählten Konten zu löschen?"
 
 #: ../templates/default/policyd/blacklist/create.html:29
 msgid "Add blacklist"
@@ -2050,71 +2098,76 @@ msgstr "Neue Ausschließende Liste anlegen"
 #: ../templates/default/policyd/blacklist/create.html:46
 #: ../templates/default/policyd/whitelist/create.html:46
 msgid "IP address format:"
-msgstr ""
+msgstr "Format der IP-Adresse:"
 
 #: ../templates/default/policyd/blacklist/create.html:46
 #: ../templates/default/policyd/whitelist/create.html:46
 #, python-format
 msgid ""
-"%s for single IP address, or filling %% in octet(s) for subnet. For "
-"example, %s"
+"%s for single IP address, or filling %% in octet(s) for subnet. For example, "
+"%s"
 msgstr ""
+"%s für eine einzelne IP-Adresse, auffüllen mit %% für ein Subnetz. Z.B. %s"
 
 #: ../templates/default/policyd/blacklist/create.html:47
 #: ../templates/default/policyd/whitelist/create.html:47
 msgid "Sender address format:"
-msgstr "Absender BCC Adresse"
+msgstr "Format der Absender Adresse"
 
 #: ../templates/default/policyd/blacklist/create.html:47
 #: ../templates/default/policyd/whitelist/create.html:47
 #, python-format
 msgid "%s for a single user, %s for entire domain."
-msgstr ""
+msgstr "%s für einen einzelnen Benutzer, %s für eine Domäne."
 
 #: ../templates/default/policyd/blacklist/create.html:48
 #: ../templates/default/policyd/whitelist/create.html:48
 msgid "DNS name format:"
-msgstr ""
+msgstr "Format des DNS Namens:"
 
 #: ../templates/default/policyd/blacklist/create.html:48
 #: ../templates/default/policyd/whitelist/create.html:48
 #, python-format
 msgid "%s for single domain, %s for all sub domains."
-msgstr ""
+msgstr "%s für eine einzelne Domäne, %s für alle Subdomänen."
 
 #: ../templates/default/policyd/blacklist/create.html:48
 #: ../templates/default/policyd/whitelist/create.html:48
 msgid "Note"
-msgstr ""
+msgstr "Notiz"
 
 #: ../templates/default/policyd/blacklist/create.html:48
 #: ../templates/default/policyd/whitelist/create.html:48
 msgid "The forward and reverse DNS must match otherwise it will not work."
 msgstr ""
+"Die DNS Auflösung vorwärts und rückwärts müssen übereinstimmen; es wird "
+"sonst nicht funktionieren."
 
 #: ../templates/default/policyd/blacklist/create.html:56
 msgid "Blacklist records"
-msgstr "Empfänger BCC aktivieren"
+msgstr "Datensätze der Ausschließenden Liste "
 
 #: ../templates/default/policyd/blacklist/create.html:58
 #: ../templates/default/policyd/blacklist/create.html:76
 #: ../templates/default/policyd/whitelist/create.html:58
 msgid "One record one line."
-msgstr "Kein Konto ausgewählt."
+msgstr "Ein Datensatz pro Zeile."
 
 #: ../templates/default/policyd/blacklist/create.html:67
 msgid "HELO identity format"
-msgstr ""
+msgstr "Format der HELO Angabe"
 
 #: ../templates/default/policyd/blacklist/create.html:67
 msgid ""
-"Could be a FQDN (Fully Qualified Domain Name) or IP address which "
-"enclosed in square brackets, for example <u>[1.2.3.4]</u>"
+"Could be a FQDN (Fully Qualified Domain Name) or IP address which enclosed "
+"in square brackets, for example <u>[1.2.3.4]</u>"
 msgstr ""
+"Entweder der FQDN (Fully Qualified Domain Name) oder dieIP-Adresse in "
+"eckigen Klammern z.B. <u>[1.2.3.4]</u>."
 
 #: ../templates/default/policyd/blacklist/create.html:74
 msgid "Blacklist HELO records"
-msgstr ""
+msgstr "Ausgeschlossene HELO Datensätze"
 
 #: ../templates/default/policyd/wblist.html:67
 msgid "View"
@@ -2122,7 +2175,7 @@ msgstr "Zeige:"
 
 #: ../templates/default/policyd/wblist.html:67
 msgid "IP Addresses"
-msgstr "IP Adressen"
+msgstr "IP-Adressen"
 
 #: ../templates/default/policyd/wblist.html:68
 msgid "Sender"
@@ -2130,7 +2183,7 @@ msgstr "Absender"
 
 #: ../templates/default/policyd/wblist.html:69
 msgid "DNS Name"
-msgstr "Benutzername"
+msgstr "DNS Name"
 
 #: ../templates/default/policyd/wblist.html:71
 msgid "HELO"
@@ -2146,7 +2199,7 @@ msgstr "Ablauf Datum"
 
 #: ../templates/default/policyd/wblist.html:141
 msgid "Are you sure want to delete selected record(s)?"
-msgstr "Sind Sie sicher die gewählten Konten zu löschen?"
+msgstr "Sind Sie sicher die gewählten Datensätze zu löschen?"
 
 #: ../templates/default/policyd/whitelist/create.html:29
 msgid "Add whitelist"
@@ -2154,5 +2207,4 @@ msgstr "Neue Einschließende Liste anlegen"
 
 #: ../templates/default/policyd/whitelist/create.html:56
 msgid "Whitelist records"
-msgstr "Einschließende Liste"
-
+msgstr "Datensätze der Einschließenden Liste"
